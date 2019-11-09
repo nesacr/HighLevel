@@ -23,4 +23,10 @@ public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
+    UPROPERTY(EditAnywhere, Category = "Visual")
+        class UPaperSpriteComponent* ActorSpriteComponent;
+
+    UPROPERTY(EditAnywhere, Category = "Ball Collision")
+        class USphereComponent* SphereComponent;
+
 };

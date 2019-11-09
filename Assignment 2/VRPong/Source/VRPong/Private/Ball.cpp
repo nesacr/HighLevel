@@ -2,6 +2,8 @@
 
 
 #include "Ball.h"
+#include "PaperSpriteComponent.h"
+#include "Components/SphereComponent.h"
 
 // Sets default values
 ABall::ABall()
@@ -9,6 +11,12 @@ ABall::ABall()
  	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 
+    ActorSpriteComponent = CreateDefaultSubobject <UPaperSpriteComponent>("Actor Visual");
+    RootComponent = ActorSpriteComponent;
+
+    SphereComponent = CreateDefaultSubobject<USphereComponent>("Ball Collision");
+
+    
 }
 
 // Called when the game starts or when spawned
