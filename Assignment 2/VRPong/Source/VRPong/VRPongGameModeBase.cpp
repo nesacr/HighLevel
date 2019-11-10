@@ -2,4 +2,17 @@
 
 
 #include "VRPongGameModeBase.h"
+#include "Paddle.h"
+#include "Board.h"
+#include "Ball.h"
 
+AVRPongGameModeBase::AVRPongGameModeBase()
+{
+    DefaultPawnClass = APaddle::StaticClass();
+}
+
+void AVRPongGameModeBase::BeginPlay()
+{
+    Super::BeginPlay();
+    //Super::BeginMatch();
+}

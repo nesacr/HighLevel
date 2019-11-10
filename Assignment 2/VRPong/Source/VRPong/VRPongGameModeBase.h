@@ -13,5 +13,10 @@ UCLASS()
 class VRPONG_API AVRPongGameModeBase : public AGameModeBase
 {
 	GENERATED_BODY()
+
+public:
+    AVRPongGameModeBase();
+
+    virtual void BeginPlay() override;
 	
 };

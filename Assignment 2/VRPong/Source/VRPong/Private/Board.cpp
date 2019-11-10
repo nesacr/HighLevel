@@ -14,7 +14,14 @@ ABoard::ABoard()
     ActorSpriteComponent = CreateDefaultSubobject <UPaperSpriteComponent>("Actor Visual");
     RootComponent = ActorSpriteComponent;
 
-    BoxComponent = CreateDefaultSubobject <UBoxComponent>("Collision Box");
+    //Top Collision Box
+    TopBoxComponent = CreateDefaultSubobject <UBoxComponent>("Top Collision Box");
+    TopBoxComponent->SetupAttachment(ActorSpriteComponent);
+
+    //Bottom Collision Box
+    BottomBoxComponent = CreateDefaultSubobject<UBoxComponent>("Bottom Collision Box");
+    BottomBoxComponent->SetupAttachment(ActorSpriteComponent);
+
 
 }
 

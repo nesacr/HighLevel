@@ -15,6 +15,7 @@ ABall::ABall()
     RootComponent = ActorSpriteComponent;
 
     SphereComponent = CreateDefaultSubobject<USphereComponent>("Ball Collision");
+    SphereComponent->SetupAttachment(ActorSpriteComponent);
 
     
 }
@@ -23,6 +24,10 @@ ABall::ABall()
 void ABall::BeginPlay()
 {
 	Super::BeginPlay();
+
+   /* ActorSpriteComponent->SetRelativeLocation(FVector(0.0f, 10.0f, 0.0f));
+    ActorSpriteComponent->SetRelativeScale3D(FVector(0.7f, 1.0f, 0.7f));
+    ActorSpriteComponent->SetAbsolute(true, true, true);*/
 	
 }
 

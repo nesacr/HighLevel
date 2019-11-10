@@ -2,6 +2,7 @@
 
 
 #include "Paddle.h"
+#include "PaperSpriteComponent.h"
 
 // Sets default values
 APaddle::APaddle()
@@ -9,12 +10,20 @@ APaddle::APaddle()
  	// Set this pawn to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 
+    PawnSpriteComponent = CreateDefaultSubobject <UPaperSpriteComponent>("Pawn Visual");
+    RootComponent = PawnSpriteComponent;
+
 }
 
 // Called when the game starts or when spawned
 void APaddle::BeginPlay()
 {
 	Super::BeginPlay();
+
+    /*PawnSpriteComponent->SetRelativeLocation(FVector(-200.0f, 10.f, 0.0f));
+    PawnSpriteComponent->SetRelativeRotation(FRotator(0.f, 0.f, 0.f));
+    PawnSpriteComponent->SetRelativeScale3D(FVector(0.1f, 1.0f, 0.1f));
+    PawnSpriteComponent->SetAbsolute(true, true, true);*/
 	
 }
 
@@ -29,6 +38,8 @@ void APaddle::Tick(float DeltaTime)
 void APaddle::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 {
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
+
+    
 
 }
 
