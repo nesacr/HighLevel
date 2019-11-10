@@ -3,6 +3,9 @@
 
 #include "Paddle.h"
 #include "PaperSpriteComponent.h"
+#include "Camera/CameraComponent.h"
+#include "Components/InputComponent.h"
+#include "Components/BoxComponent.h"
 
 // Sets default values
 APaddle::APaddle()
@@ -11,9 +14,21 @@ APaddle::APaddle()
 	PrimaryActorTick.bCanEverTick = true;
 
     PawnSpriteComponent = CreateDefaultSubobject <UPaperSpriteComponent>("Pawn Visual");
+
+    CollisionBox = CreateDefaultSubobject <UBoxComponent>("Collision Box");
+    CollisionBox->SetupAttachment(PawnSpriteComponent);
+
     PawnSpriteComponent->SetSimulatePhysics(true);
     PawnSpriteComponent->SetEnableGravity(false);
     RootComponent = PawnSpriteComponent;
+
+
+    //Restricting paddle movement on Z axis only
+    PawnSpriteComponent->BodyInstance.bLockXRotation = true;
+    PawnSpriteComponent->BodyInstance.bLockYRotation = true;
+    PawnSpriteComponent->BodyInstance.bLockZRotation = true;
+    PawnSpriteComponent->BodyInstance.bLockYTranslation = true;
+    PawnSpriteComponent->BodyInstance.bLockXTranslation = true;
 
 
 }
@@ -37,9 +52,13 @@ void APaddle::Tick(float DeltaTime)
 
     if (MovementUp != 0)
     {
-        FVector NewLocation = GetActorLocation() + (GetActorForwardVector() * MovementUp);
+        FVector NewLocation = GetActorLocation() + (GetActorUpVector() * MovementUp);
 
         SetActorLocation(NewLocation);
+
+        GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Blue,
+            "We Schmooving");
+            
     }
    
     

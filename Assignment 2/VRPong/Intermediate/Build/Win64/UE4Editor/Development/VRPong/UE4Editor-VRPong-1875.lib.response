@@ -1,0 +1,24 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-VRPong-1875.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\rako0016\Desktop\HighLevel\Assignment 2\VRPong\Intermediate\Build\Win64\VRPongEditor\Development\Engine\SharedPCH.Engine.h.obj"
+"C:\Users\rako0016\Desktop\HighLevel\Assignment 2\VRPong\Intermediate\Build\Win64\UE4Editor\Development\VRPong\Ball.cpp.obj"
+"C:\Users\rako0016\Desktop\HighLevel\Assignment 2\VRPong\Intermediate\Build\Win64\UE4Editor\Development\VRPong\Board.cpp.obj"
+"C:\Users\rako0016\Desktop\HighLevel\Assignment 2\VRPong\Intermediate\Build\Win64\UE4Editor\Development\VRPong\BP_Ball.cpp.obj"
+"C:\Users\rako0016\Desktop\HighLevel\Assignment 2\VRPong\Intermediate\Build\Win64\UE4Editor\Development\VRPong\Paddle.cpp.obj"
+"C:\Users\rako0016\Desktop\HighLevel\Assignment 2\VRPong\Intermediate\Build\Win64\UE4Editor\Development\VRPong\VRPong.cpp.obj"
+"C:\Users\rako0016\Desktop\HighLevel\Assignment 2\VRPong\Intermediate\Build\Win64\UE4Editor\Development\VRPong\VRPongGameModeBase.cpp.obj"
+"C:\Users\rako0016\Desktop\HighLevel\Assignment 2\VRPong\Intermediate\Build\Win64\UE4Editor\Development\VRPong\Ball.gen.cpp.obj"
+"C:\Users\rako0016\Desktop\HighLevel\Assignment 2\VRPong\Intermediate\Build\Win64\UE4Editor\Development\VRPong\Board.gen.cpp.obj"
+"C:\Users\rako0016\Desktop\HighLevel\Assignment 2\VRPong\Intermediate\Build\Win64\UE4Editor\Development\VRPong\BP_Ball.gen.cpp.obj"
+"C:\Users\rako0016\Desktop\HighLevel\Assignment 2\VRPong\Intermediate\Build\Win64\UE4Editor\Development\VRPong\Paddle.gen.cpp.obj"
+"C:\Users\rako0016\Desktop\HighLevel\Assignment 2\VRPong\Intermediate\Build\Win64\UE4Editor\Development\VRPong\VRPong.init.gen.cpp.obj"
+"C:\Users\rako0016\Desktop\HighLevel\Assignment 2\VRPong\Intermediate\Build\Win64\UE4Editor\Development\VRPong\VRPongGameModeBase.gen.cpp.obj"
+"C:\Users\rako0016\Desktop\HighLevel\Assignment 2\VRPong\Intermediate\Build\Win64\UE4Editor\Development\VRPong\Default.rc2.res"
+/OUT:"C:\Users\rako0016\Desktop\HighLevel\Assignment 2\VRPong\Intermediate\Build\Win64\UE4Editor\Development\VRPong\UE4Editor-VRPong-1875.lib"
+/INCLUDE:IMPLEMENT_MODULE_VRPong

@@ -29,6 +29,9 @@ public:
     UPROPERTY(EditAnywhere, Category = "Pawn Visual")
     class UPaperSpriteComponent* PawnSpriteComponent;
 
+    UPROPERTY(EditAnywhere, Category = "Collision Box")
+        class UBoxComponent* CollisionBox;
+
     void MoveUp(float value);
     
         
