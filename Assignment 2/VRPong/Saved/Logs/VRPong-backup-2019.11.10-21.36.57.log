@@ -1,0 +1,869 @@
+﻿Log file open, 11/10/19 16:29:50
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: VRPong
+LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.446142
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin Firebase
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.22-CL-7053642
+LogInit: Engine Version: 4.22.3-7053642+++UE4+Release-4.22
+LogInit: Compatible Engine Version: 4.22.0-5660361+++UE4+Release-4.22
+LogInit: Net CL: 5660361
+LogInit: OS: Windows 10 (Release 1809) (), CPU:        Intel(R) Core(TM) i7-3770K CPU @ 3.50GHz, GPU: NVIDIA GeForce GTX 670
+LogInit: Compiled (64-bit): Jun 18 2019 03:09:11
+LogInit: Compiled with Visual C++: 19.16.27025.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.22
+LogInit: Command Line:  -skipcompile
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 23
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 3
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 30
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 35
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 28
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 11
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 25
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 6
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 2
+LogInit: Presizing for max 16777216 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2019.11.10-21.29.51:331][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2019.11.10-21.29.51:331][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2019.11.10-21.29.51:331][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/rako0016/Desktop/HighLevel/Assignment 2/VRPong/Saved/Config/Windows/Engine.ini]
+[2019.11.10-21.29.51:331][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.11.10-21.29.51:331][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:1]]
+[2019.11.10-21.29.51:331][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/rako0016/Desktop/HighLevel/Assignment 2/VRPong/Saved/Config/Windows/Engine.ini]
+[2019.11.10-21.29.51:331][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/rako0016/Desktop/HighLevel/Assignment 2/VRPong/Saved/Config/Windows/Engine.ini]
+[2019.11.10-21.29.51:331][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.11.10-21.29.51:331][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.11.10-21.29.51:331][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.11.10-21.29.51:331][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.11.10-21.29.51:331][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.11.10-21.29.51:331][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.11.10-21.29.51:331][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.11.10-21.29.51:331][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.11.10-21.29.51:331][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.11.10-21.29.51:331][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.11.10-21.29.51:331][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.11.10-21.29.51:331][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.11.10-21.29.51:331][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.11.10-21.29.51:331][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/rako0016/Desktop/HighLevel/Assignment 2/VRPong/Saved/Config/Windows/Engine.ini]
+[2019.11.10-21.29.51:331][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.11.10-21.29.51:331][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.11.10-21.29.51:331][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.11.10-21.29.51:331][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.11.10-21.29.51:331][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.11.10-21.29.51:331][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.11.10-21.29.51:331][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
+[2019.11.10-21.29.51:331][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.11.10-21.29.51:331][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.11.10-21.29.51:331][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.11.10-21.29.51:331][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.11.10-21.29.51:331][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.11.10-21.29.51:331][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.11.10-21.29.51:331][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/rako0016/Desktop/HighLevel/Assignment 2/VRPong/Saved/Config/Windows/Engine.ini]
+[2019.11.10-21.29.51:331][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/rako0016/Desktop/HighLevel/Assignment 2/VRPong/Saved/Config/Windows/Engine.ini]
+[2019.11.10-21.29.51:331][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/rako0016/Desktop/HighLevel/Assignment 2/VRPong/Saved/Config/Windows/Scalability.ini]
+[2019.11.10-21.29.51:331][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.11.10-21.29.51:331][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.11.10-21.29.51:331][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/rako0016/Desktop/HighLevel/Assignment 2/VRPong/Saved/Config/Windows/Scalability.ini]
+[2019.11.10-21.29.51:331][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.11.10-21.29.51:331][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/rako0016/Desktop/HighLevel/Assignment 2/VRPong/Saved/Config/Windows/Scalability.ini]
+[2019.11.10-21.29.51:331][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.11.10-21.29.51:331][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.11.10-21.29.51:331][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.11.10-21.29.51:331][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.11.10-21.29.51:331][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.11.10-21.29.51:331][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.11.10-21.29.51:331][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.11.10-21.29.51:331][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.11.10-21.29.51:331][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.11.10-21.29.51:331][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.11.10-21.29.51:331][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.11.10-21.29.51:331][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.11.10-21.29.51:331][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.11.10-21.29.51:331][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.11.10-21.29.51:331][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.11.10-21.29.51:331][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.11.10-21.29.51:331][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.11.10-21.29.51:331][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.11.10-21.29.51:331][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/rako0016/Desktop/HighLevel/Assignment 2/VRPong/Saved/Config/Windows/Scalability.ini]
+[2019.11.10-21.29.51:331][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.11.10-21.29.51:331][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.11.10-21.29.51:331][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.11.10-21.29.51:331][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.11.10-21.29.51:331][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.11.10-21.29.51:331][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.11.10-21.29.51:331][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.11.10-21.29.51:331][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.11.10-21.29.51:331][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.11.10-21.29.51:331][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.11.10-21.29.51:331][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.11.10-21.29.51:331][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.11.10-21.29.51:331][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.11.10-21.29.51:331][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.11.10-21.29.51:331][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.11.10-21.29.51:331][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.11.10-21.29.51:331][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.11.10-21.29.51:331][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.11.10-21.29.51:331][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.11.10-21.29.51:331][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.11.10-21.29.51:331][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.11.10-21.29.51:331][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.11.10-21.29.51:331][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.11.10-21.29.51:331][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.11.10-21.29.51:331][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.11.10-21.29.51:331][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.11.10-21.29.51:331][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.11.10-21.29.51:331][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.11.10-21.29.51:331][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.11.10-21.29.51:331][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.11.10-21.29.51:331][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/rako0016/Desktop/HighLevel/Assignment 2/VRPong/Saved/Config/Windows/Scalability.ini]
+[2019.11.10-21.29.51:331][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.11.10-21.29.51:331][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.11.10-21.29.51:331][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.11.10-21.29.51:331][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.11.10-21.29.51:331][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.11.10-21.29.51:331][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.11.10-21.29.51:331][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.11.10-21.29.51:331][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.11.10-21.29.51:331][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/rako0016/Desktop/HighLevel/Assignment 2/VRPong/Saved/Config/Windows/Scalability.ini]
+[2019.11.10-21.29.51:331][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.11.10-21.29.51:331][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.11.10-21.29.51:331][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.11.10-21.29.51:331][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.11.10-21.29.51:331][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.11.10-21.29.51:331][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.11.10-21.29.51:331][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.11.10-21.29.51:331][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.11.10-21.29.51:331][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.11.10-21.29.51:331][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.11.10-21.29.51:331][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.11.10-21.29.51:331][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.11.10-21.29.51:331][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.11.10-21.29.51:331][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/rako0016/Desktop/HighLevel/Assignment 2/VRPong/Saved/Config/Windows/Scalability.ini]
+[2019.11.10-21.29.51:331][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.11.10-21.29.51:331][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.11.10-21.29.51:331][  0]LogInit: Selected Device Profile: [Windows]
+[2019.11.10-21.29.51:331][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.11.10-21.29.51:347][  0]LogHAL: Display: Platform has ~ 16 GB [17121820672 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.11.10-21.29.51:347][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:0		; Required until we fix HLR fall-out]]
+[2019.11.10-21.29.51:347][  0]LogInit: Going up to parent DeviceProfile []
+[2019.11.10-21.29.51:347][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/rako0016/Desktop/HighLevel/Assignment 2/VRPong/Saved/Config/Windows/Scalability.ini]
+[2019.11.10-21.29.51:347][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.11.10-21.29.51:347][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.11.10-21.29.51:347][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/rako0016/Desktop/HighLevel/Assignment 2/VRPong/Saved/Config/Windows/Scalability.ini]
+[2019.11.10-21.29.51:347][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.11.10-21.29.51:347][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/rako0016/Desktop/HighLevel/Assignment 2/VRPong/Saved/Config/Windows/Scalability.ini]
+[2019.11.10-21.29.51:347][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.11.10-21.29.51:347][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.11.10-21.29.51:347][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.11.10-21.29.51:347][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.11.10-21.29.51:347][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.11.10-21.29.51:347][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.11.10-21.29.51:347][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.11.10-21.29.51:347][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.11.10-21.29.51:347][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.11.10-21.29.51:347][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.11.10-21.29.51:347][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.11.10-21.29.51:347][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.11.10-21.29.51:347][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.11.10-21.29.51:347][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.11.10-21.29.51:347][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.11.10-21.29.51:347][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.11.10-21.29.51:347][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.11.10-21.29.51:347][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.11.10-21.29.51:347][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/rako0016/Desktop/HighLevel/Assignment 2/VRPong/Saved/Config/Windows/Scalability.ini]
+[2019.11.10-21.29.51:347][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.11.10-21.29.51:347][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.11.10-21.29.51:347][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.11.10-21.29.51:347][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.11.10-21.29.51:347][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.11.10-21.29.51:347][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.11.10-21.29.51:347][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.11.10-21.29.51:347][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.11.10-21.29.51:347][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.11.10-21.29.51:347][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.11.10-21.29.51:347][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.11.10-21.29.51:347][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.11.10-21.29.51:347][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.11.10-21.29.51:347][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.11.10-21.29.51:347][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.11.10-21.29.51:347][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.11.10-21.29.51:347][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.11.10-21.29.51:347][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.11.10-21.29.51:347][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.11.10-21.29.51:347][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.11.10-21.29.51:347][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.11.10-21.29.51:347][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.11.10-21.29.51:347][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.11.10-21.29.51:347][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.11.10-21.29.51:347][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.11.10-21.29.51:347][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.11.10-21.29.51:347][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.11.10-21.29.51:347][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.11.10-21.29.51:347][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.11.10-21.29.51:347][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.11.10-21.29.51:347][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/rako0016/Desktop/HighLevel/Assignment 2/VRPong/Saved/Config/Windows/Scalability.ini]
+[2019.11.10-21.29.51:347][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.11.10-21.29.51:347][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.11.10-21.29.51:347][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.11.10-21.29.51:362][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.11.10-21.29.51:362][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.11.10-21.29.51:362][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.11.10-21.29.51:362][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.11.10-21.29.51:362][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.11.10-21.29.51:362][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/rako0016/Desktop/HighLevel/Assignment 2/VRPong/Saved/Config/Windows/Scalability.ini]
+[2019.11.10-21.29.51:362][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.11.10-21.29.51:362][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.11.10-21.29.51:362][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.11.10-21.29.51:362][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.11.10-21.29.51:362][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.11.10-21.29.51:362][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.11.10-21.29.51:362][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.11.10-21.29.51:362][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.11.10-21.29.51:362][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.11.10-21.29.51:362][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.11.10-21.29.51:362][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.11.10-21.29.51:362][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.11.10-21.29.51:362][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.11.10-21.29.51:362][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/rako0016/Desktop/HighLevel/Assignment 2/VRPong/Saved/Config/Windows/Scalability.ini]
+[2019.11.10-21.29.51:362][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.11.10-21.29.51:362][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.11.10-21.29.51:362][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.11.10-21.29.51:362][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.11.10-21.29.51:362][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2019.11.10-21.29.51:362][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/rako0016/Desktop/HighLevel/Assignment 2/VRPong/Saved/Config/Windows/Engine.ini]
+[2019.11.10-21.29.51:364][  0]LogInit: Computer: WJ316-05
+[2019.11.10-21.29.51:364][  0]LogInit: User: rako0016
+[2019.11.10-21.29.51:364][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.11.10-21.29.51:364][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.11.10-21.29.51:364][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2019.11.10-21.29.51:364][  0]LogMemory: Platform Memory Stats for Windows
+[2019.11.10-21.29.51:364][  0]LogMemory: Process Physical Memory: 96.32 MB used, 96.32 MB peak
+[2019.11.10-21.29.51:364][  0]LogMemory: Process Virtual Memory: 90.50 MB used, 90.50 MB peak
+[2019.11.10-21.29.51:364][  0]LogMemory: Physical Memory: 4690.22 MB used,  11638.42 MB free, 16328.64 MB total
+[2019.11.10-21.29.51:364][  0]LogMemory: Virtual Memory: 4658.35 MB used,  134213072.00 MB free, 134217728.00 MB total
+[2019.11.10-21.29.51:572][  0]LogInit: Using OS detected language (en-US).
+[2019.11.10-21.29.51:572][  0]LogInit: Using OS detected locale (en-US).
+[2019.11.10-21.29.51:573][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.11.10-21.29.51:757][  0]LogInit: Setting process to per monitor DPI aware
+[2019.11.10-21.29.51:816][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.11.10-21.29.51:816][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.11.10-21.29.52:155][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.11.10-21.29.52:155][  0]LogD3D11RHI: D3D11 adapters:
+[2019.11.10-21.29.52:246][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 670' (Feature Level 11_0)
+[2019.11.10-21.29.52:246][  0]LogD3D11RHI:       4052/0/8164 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.11.10-21.29.52:252][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.11.10-21.29.52:252][  0]LogD3D11RHI:       0/0/8164 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.11.10-21.29.52:252][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.11.10-21.29.52:257][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.11.10-21.29.52:257][  0]LogD3D11RHI:     GPU DeviceId: 0x1189 (for the marketing name, search the web for "GPU Device Id")
+[2019.11.10-21.29.52:257][  0]LogWindows: EnumDisplayDevices:
+[2019.11.10-21.29.52:257][  0]LogWindows:    0. 'NVIDIA GeForce GTX 670' (P:1 D:1)
+[2019.11.10-21.29.52:258][  0]LogWindows:    1. 'NVIDIA GeForce GTX 670' (P:0 D:0)
+[2019.11.10-21.29.52:258][  0]LogWindows:    2. 'NVIDIA GeForce GTX 670' (P:0 D:0)
+[2019.11.10-21.29.52:258][  0]LogWindows:    3. 'NVIDIA GeForce GTX 670' (P:0 D:0)
+[2019.11.10-21.29.52:258][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2019.11.10-21.29.52:259][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 670
+[2019.11.10-21.29.52:259][  0]LogD3D11RHI:   Driver Version: 430.86 (internal:26.21.14.3086, unified:430.86)
+[2019.11.10-21.29.52:259][  0]LogD3D11RHI:      Driver Date: 5-22-2019
+[2019.11.10-21.29.52:259][  0]LogRHI: Texture pool is 2836 MB (70% of 4052 MB)
+[2019.11.10-21.29.52:318][  0]LogD3D11RHI: Async texture creation enabled
+[2019.11.10-21.29.52:321][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.11.10-21.29.52:322][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.11.10-21.29.52:322][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.11.10-21.29.52:330][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2019.11.10-21.29.52:627][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
+[2019.11.10-21.29.52:645][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
+[2019.11.10-21.29.52:668][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
+[2019.11.10-21.29.52:686][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
+[2019.11.10-21.29.52:707][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
+[2019.11.10-21.29.52:729][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
+[2019.11.10-21.29.52:747][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
+[2019.11.10-21.29.52:763][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
+[2019.11.10-21.29.52:773][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
+[2019.11.10-21.29.52:894][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
+[2019.11.10-21.29.52:894][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
+[2019.11.10-21.29.52:894][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
+[2019.11.10-21.29.52:894][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
+[2019.11.10-21.29.52:894][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
+[2019.11.10-21.29.52:894][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
+[2019.11.10-21.29.52:894][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
+[2019.11.10-21.29.52:894][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
+[2019.11.10-21.29.52:894][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
+[2019.11.10-21.29.52:894][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
+[2019.11.10-21.29.52:894][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
+[2019.11.10-21.29.52:894][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
+[2019.11.10-21.29.52:895][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
+[2019.11.10-21.29.52:895][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
+[2019.11.10-21.29.52:895][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
+[2019.11.10-21.29.52:895][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
+[2019.11.10-21.29.52:895][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
+[2019.11.10-21.29.52:895][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
+[2019.11.10-21.29.52:898][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
+[2019.11.10-21.29.52:962][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
+[2019.11.10-21.29.52:962][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
+[2019.11.10-21.29.52:994][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
+[2019.11.10-21.29.52:994][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
+[2019.11.10-21.29.53:017][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
+[2019.11.10-21.29.53:038][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
+[2019.11.10-21.29.53:055][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
+[2019.11.10-21.29.53:073][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
+[2019.11.10-21.29.53:127][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
+[2019.11.10-21.29.53:127][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
+[2019.11.10-21.29.53:127][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.11.10-21.29.53:151][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2019.11.10-21.29.53:259][  0]LogShaderCompilers: Guid format shader working directory is -21 characters bigger than the processId version (../../../../../../Users/rako0016/Desktop/HighLevel/Assignment 2/VRPong/Intermediate/Shaders/WorkingDirectory/1824/).
+[2019.11.10-21.29.53:259][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/rako0016/AppData/Local/Temp/UnrealShaderWorkingDir/96E541CB45FDE5098FB1799509FA7734/'.
+[2019.11.10-21.29.53:261][  0]LogXGEController: Cleaning working directory: C:/Users/rako0016/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.11.10-21.29.53:262][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.11.10-21.29.53:262][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.11.10-21.29.53:262][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.11.10-21.29.54:094][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.11.10-21.29.54:147][  0]LogDerivedDataCache: Loaded boot cache 0.05s 71MB C:/Users/rako0016/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2019.11.10-21.29.54:147][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/rako0016/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc
+[2019.11.10-21.29.54:148][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/rako0016/Desktop/HighLevel/Assignment 2/VRPong/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.11.10-21.29.54:148][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.11.10-21.29.54:148][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/rako0016/Desktop/HighLevel/Assignment 2/VRPong/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.11.10-21.29.54:148][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.11.10-21.29.54:161][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.11.10-21.29.54:161][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.11.10-21.29.54:161][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2019.11.10-21.29.54:174][  0]LogDerivedDataCache: Using Local data cache path C:/Users/rako0016/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.11.10-21.29.54:174][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.11.10-21.29.54:174][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.11.10-21.29.54:200][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.11.10-21.29.54:201][  0]LogSlate: Using FreeType 2.6.0
+[2019.11.10-21.29.54:202][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.11.10-21.29.54:319][  0]LogAssetRegistry: FAssetRegistry took 0.0371 seconds to start up
+[2019.11.10-21.29.54:729][  0]LogInit: Selected Device Profile: [Windows]
+[2019.11.10-21.29.54:904][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.11.10-21.29.54:905][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2019.11.10-21.29.54:905][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.11.10-21.29.54:905][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2019.11.10-21.29.54:905][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2019.11.10-21.29.54:915][  0]LogNetVersion: VRPong 1.0.0, NetCL: 5660361, EngineNetVer: 10, GameNetVer: 0 (Checksum: 3296189037)
+[2019.11.10-21.29.55:324][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.035694 seconds
+[2019.11.10-21.29.55:331][  0]LogUObjectArray: 42205 objects as part of root set at end of initial load.
+[2019.11.10-21.29.55:331][  0]LogUObjectAllocator: 7325032 out of 0 bytes used by permanent object pool.
+[2019.11.10-21.29.55:331][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.11.10-21.29.56:562][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.11.10-21.29.56:581][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.11.10-21.29.56:769][  0]SourceControl: Source control is disabled
+[2019.11.10-21.29.56:769][  0]SourceControl: Source control is disabled
+[2019.11.10-21.29.56:773][  0]SourceControl: Source control is disabled
+[2019.11.10-21.29.56:777][  0]SourceControl: Source control is disabled
+[2019.11.10-21.29.56:975][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.11.10-21.29.57:132][  0]LogOcInput: OculusInput pre-init called
+[2019.11.10-21.29.58:138][  0]LogEngine: Initializing Engine...
+[2019.11.10-21.29.58:140][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.11.10-21.29.58:141][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2019.11.10-21.29.58:389][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.11.10-21.29.58:405][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.11.10-21.29.58:427][  0]LogInit: XAudio2 using 'Realtek Digital Output(Optical) (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.11.10-21.29.58:474][  0]LogInit: FAudioDevice initialized.
+[2019.11.10-21.29.58:475][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.11.10-21.29.58:558][  0]LogDerivedDataCache: Saved boot cache 0.08s 71MB C:/Users/rako0016/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2019.11.10-21.29.58:572][  0]LogInit: Texture streaming: Enabled
+[2019.11.10-21.29.58:603][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.11.10-21.29.58:629][  0]LogInit: Transaction tracking system initialized
+[2019.11.10-21.29.58:678][  0]BlueprintLog: New page: Editor Load
+[2019.11.10-21.29.58:847][  0]LocalizationService: Localization service is disabled
+[2019.11.10-21.29.59:251][  0]LogFileCache: Scanning file cache for directory 'C:/Users/rako0016/Desktop/HighLevel/Assignment 2/VRPong/Content/' took 0.01s
+[2019.11.10-21.29.59:252][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.11.10-21.29.59:252][  0]LogCook: Display: Mobile HDR setting 1
+[2019.11.10-21.29.59:565][  0]SourceControl: Source control is disabled
+[2019.11.10-21.29.59:566][  0]Cmd: MAP LOAD FILE="../../../../../../Users/rako0016/Desktop/HighLevel/Assignment 2/VRPong/Content/Level/PongMain.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.11.10-21.29.59:566][  0]LogEditorServer: Warning: Can't find file '../../../../../../Users/rako0016/Desktop/HighLevel/Assignment 2/VRPong/Content/Level/PongMain.umap'
+[2019.11.10-21.29.59:566][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.11.10-21.29.59:566][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.138ms to complete.
+[2019.11.10-21.29.59:566][  0]LogFileHelpers: Loading map 'PongMain' took 0.001
+[2019.11.10-21.29.59:682][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.10-21.29.59:695][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.10-21.29.59:705][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.10-21.29.59:716][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.10-21.29.59:728][  0]LogCollectionManager: Loaded 0 collections in 0.002240 seconds
+[2019.11.10-21.29.59:761][  0]LogFileCache: Scanning file cache for directory 'C:/Users/rako0016/Desktop/HighLevel/Assignment 2/VRPong/Saved/Collections/' took 0.01s
+[2019.11.10-21.29.59:762][  0]LogFileCache: Scanning file cache for directory 'C:/Users/rako0016/Desktop/HighLevel/Assignment 2/VRPong/Content/Developers/rako0016/Collections/' took 0.00s
+[2019.11.10-21.29.59:762][  0]LogFileCache: Scanning file cache for directory 'C:/Users/rako0016/Desktop/HighLevel/Assignment 2/VRPong/Content/Collections/' took 0.01s
+[2019.11.10-21.29.59:762][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2019.11.10-21.29.59:772][  0]LogContentBrowser: Native class hierarchy populated in 0.0100 seconds. Added 2736 classes and 662 folders.
+[2019.11.10-21.29.59:780][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.11.10-21.29.59:782][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.10-21.29.59:783][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.10-21.29.59:784][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.10-21.29.59:785][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.10-21.29.59:786][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.10-21.29.59:786][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.10-21.29.59:787][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.10-21.29.59:788][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.10-21.29.59:789][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.10-21.29.59:789][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.10-21.29.59:790][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.10-21.29.59:790][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.10-21.29.59:791][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.10-21.29.59:791][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.10-21.29.59:792][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.10-21.29.59:793][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.10-21.29.59:793][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.10-21.29.59:794][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.10-21.29.59:795][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.10-21.29.59:795][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.10-21.29.59:796][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.10-21.29.59:797][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.10-21.29.59:798][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.10-21.29.59:798][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.10-21.29.59:799][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.10-21.29.59:800][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.10-21.29.59:831][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2019.11.10-21.29.59:839][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2019.11.10-21.29.59:855][  0]LogSlate: Took 0.000577 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.11.10-21.29.59:858][  0]LogSlate: Took 0.000403 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.11.10-21.29.59:866][  0]LogSlate: Took 0.000396 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.11.10-21.29.59:942][  0]LogRenderer: Reallocating scene render targets to support 1208x572 Format 10 NumSamples 1 (Frame:1).
+[2019.11.10-21.30.00:073][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2019.11.10-21.30.00:073][  0]LogLoad: (Engine Initialization) Total time: 10.92 seconds
+[2019.11.10-21.30.00:073][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.11.10-21.30.00:189][  0]LogAssetRegistry: Asset discovery search completed in 5.8936 seconds
+[2019.11.10-21.30.00:192][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2019.11.10-21.30.00:192][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000133 seconds (updated 0 objects)
+[2019.11.10-21.30.00:193][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.11.10-21.30.00:231][  0]LogSlate: Took 0.000542 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.11.10-21.30.12:359][449]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.10-21.30.18:857][224]LogSlate: Took 0.000208 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.11.10-21.30.18:929][224]LogSlate: Took 0.000447 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.11.10-21.30.24:537][895]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/BP_Ball.BP_Ball
+[2019.11.10-21.30.24:865][895]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 121 classes and 0 folders.
+[2019.11.10-21.30.25:804][895]LogSlate: Window 'Add Blueprint Class' being destroyed
+[2019.11.10-21.30.28:250][152]LogSlate: Took 0.000414 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.11.10-21.30.56:954][393]BlueprintLog: New page: Compile BP_Ball
+[2019.11.10-21.30.57:203][393]LogUObjectHash: Compacting FUObjectHashTables data took   5.68ms
+[2019.11.10-21.31.01:563][880]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Ball" FILE="../../../../../../Users/rako0016/Desktop/HighLevel/Assignment 2/VRPong/Content/Blueprints/BP_Ball.uasset" SILENT=true
+[2019.11.10-21.31.01:574][880]LogSavePackage: Moving '../../../../../../Users/rako0016/Desktop/HighLevel/Assignment 2/VRPong/Saved/BP_BallE53E7AB94CFBE7075AF282B8D1DA5FC1.tmp' to '../../../../../../Users/rako0016/Desktop/HighLevel/Assignment 2/VRPong/Content/Blueprints/BP_Ball.uasset'
+[2019.11.10-21.31.04:229][183]LogSlate: Window 'BP_Ball' being destroyed
+[2019.11.10-21.31.04:233][183]LogSlate: Window 'BP_Ball' being destroyed
+[2019.11.10-21.31.11:316][ 16]LogAIModule: Creating AISystem for world Pong
+[2019.11.10-21.31.11:332][ 16]LogAssetEditorManager: Opening Asset editor for World /Game/Maps/Pong.Pong
+[2019.11.10-21.31.11:363][ 16]LogUObjectHash: Compacting FUObjectHashTables data took   3.02ms
+[2019.11.10-21.31.11:368][ 16]Cmd: MAP LOAD FILE="../../../../../../Users/rako0016/Desktop/HighLevel/Assignment 2/VRPong/Content/Maps/Pong.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.11.10-21.31.11:368][ 16]LightingResults: New page: Lighting Build
+[2019.11.10-21.31.11:371][ 16]LogBlueprintActionDatabase: Requesting refresh due to module change: StatsViewer (loaded)
+[2019.11.10-21.31.11:372][ 16]LogContentBrowser: Native class hierarchy updated for 'StatsViewer' in 0.0005 seconds. Added 5 classes and 0 folders.
+[2019.11.10-21.31.11:373][ 16]LoadErrors: New page: Loading map: Pong.umap
+[2019.11.10-21.31.11:373][ 16]MapCheck: New page: Map Check
+[2019.11.10-21.31.11:373][ 16]LightingResults: New page: Lighting Build
+[2019.11.10-21.31.11:405][ 16]LogUObjectHash: Compacting FUObjectHashTables data took   2.65ms
+[2019.11.10-21.31.11:407][ 16]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.11.10-21.31.11:442][ 16]LogUObjectHash: Compacting FUObjectHashTables data took   2.17ms
+[2019.11.10-21.31.11:468][ 16]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.11.10-21.31.11:468][ 16]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.094ms to complete.
+[2019.11.10-21.31.11:469][ 16]LogFileHelpers: Loading map 'Pong' took 0.105
+[2019.11.10-21.31.24:496][486]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.10-21.31.24:621][501]LogTemp: Repeating last play command: Selected Viewport
+[2019.11.10-21.31.24:632][501]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Pong.Pong:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Pong.Pong:PersistentLevel.Pong' with GeneratedClass '/Game/Maps/Pong.Pong_C' with ClassGeneratedBy '/Game/Maps/Pong.Pong:PersistentLevel.Pong'
+[2019.11.10-21.31.24:632][501]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.10-21.31.24:633][501]PIE: New page: PIE session: Pong (Nov 10, 2019, 11:31:24 AM)
+[2019.11.10-21.31.24:646][501]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Pong
+[2019.11.10-21.31.24:648][501]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001992s)
+[2019.11.10-21.31.24:653][501]LogAIModule: Creating AISystem for world Pong
+[2019.11.10-21.31.24:654][501]LogPlayLevel: PIE: World Init took: (0.005393s)
+[2019.11.10-21.31.24:654][501]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Pong.Pong to /Game/Maps/UEDPIE_0_Pong.Pong (0.007876s)
+[2019.11.10-21.31.24:738][501]LogUObjectHash: Compacting FUObjectHashTables data took   5.73ms
+[2019.11.10-21.31.24:757][501]LogInit: XAudio2 using 'Realtek Digital Output(Optical) (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.11.10-21.31.24:777][501]LogInit: FAudioDevice initialized.
+[2019.11.10-21.31.24:826][501]LogLoad: Game class is 'VRPongGameModeBase'
+[2019.11.10-21.31.24:828][501]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Pong.Pong up for play (max tick rate 0) at 2019.11.10-16.31.24
+[2019.11.10-21.31.24:829][501]LogWorld: Bringing up level for play took: 0.001157
+[2019.11.10-21.31.24:844][501]LogBlueprintActionDatabase: Requesting refresh due to module change: Voice (loaded)
+[2019.11.10-21.31.24:847][501]LogBlueprintActionDatabase: Requesting refresh due to module change: MovieSceneCapture (loaded)
+[2019.11.10-21.31.24:847][501]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 20 classes and 0 folders.
+[2019.11.10-21.31.24:848][501]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Pong 1.016
+[2019.11.10-21.31.24:848][501]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Pong.Pong:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Pong.Pong:PersistentLevel.Pong' with GeneratedClass '/Game/Maps/Pong.Pong_C' with ClassGeneratedBy '/Game/Maps/Pong.Pong:PersistentLevel.Pong'
+[2019.11.10-21.31.35:627][737]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Pong.Pong:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Pong.Pong:PersistentLevel.Pong' with GeneratedClass '/Game/Maps/Pong.Pong_C' with ClassGeneratedBy '/Game/Maps/Pong.Pong:PersistentLevel.Pong'
+[2019.11.10-21.31.35:628][737]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.10-21.31.35:664][737]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.10-21.31.35:664][737]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Pong.Pong:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Pong.Pong:PersistentLevel.Pong' with GeneratedClass '/Game/Maps/Pong.Pong_C' with ClassGeneratedBy '/Game/Maps/Pong.Pong:PersistentLevel.Pong'
+[2019.11.10-21.31.35:712][737]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.10-21.31.35:803][737]LogUObjectHash: Compacting FUObjectHashTables data took   6.27ms
+[2019.11.10-21.31.35:815][738]LogPlayLevel: Display: Destroying online subsystem :Context_2
+[2019.11.10-21.31.55:468][ 62]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Pong" FILE="../../../../../../Users/rako0016/Desktop/HighLevel/Assignment 2/VRPong/Content/Maps/Pong.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.11.10-21.31.55:520][ 62]LogUObjectHash: Compacting FUObjectHashTables data took   2.45ms
+[2019.11.10-21.31.55:682][ 62]LogSavePackage: Moving '../../../../../../Users/rako0016/Desktop/HighLevel/Assignment 2/VRPong/Saved/PongC9D72F1A47FC6C4DB2E0619554A789CB.tmp' to '../../../../../../Users/rako0016/Desktop/HighLevel/Assignment 2/VRPong/Content/Maps/Pong.umap'
+[2019.11.10-21.31.55:705][ 62]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Pong_BuiltData" FILE="../../../../../../Users/rako0016/Desktop/HighLevel/Assignment 2/VRPong/Content/Maps/Pong_BuiltData.uasset" SILENT=true
+[2019.11.10-21.31.55:709][ 62]LogSavePackage: Moving '../../../../../../Users/rako0016/Desktop/HighLevel/Assignment 2/VRPong/Saved/Pong_BuiltData4CFCD4D04CB6A0EA23876CB2566A29CB.tmp' to '../../../../../../Users/rako0016/Desktop/HighLevel/Assignment 2/VRPong/Content/Maps/Pong_BuiltData.uasset'
+[2019.11.10-21.31.56:470][141]MapCheck: New page: Map Check
+[2019.11.10-21.31.56:480][141]Cmd: MAP REBUILD ALLVISIBLE
+[2019.11.10-21.31.56:480][141]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2019.11.10-21.31.56:490][141]LogBlueprintActionDatabase: Requesting refresh due to module change: HierarchicalLODUtilities (loaded)
+[2019.11.10-21.31.56:519][141]LogUObjectHash: Compacting FUObjectHashTables data took   3.11ms
+[2019.11.10-21.31.56:533][141]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.10-21.31.56:545][141]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.11.10-21.31.56:971][141]TextureStreamingBuild: Display: Compiling optional shaders took 0.447 seconds.
+[2019.11.10-21.31.56:975][141]LogLevel: Display: Export Material TexCoord Scales took 0.004 seconds.
+[2019.11.10-21.31.56:983][141]TextureStreamingBuild: Display: Build Texture Streaming took 0.007 seconds.
+[2019.11.10-21.31.57:009][141]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2019.11.10-21.31.57:009][141]LightingResults: New page: Lighting Build - Nov 10, 2019, 11:31:57 AM
+[2019.11.10-21.31.57:073][141]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2019.11.10-21.31.57:153][141]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2019.11.10-21.31.57:168][141]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2019.11.10-21.31.57:678][141]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2019.11.10-21.31.57:678][141]LogSwarmInterface: [TryOpenConnection] Local Process ID is 1824
+[2019.11.10-21.32.02:488][141]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2019.11.10-21.32.02:488][141]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2019.11.10-21.32.02:488][141]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2019.11.10-21.32.02:488][141]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2019.11.10-21.32.02:488][141]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2019.11.10-21.32.02:488][141]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2019.11.10-21.32.02:559][141]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2019.11.10-21.32.02:560][141]MapCheck: New page: Pong - Nov 10, 2019, 11:32:02 AM
+[2019.11.10-21.32.02:560][141]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.307ms to complete.
+[2019.11.10-21.32.02:585][141]LogEditorBuildUtils: Build time 0:06
+[2019.11.10-21.32.03:060][142]LogUObjectHash: Compacting FUObjectHashTables data took   3.55ms
+[2019.11.10-21.32.04:289][206]Job is a success!
+[2019.11.10-21.32.04:328][207]Candidate modules for hot reload:
+[2019.11.10-21.32.04:328][207]  VRPong
+[2019.11.10-21.32.04:328][207]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=VRPong,4527 Win64 Development -TargetType=Editor -Project="C:/Users/rako0016/Desktop/HighLevel/Assignment 2/VRPong/VRPong.uproject" "C:/Users/rako0016/Desktop/HighLevel/Assignment 2/VRPong/VRPong.uproject"  -IgnoreJunk]
+[2019.11.10-21.32.04:329][207]Warning: Starting HotReload took  0.0s.
+[2019.11.10-21.32.04:375][207]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.011s
+[2019.11.10-21.32.04:375][207]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2019.11.10-21.32.04:375][207]LogVolumetricLightmapImport:      BrickData 5x5x5 = 0.0Mb
+[2019.11.10-21.32.04:375][207]LogVolumetricLightmapImport:      Bricks at Level
+[2019.11.10-21.32.04:375][207]LogVolumetricLightmapImport:          0: 100.0% covering 100.0% of volume
+[2019.11.10-21.32.04:375][207]LogVolumetricLightmapImport:          1: 0.0% covering 0.0% of volume
+[2019.11.10-21.32.04:376][207]LogVolumetricLightmapImport:          2: 0.0% covering 0.0% of volume
+[2019.11.10-21.32.04:419][207]Lightmass on WJ316-05: 857 ms total, 75 ms importing, 4 ms setup, 391 ms photons, 343 ms processing, 0 ms extra exporting [0/0 mappings]. Threads: 2.24 sec total, 0 ms processing.
+[2019.11.10-21.32.04:496][207]LogUObjectHash: Compacting FUObjectHashTables data took   3.76ms
+[2019.11.10-21.32.04:512][207]LogStaticLightingSystem: Illumination: 7.45 sec (0 ms encoding lightmaps, 0 ms encoding shadowmaps)
+[2019.11.10-21.32.04:512][207]LogStaticLightingSystem: Lightmap texture memory:  0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 0 textures
+[2019.11.10-21.32.04:512][207]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 0 textures
+[2019.11.10-21.32.05:510][207]DumpUnbuiltLightIteractions
+[2019.11.10-21.32.05:510][207]Lights with unbuilt interactions: 0
+[2019.11.10-21.32.05:510][207]
+[2019.11.10-21.32.05:510][207]Primitives with unbuilt interactions: 0
+[2019.11.10-21.32.05:542][208]Cmd: MAP CHECK NOTIFYRESULTS
+[2019.11.10-21.32.05:542][208]MapCheck: New page: Pong - Nov 10, 2019, 11:32:05 AM
+[2019.11.10-21.32.05:542][208]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.348ms to complete.
+[2019.11.10-21.32.18:648][960]CompilerResultsLog: New page: Compilation - Nov 10, 2019, 11:32:18 AM
+[2019.11.10-21.32.18:648][960]CompilerResultsLog: Creating makefile for VRPongEditor (ini files are newer than makefile)
+[2019.11.10-21.32.18:649][960]CompilerResultsLog: Parsing headers for VRPongEditor
+[2019.11.10-21.32.18:649][960]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\rako0016\Desktop\HighLevel\Assignment 2\VRPong\VRPong.uproject" "C:\Users\rako0016\Desktop\HighLevel\Assignment 2\VRPong\Intermediate\Build\Win64\VRPongEditor\Development\VRPongEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.11.10-21.32.18:649][960]CompilerResultsLog: Reflection code generated for VRPongEditor in 8.4480758 seconds
+[2019.11.10-21.32.18:649][960]CompilerResultsLog: Failed to delete file 'C:\Users\rako0016\Desktop\HighLevel\Assignment 2\VRPong\Binaries\Win64\UE4Editor-VRPong.pdb'
+[2019.11.10-21.32.18:649][960]CompilerResultsLog:     Exception: Access to the path 'C:\Users\rako0016\Desktop\HighLevel\Assignment 2\VRPong\Binaries\Win64\UE4Editor-VRPong.pdb' is denied.
+[2019.11.10-21.32.18:649][960]CompilerResultsLog: Attempting to retry...
+[2019.11.10-21.32.18:649][960]CompilerResultsLog: Failed to delete file 'C:\Users\rako0016\Desktop\HighLevel\Assignment 2\VRPong\Binaries\Win64\UE4Editor-VRPong.pdb'
+[2019.11.10-21.32.18:649][960]CompilerResultsLog:     Exception: Access to the path 'C:\Users\rako0016\Desktop\HighLevel\Assignment 2\VRPong\Binaries\Win64\UE4Editor-VRPong.pdb' is denied.
+[2019.11.10-21.32.18:649][960]CompilerResultsLog: Attempting to retry...
+[2019.11.10-21.32.18:649][960]CompilerResultsLog: Failed to delete file 'C:\Users\rako0016\Desktop\HighLevel\Assignment 2\VRPong\Binaries\Win64\UE4Editor-VRPong.pdb'
+[2019.11.10-21.32.18:650][960]CompilerResultsLog:     Exception: Access to the path 'C:\Users\rako0016\Desktop\HighLevel\Assignment 2\VRPong\Binaries\Win64\UE4Editor-VRPong.pdb' is denied.
+[2019.11.10-21.32.18:650][960]CompilerResultsLog: ERROR: Exhausted all retries!
+[2019.11.10-21.32.18:650][960]CompilerResultsLog: Using Visual Studio 2019 14.21.27702 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.21.27702) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.11.10-21.32.18:650][960]CompilerResultsLog: Building 3 actions with 8 processes...
+[2019.11.10-21.32.18:650][960]CompilerResultsLog:   [1/3] UE4Editor-VRPong-4527.lib
+[2019.11.10-21.32.18:650][960]CompilerResultsLog:      Creating library C:\Users\rako0016\Desktop\HighLevel\Assignment 2\VRPong\Intermediate\Build\Win64\UE4Editor\Development\VRPong\UE4Editor-VRPong-4527.lib and object C:\Users\rako0016\Desktop\HighLevel\Assignment 2\VRPong\Intermediate\Build\Win64\UE4Editor\Development\VRPong\UE4Editor-VRPong-4527.exp
+[2019.11.10-21.32.18:650][960]CompilerResultsLog:   [2/3] UE4Editor-VRPong-4527.dll
+[2019.11.10-21.32.18:650][960]CompilerResultsLog:      Creating library C:\Users\rako0016\Desktop\HighLevel\Assignment 2\VRPong\Intermediate\Build\Win64\UE4Editor\Development\VRPong\UE4Editor-VRPong-4527.suppressed.lib and object C:\Users\rako0016\Desktop\HighLevel\Assignment 2\VRPong\Intermediate\Build\Win64\UE4Editor\Development\VRPong\UE4Editor-VRPong-4527.suppressed.exp
+[2019.11.10-21.32.18:650][960]CompilerResultsLog:   [3/3] VRPongEditor.target
+[2019.11.10-21.32.18:650][960]CompilerResultsLog: Total time in Parallel executor: 1.62 seconds
+[2019.11.10-21.32.18:650][960]CompilerResultsLog: Total execution time: 14.21 seconds
+[2019.11.10-21.32.18:651][960]LogMainFrame: MainFrame: Module compiling took 14.326 seconds
+[2019.11.10-21.32.18:677][960]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2019.11.10-21.32.18:677][960]LogBlueprintActionDatabase: Requesting refresh due to module change: VRPong (unloaded)
+[2019.11.10-21.32.18:703][960]LogBlueprintActionDatabase: Requesting refresh due to module change: VRPong (loaded)
+[2019.11.10-21.32.18:703][960]LogContentBrowser: Native class hierarchy updated for 'VRPong' in 0.0005 seconds. Added 4 classes and 3 folders.
+[2019.11.10-21.32.18:707][960]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.11.10-21.32.18:859][960]LogUObjectHash: Compacting FUObjectHashTables data took   2.06ms
+[2019.11.10-21.32.18:859][960]LogBlueprintActionDatabase: Requesting refresh due to hot reload
+[2019.11.10-21.32.18:879][960]LogContentBrowser: Native class hierarchy populated in 0.0109 seconds. Added 2737 classes and 664 folders.
+[2019.11.10-21.32.18:879][960]Display: HotReload took 14.6s.
+[2019.11.10-21.32.22:452][339]LogTemp: Repeating last play command: Selected Viewport
+[2019.11.10-21.32.22:467][339]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Pong.Pong:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Pong.Pong:PersistentLevel.Pong' with GeneratedClass '/Game/Maps/Pong.Pong_C' with ClassGeneratedBy '/Game/Maps/Pong.Pong:PersistentLevel.Pong'
+[2019.11.10-21.32.22:467][339]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.10-21.32.22:467][339]PIE: New page: PIE session: Pong (Nov 10, 2019, 11:32:22 AM)
+[2019.11.10-21.32.22:467][339]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Pong
+[2019.11.10-21.32.22:470][339]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002122s)
+[2019.11.10-21.32.22:470][339]LogAIModule: Creating AISystem for world Pong
+[2019.11.10-21.32.22:471][339]LogPlayLevel: PIE: World Init took: (0.000721s)
+[2019.11.10-21.32.22:471][339]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Pong.Pong to /Game/Maps/UEDPIE_0_Pong.Pong (0.003203s)
+[2019.11.10-21.32.22:553][339]LogUObjectHash: Compacting FUObjectHashTables data took   4.89ms
+[2019.11.10-21.32.22:573][339]LogInit: XAudio2 using 'Realtek Digital Output(Optical) (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.11.10-21.32.22:591][339]LogInit: FAudioDevice initialized.
+[2019.11.10-21.32.22:621][339]LogLoad: Game class is 'VRPongGameModeBase'
+[2019.11.10-21.32.22:622][339]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Pong.Pong up for play (max tick rate 0) at 2019.11.10-16.32.22
+[2019.11.10-21.32.22:623][339]LogWorld: Bringing up level for play took: 0.000973
+[2019.11.10-21.32.22:636][339]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Pong 0.804
+[2019.11.10-21.32.22:636][339]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Pong.Pong:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Pong.Pong:PersistentLevel.Pong' with GeneratedClass '/Game/Maps/Pong.Pong_C' with ClassGeneratedBy '/Game/Maps/Pong.Pong:PersistentLevel.Pong'
+[2019.11.10-21.32.24:078][510]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Pong.Pong:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Pong.Pong:PersistentLevel.Pong' with GeneratedClass '/Game/Maps/Pong.Pong_C' with ClassGeneratedBy '/Game/Maps/Pong.Pong:PersistentLevel.Pong'
+[2019.11.10-21.32.24:079][510]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.10-21.32.24:115][510]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.10-21.32.24:115][510]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Pong.Pong:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Pong.Pong:PersistentLevel.Pong' with GeneratedClass '/Game/Maps/Pong.Pong_C' with ClassGeneratedBy '/Game/Maps/Pong.Pong:PersistentLevel.Pong'
+[2019.11.10-21.32.24:155][510]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.10-21.32.24:179][510]LogUObjectHash: Compacting FUObjectHashTables data took   3.27ms
+[2019.11.10-21.32.24:193][511]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2019.11.10-21.32.48:943][424]Candidate modules for hot reload:
+[2019.11.10-21.32.48:943][424]  VRPong
+[2019.11.10-21.32.48:943][424]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=VRPong,8367 Win64 Development -TargetType=Editor -Project="C:/Users/rako0016/Desktop/HighLevel/Assignment 2/VRPong/VRPong.uproject" "C:/Users/rako0016/Desktop/HighLevel/Assignment 2/VRPong/VRPong.uproject"  -IgnoreJunk]
+[2019.11.10-21.33.03:277][424]CompilerResultsLog: New page: Compilation - Nov 10, 2019, 11:33:03 AM
+[2019.11.10-21.33.03:277][424]CompilerResultsLog: Creating makefile for VRPongEditor (ini files are newer than makefile)
+[2019.11.10-21.33.03:277][424]CompilerResultsLog: Parsing headers for VRPongEditor
+[2019.11.10-21.33.03:277][424]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\rako0016\Desktop\HighLevel\Assignment 2\VRPong\VRPong.uproject" "C:\Users\rako0016\Desktop\HighLevel\Assignment 2\VRPong\Intermediate\Build\Win64\VRPongEditor\Development\VRPongEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.11.10-21.33.03:277][424]CompilerResultsLog: Reflection code generated for VRPongEditor in 7.5529853 seconds
+[2019.11.10-21.33.03:277][424]CompilerResultsLog: Failed to delete file 'C:\Users\rako0016\Desktop\HighLevel\Assignment 2\VRPong\Binaries\Win64\UE4Editor-VRPong.pdb'
+[2019.11.10-21.33.03:277][424]CompilerResultsLog:     Exception: Access to the path 'C:\Users\rako0016\Desktop\HighLevel\Assignment 2\VRPong\Binaries\Win64\UE4Editor-VRPong.pdb' is denied.
+[2019.11.10-21.33.03:278][424]CompilerResultsLog: Attempting to retry...
+[2019.11.10-21.33.03:278][424]CompilerResultsLog: Failed to delete file 'C:\Users\rako0016\Desktop\HighLevel\Assignment 2\VRPong\Binaries\Win64\UE4Editor-VRPong.pdb'
+[2019.11.10-21.33.03:278][424]CompilerResultsLog:     Exception: Access to the path 'C:\Users\rako0016\Desktop\HighLevel\Assignment 2\VRPong\Binaries\Win64\UE4Editor-VRPong.pdb' is denied.
+[2019.11.10-21.33.03:278][424]CompilerResultsLog: Attempting to retry...
+[2019.11.10-21.33.03:278][424]CompilerResultsLog: Failed to delete file 'C:\Users\rako0016\Desktop\HighLevel\Assignment 2\VRPong\Binaries\Win64\UE4Editor-VRPong.pdb'
+[2019.11.10-21.33.03:278][424]CompilerResultsLog:     Exception: Access to the path 'C:\Users\rako0016\Desktop\HighLevel\Assignment 2\VRPong\Binaries\Win64\UE4Editor-VRPong.pdb' is denied.
+[2019.11.10-21.33.03:278][424]CompilerResultsLog: ERROR: Exhausted all retries!
+[2019.11.10-21.33.03:278][424]CompilerResultsLog: Using Visual Studio 2019 14.21.27702 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.21.27702) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.11.10-21.33.03:278][424]CompilerResultsLog: Building 6 actions with 8 processes...
+[2019.11.10-21.33.03:278][424]CompilerResultsLog:   [1/6] VRPong.init.gen.cpp
+[2019.11.10-21.33.03:279][424]CompilerResultsLog:   [2/6] AIPaddle.cpp
+[2019.11.10-21.33.03:279][424]CompilerResultsLog:   [3/6] AIPaddle.gen.cpp
+[2019.11.10-21.33.03:279][424]CompilerResultsLog:   [4/6] UE4Editor-VRPong-8367.lib
+[2019.11.10-21.33.03:279][424]CompilerResultsLog:      Creating library C:\Users\rako0016\Desktop\HighLevel\Assignment 2\VRPong\Intermediate\Build\Win64\UE4Editor\Development\VRPong\UE4Editor-VRPong-8367.lib and object C:\Users\rako0016\Desktop\HighLevel\Assignment 2\VRPong\Intermediate\Build\Win64\UE4Editor\Development\VRPong\UE4Editor-VRPong-8367.exp
+[2019.11.10-21.33.03:279][424]CompilerResultsLog:   [5/6] UE4Editor-VRPong-8367.dll
+[2019.11.10-21.33.03:279][424]CompilerResultsLog:      Creating library C:\Users\rako0016\Desktop\HighLevel\Assignment 2\VRPong\Intermediate\Build\Win64\UE4Editor\Development\VRPong\UE4Editor-VRPong-8367.suppressed.lib and object C:\Users\rako0016\Desktop\HighLevel\Assignment 2\VRPong\Intermediate\Build\Win64\UE4Editor\Development\VRPong\UE4Editor-VRPong-8367.suppressed.exp
+[2019.11.10-21.33.03:279][424]CompilerResultsLog:   [6/6] VRPongEditor.target
+[2019.11.10-21.33.03:279][424]CompilerResultsLog: Total time in Parallel executor: 2.28 seconds
+[2019.11.10-21.33.03:279][424]CompilerResultsLog: Total execution time: 14.25 seconds
+[2019.11.10-21.33.03:279][424]LogMainFrame: MainFrame: Module compiling took 14.340 seconds
+[2019.11.10-21.33.03:311][424]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2019.11.10-21.33.03:311][424]LogBlueprintActionDatabase: Requesting refresh due to module change: VRPong (unloaded)
+[2019.11.10-21.33.03:326][424]LogClass: Could not find existing class AIPaddle in package /Script/VRPong for HotReload, assuming new class
+[2019.11.10-21.33.03:344][424]LogBlueprintActionDatabase: Requesting refresh due to module change: VRPong (loaded)
+[2019.11.10-21.33.03:345][424]LogContentBrowser: Native class hierarchy updated for 'VRPong' in 0.0007 seconds. Added 5 classes and 3 folders.
+[2019.11.10-21.33.03:350][424]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.11.10-21.33.03:438][424]LogUObjectHash: Compacting FUObjectHashTables data took   2.17ms
+[2019.11.10-21.33.03:438][424]LogBlueprintActionDatabase: Requesting refresh due to hot reload
+[2019.11.10-21.33.03:459][424]LogContentBrowser: Native class hierarchy populated in 0.0112 seconds. Added 2738 classes and 664 folders.
+[2019.11.10-21.33.03:459][424]Display: HotReload took 14.5s.
+[2019.11.10-21.33.03:460][424]Warning: HotReload operation took 14.5s.
+[2019.11.10-21.33.04:545][424]LogSlate: Window 'Add C++ Class' being destroyed
+[2019.11.10-21.33.05:052][424]LogHotReload: New module detected: UE4Editor-VRPong-8367.dll
+[2019.11.10-21.33.05:090][425]LogHotReload: Starting Hot-Reload from IDE
+[2019.11.10-21.33.05:175][425]LogUObjectHash: Compacting FUObjectHashTables data took   4.47ms
+[2019.11.10-21.33.05:175][425]LogBlueprintActionDatabase: Requesting refresh due to module change: VRPong (unloaded)
+[2019.11.10-21.33.05:180][425]LogBlueprintActionDatabase: Requesting refresh due to module change: VRPong (loaded)
+[2019.11.10-21.33.05:181][425]LogContentBrowser: Native class hierarchy updated for 'VRPong' in 0.0007 seconds. Added 5 classes and 3 folders.
+[2019.11.10-21.33.05:187][425]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.11.10-21.33.05:247][425]LogUObjectHash: Compacting FUObjectHashTables data took   2.44ms
+[2019.11.10-21.33.05:247][425]LogBlueprintActionDatabase: Requesting refresh due to hot reload
+[2019.11.10-21.33.05:275][425]LogContentBrowser: Native class hierarchy populated in 0.0185 seconds. Added 2738 classes and 664 folders.
+[2019.11.10-21.33.05:278][425]Display: HotReload took  0.2s.
+[2019.11.10-21.33.46:390][519]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/BP_AIPaddle.BP_AIPaddle
+[2019.11.10-21.33.46:848][519]LogSlate: Window 'Add Blueprint Class' being destroyed
+[2019.11.10-21.33.55:480][460]LogTexture: Display: Building textures: AIPaddle-02 (BGRA8, 254X1114)
+[2019.11.10-21.33.58:376][779]BlueprintLog: New page: Compile BP_AIPaddle
+[2019.11.10-21.33.58:617][779]LogUObjectHash: Compacting FUObjectHashTables data took   4.49ms
+[2019.11.10-21.34.00:347][970]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_AIPaddle" FILE="../../../../../../Users/rako0016/Desktop/HighLevel/Assignment 2/VRPong/Content/Blueprints/BP_AIPaddle.uasset" SILENT=true
+[2019.11.10-21.34.00:356][970]LogSavePackage: Moving '../../../../../../Users/rako0016/Desktop/HighLevel/Assignment 2/VRPong/Saved/BP_AIPaddle00747D28484A51F31501798F1F77CB2D.tmp' to '../../../../../../Users/rako0016/Desktop/HighLevel/Assignment 2/VRPong/Content/Blueprints/BP_AIPaddle.uasset'
+[2019.11.10-21.34.01:254][ 71]LogSlate: Window 'BP_AIPaddle' being destroyed
+[2019.11.10-21.34.01:258][ 71]LogSlate: Window 'BP_AIPaddle' being destroyed
+[2019.11.10-21.34.21:872][514]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.10-21.35.02:327][303]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.10-21.35.45:067][349]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.10-21.35.58:828][957]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.10-21.36.30:313][689]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Pong" FILE="../../../../../../Users/rako0016/Desktop/HighLevel/Assignment 2/VRPong/Content/Maps/Pong.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.11.10-21.36.30:348][689]LogUObjectHash: Compacting FUObjectHashTables data took   3.32ms
+[2019.11.10-21.36.30:520][689]LogSavePackage: Moving '../../../../../../Users/rako0016/Desktop/HighLevel/Assignment 2/VRPong/Saved/Pong59D45A7347BC9348C8FD66B39C5A4C08.tmp' to '../../../../../../Users/rako0016/Desktop/HighLevel/Assignment 2/VRPong/Content/Maps/Pong.umap'
+[2019.11.10-21.36.30:548][689]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Pong_BuiltData" FILE="../../../../../../Users/rako0016/Desktop/HighLevel/Assignment 2/VRPong/Content/Maps/Pong_BuiltData.uasset" SILENT=true
+[2019.11.10-21.36.30:551][689]LogSavePackage: Moving '../../../../../../Users/rako0016/Desktop/HighLevel/Assignment 2/VRPong/Saved/Pong_BuiltData3FCAB5B646119EA72936E5A6349C8EC7.tmp' to '../../../../../../Users/rako0016/Desktop/HighLevel/Assignment 2/VRPong/Content/Maps/Pong_BuiltData.uasset'
+[2019.11.10-21.36.31:475][784]Candidate modules for hot reload:
+[2019.11.10-21.36.31:475][784]  VRPong
+[2019.11.10-21.36.31:475][784]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=VRPong,9372 Win64 Development -TargetType=Editor -Project="C:/Users/rako0016/Desktop/HighLevel/Assignment 2/VRPong/VRPong.uproject" "C:/Users/rako0016/Desktop/HighLevel/Assignment 2/VRPong/VRPong.uproject"  -IgnoreJunk]
+[2019.11.10-21.36.31:476][784]Warning: Starting HotReload took  0.0s.
+[2019.11.10-21.36.46:899][498]CompilerResultsLog: New page: Compilation - Nov 10, 2019, 11:36:46 AM
+[2019.11.10-21.36.46:899][498]CompilerResultsLog: Creating makefile for VRPongEditor (ini files are newer than makefile)
+[2019.11.10-21.36.46:900][498]CompilerResultsLog: Parsing headers for VRPongEditor
+[2019.11.10-21.36.46:900][498]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\rako0016\Desktop\HighLevel\Assignment 2\VRPong\VRPong.uproject" "C:\Users\rako0016\Desktop\HighLevel\Assignment 2\VRPong\Intermediate\Build\Win64\VRPongEditor\Development\VRPongEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.11.10-21.36.46:900][498]CompilerResultsLog: Reflection code generated for VRPongEditor in 9.0491022 seconds
+[2019.11.10-21.36.46:900][498]CompilerResultsLog: Failed to delete file 'C:\Users\rako0016\Desktop\HighLevel\Assignment 2\VRPong\Binaries\Win64\UE4Editor-VRPong.pdb'
+[2019.11.10-21.36.46:900][498]CompilerResultsLog:     Exception: Access to the path 'C:\Users\rako0016\Desktop\HighLevel\Assignment 2\VRPong\Binaries\Win64\UE4Editor-VRPong.pdb' is denied.
+[2019.11.10-21.36.46:900][498]CompilerResultsLog: Attempting to retry...
+[2019.11.10-21.36.46:900][498]CompilerResultsLog: Failed to delete file 'C:\Users\rako0016\Desktop\HighLevel\Assignment 2\VRPong\Binaries\Win64\UE4Editor-VRPong.pdb'
+[2019.11.10-21.36.46:900][498]CompilerResultsLog:     Exception: Access to the path 'C:\Users\rako0016\Desktop\HighLevel\Assignment 2\VRPong\Binaries\Win64\UE4Editor-VRPong.pdb' is denied.
+[2019.11.10-21.36.46:900][498]CompilerResultsLog: Attempting to retry...
+[2019.11.10-21.36.46:901][498]CompilerResultsLog: Failed to delete file 'C:\Users\rako0016\Desktop\HighLevel\Assignment 2\VRPong\Binaries\Win64\UE4Editor-VRPong.pdb'
+[2019.11.10-21.36.46:901][498]CompilerResultsLog:     Exception: Access to the path 'C:\Users\rako0016\Desktop\HighLevel\Assignment 2\VRPong\Binaries\Win64\UE4Editor-VRPong.pdb' is denied.
+[2019.11.10-21.36.46:901][498]CompilerResultsLog: ERROR: Exhausted all retries!
+[2019.11.10-21.36.46:901][498]CompilerResultsLog: Using Visual Studio 2019 14.21.27702 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.21.27702) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.11.10-21.36.46:901][498]CompilerResultsLog: Building 3 actions with 8 processes...
+[2019.11.10-21.36.46:901][498]CompilerResultsLog:   [1/3] UE4Editor-VRPong-9372.lib
+[2019.11.10-21.36.46:901][498]CompilerResultsLog:      Creating library C:\Users\rako0016\Desktop\HighLevel\Assignment 2\VRPong\Intermediate\Build\Win64\UE4Editor\Development\VRPong\UE4Editor-VRPong-9372.lib and object C:\Users\rako0016\Desktop\HighLevel\Assignment 2\VRPong\Intermediate\Build\Win64\UE4Editor\Development\VRPong\UE4Editor-VRPong-9372.exp
+[2019.11.10-21.36.46:901][498]CompilerResultsLog:   [2/3] UE4Editor-VRPong-9372.dll
+[2019.11.10-21.36.46:901][498]CompilerResultsLog:      Creating library C:\Users\rako0016\Desktop\HighLevel\Assignment 2\VRPong\Intermediate\Build\Win64\UE4Editor\Development\VRPong\UE4Editor-VRPong-9372.suppressed.lib and object C:\Users\rako0016\Desktop\HighLevel\Assignment 2\VRPong\Intermediate\Build\Win64\UE4Editor\Development\VRPong\UE4Editor-VRPong-9372.suppressed.exp
+[2019.11.10-21.36.46:902][498]CompilerResultsLog:   [3/3] VRPongEditor.target
+[2019.11.10-21.36.46:902][498]CompilerResultsLog: Total time in Parallel executor: 1.76 seconds
+[2019.11.10-21.36.46:902][498]CompilerResultsLog: Total execution time: 15.32 seconds
+[2019.11.10-21.36.46:902][498]LogMainFrame: MainFrame: Module compiling took 15.431 seconds
+[2019.11.10-21.36.46:940][498]LogUObjectHash: Compacting FUObjectHashTables data took   3.65ms
+[2019.11.10-21.36.46:941][498]LogBlueprintActionDatabase: Requesting refresh due to module change: VRPong (unloaded)
+[2019.11.10-21.36.46:978][498]LogBlueprintActionDatabase: Requesting refresh due to module change: VRPong (loaded)
+[2019.11.10-21.36.46:978][498]LogContentBrowser: Native class hierarchy updated for 'VRPong' in 0.0006 seconds. Added 5 classes and 3 folders.
+[2019.11.10-21.36.46:982][498]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.11.10-21.36.47:072][498]LogUObjectHash: Compacting FUObjectHashTables data took   2.25ms
+[2019.11.10-21.36.47:072][498]LogBlueprintActionDatabase: Requesting refresh due to hot reload
+[2019.11.10-21.36.47:093][498]LogContentBrowser: Native class hierarchy populated in 0.0116 seconds. Added 2738 classes and 664 folders.
+[2019.11.10-21.36.47:093][498]Display: HotReload took 15.6s.
+[2019.11.10-21.36.51:461][944]LogTemp: Repeating last play command: Selected Viewport
+[2019.11.10-21.36.51:475][944]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Pong.Pong:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Pong.Pong:PersistentLevel.Pong' with GeneratedClass '/Game/Maps/Pong.Pong_C' with ClassGeneratedBy '/Game/Maps/Pong.Pong:PersistentLevel.Pong'
+[2019.11.10-21.36.51:475][944]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.10-21.36.51:476][944]PIE: New page: PIE session: Pong (Nov 10, 2019, 11:36:51 AM)
+[2019.11.10-21.36.51:476][944]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Pong
+[2019.11.10-21.36.51:478][944]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002085s)
+[2019.11.10-21.36.51:479][944]LogAIModule: Creating AISystem for world Pong
+[2019.11.10-21.36.51:479][944]LogPlayLevel: PIE: World Init took: (0.000838s)
+[2019.11.10-21.36.51:479][944]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Pong.Pong to /Game/Maps/UEDPIE_0_Pong.Pong (0.003322s)
+[2019.11.10-21.36.51:576][944]LogUObjectHash: Compacting FUObjectHashTables data took   4.33ms
+[2019.11.10-21.36.51:596][944]LogInit: XAudio2 using 'Realtek Digital Output(Optical) (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.11.10-21.36.51:615][944]LogInit: FAudioDevice initialized.
+[2019.11.10-21.36.51:649][944]LogLoad: Game class is 'VRPongGameModeBase'
+[2019.11.10-21.36.51:651][944]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Pong.Pong up for play (max tick rate 0) at 2019.11.10-16.36.51
+[2019.11.10-21.36.51:652][944]LogWorld: Bringing up level for play took: 0.001283
+[2019.11.10-21.36.51:665][944]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Pong -0.159
+[2019.11.10-21.36.51:665][944]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Pong.Pong:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Pong.Pong:PersistentLevel.Pong' with GeneratedClass '/Game/Maps/Pong.Pong_C' with ClassGeneratedBy '/Game/Maps/Pong.Pong:PersistentLevel.Pong'
+[2019.11.10-21.36.55:288][372]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Pong.Pong:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Pong.Pong:PersistentLevel.Pong' with GeneratedClass '/Game/Maps/Pong.Pong_C' with ClassGeneratedBy '/Game/Maps/Pong.Pong:PersistentLevel.Pong'
+[2019.11.10-21.36.55:288][372]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.10-21.36.55:324][372]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.10-21.36.55:325][372]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Pong.Pong:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Pong.Pong:PersistentLevel.Pong' with GeneratedClass '/Game/Maps/Pong.Pong_C' with ClassGeneratedBy '/Game/Maps/Pong.Pong:PersistentLevel.Pong'
+[2019.11.10-21.36.55:364][372]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.10-21.36.55:388][372]LogUObjectHash: Compacting FUObjectHashTables data took   3.26ms
+[2019.11.10-21.36.55:399][373]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2019.11.10-21.36.57:498][623]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Pong" FILE="../../../../../../Users/rako0016/Desktop/HighLevel/Assignment 2/VRPong/Content/Maps/Pong.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.11.10-21.36.57:528][623]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2019.11.10-21.36.57:706][623]LogSavePackage: Moving '../../../../../../Users/rako0016/Desktop/HighLevel/Assignment 2/VRPong/Saved/Pong55FD7A3B45E898987156CB84B287D1BF.tmp' to '../../../../../../Users/rako0016/Desktop/HighLevel/Assignment 2/VRPong/Content/Maps/Pong.umap'
+[2019.11.10-21.36.57:734][623]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Pong_BuiltData" FILE="../../../../../../Users/rako0016/Desktop/HighLevel/Assignment 2/VRPong/Content/Maps/Pong_BuiltData.uasset" SILENT=true
+[2019.11.10-21.36.57:738][623]LogSavePackage: Moving '../../../../../../Users/rako0016/Desktop/HighLevel/Assignment 2/VRPong/Saved/Pong_BuiltData1E31BCCE4C4F2CAF72CED08CD6D90268.tmp' to '../../../../../../Users/rako0016/Desktop/HighLevel/Assignment 2/VRPong/Content/Maps/Pong_BuiltData.uasset'

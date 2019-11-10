@@ -32,4 +32,10 @@ public:
     UPROPERTY(EditAnywhere, Category = "Bottom Collision Box")
         class UBoxComponent* BottomBoxComponent;
 
+    UPROPERTY(EditAnywhere, Category = "Left Collision Box")
+        class UBoxComponent* LeftBoxComponent;
+
+    UPROPERTY(EditAnywhere, Category = "Right Collision Box")
+        class UBoxComponent* RightBoxComponent;
+
 };

@@ -29,7 +29,11 @@ public:
     UPROPERTY(EditAnywhere, Category = "Pawn Visual")
     class UPaperSpriteComponent* PawnSpriteComponent;
 
+    void MoveUp(float value);
     
         
+private:
+    
+    float MovementUp;
 
 };

@@ -22,6 +22,13 @@ ABoard::ABoard()
     BottomBoxComponent = CreateDefaultSubobject<UBoxComponent>("Bottom Collision Box");
     BottomBoxComponent->SetupAttachment(ActorSpriteComponent);
 
+    //Left Collision box
+    LeftBoxComponent = CreateDefaultSubobject<UBoxComponent>("Left Collision Box");
+    LeftBoxComponent->SetupAttachment(ActorSpriteComponent);
+
+    //Right Collision Box
+    RightBoxComponent = CreateDefaultSubobject<UBoxComponent>("Right Collision Box");
+    RightBoxComponent->SetupAttachment(ActorSpriteComponent);
 
 }
 
@@ -29,6 +36,12 @@ ABoard::ABoard()
 void ABoard::BeginPlay()
 {
 	Super::BeginPlay();
+
+    APlayerController* PC = GetWorld()->GetFirstPlayerController();
+    if (PC != nullptr)
+    {
+        PC->SetViewTarget(this);
+    }
 	
 }
 

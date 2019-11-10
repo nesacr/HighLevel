@@ -11,7 +11,10 @@ APaddle::APaddle()
 	PrimaryActorTick.bCanEverTick = true;
 
     PawnSpriteComponent = CreateDefaultSubobject <UPaperSpriteComponent>("Pawn Visual");
+    PawnSpriteComponent->SetSimulatePhysics(true);
+    PawnSpriteComponent->SetEnableGravity(false);
     RootComponent = PawnSpriteComponent;
+
 
 }
 
@@ -32,6 +35,14 @@ void APaddle::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
+    if (MovementUp != 0)
+    {
+        FVector NewLocation = GetActorLocation() + (GetActorForwardVector() * MovementUp);
+
+        SetActorLocation(NewLocation);
+    }
+   
+    
 }
 
 // Called to bind functionality to input
@@ -39,7 +50,15 @@ void APaddle::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 {
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
 
+    PlayerInputComponent->BindAxis("MoveUp", this, &APaddle::MoveUp);
     
 
 }
+
+void APaddle::MoveUp(float value)
+{
+    MovementUp = value;
+}
+
+
 
