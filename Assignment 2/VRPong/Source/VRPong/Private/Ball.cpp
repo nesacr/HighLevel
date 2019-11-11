@@ -4,6 +4,7 @@
 #include "Ball.h"
 #include "PaperSpriteComponent.h"
 #include "Components/SphereComponent.h"
+#include "GameFramework/ProjectileMovementComponent.h"
 
 // Sets default values
 ABall::ABall()
@@ -16,6 +17,27 @@ ABall::ABall()
 
     SphereComponent = CreateDefaultSubobject<USphereComponent>("Ball Collision");
     SphereComponent->SetupAttachment(ActorSpriteComponent);
+    SphereComponent->SetCollisionProfileName("BlockAll");
+    SphereComponent->SetCollisionEnabled(ECollisionEnabled::QueryAndPhysics);
+   
+    SphereComponent->BodyInstance.bLockRotation = true;
+    SphereComponent->BodyInstance.bLockTranslation = true;
+    
+   
+
+    //Projectile Movement
+    ProjectileComponent = CreateDefaultSubobject<UProjectileMovementComponent>("Projectile Movement");
+    
+    ProjectileComponent->bShouldBounce = true;
+    ProjectileComponent->Bounciness = 1.0f;
+    ProjectileComponent->InitialSpeed = 900.0f;
+    ProjectileComponent->MaxSpeed = 1500.0f;
+    ProjectileComponent->Friction = 0.0f;
+    ProjectileComponent->bSimulationEnabled = true;
+    ProjectileComponent->Velocity = FVector(1.0f, 0.0f, 1.0f);
+    FMath::Clamp(ProjectileComponent->Velocity.Y, 0.0f, 0.0f);
+    ProjectileComponent->ProjectileGravityScale = 0.0f;
+
 
     
 }

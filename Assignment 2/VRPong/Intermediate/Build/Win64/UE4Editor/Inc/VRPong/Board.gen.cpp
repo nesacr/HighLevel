@@ -18,6 +18,7 @@ void EmptyLinkFunctionForGeneratedCodeBoard() {}
 	ENGINE_API UClass* Z_Construct_UClass_AActor();
 	UPackage* Z_Construct_UPackage__Script_VRPong();
 	ENGINE_API UClass* Z_Construct_UClass_UBoxComponent_NoRegister();
+	ENGINE_API UClass* Z_Construct_UClass_UCameraComponent_NoRegister();
 	PAPER2D_API UClass* Z_Construct_UClass_UPaperSpriteComponent_NoRegister();
 // End Cross Module References
 	void ABoard::StaticRegisterNativesABoard()
@@ -49,6 +50,10 @@ void EmptyLinkFunctionForGeneratedCodeBoard() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_TopBoxComponent_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_TopBoxComponent;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Camera_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Camera;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_ActorSpriteComponent_MetaData[];
 #endif
@@ -100,6 +105,14 @@ void EmptyLinkFunctionForGeneratedCodeBoard() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ABoard_Statics::NewProp_TopBoxComponent = { "TopBoxComponent", nullptr, (EPropertyFlags)0x0010000000080009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ABoard, TopBoxComponent), Z_Construct_UClass_UBoxComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ABoard_Statics::NewProp_TopBoxComponent_MetaData, ARRAY_COUNT(Z_Construct_UClass_ABoard_Statics::NewProp_TopBoxComponent_MetaData)) };
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABoard_Statics::NewProp_Camera_MetaData[] = {
+		{ "Category", "Camera" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "Public/Board.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ABoard_Statics::NewProp_Camera = { "Camera", nullptr, (EPropertyFlags)0x0010000000080009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ABoard, Camera), Z_Construct_UClass_UCameraComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ABoard_Statics::NewProp_Camera_MetaData, ARRAY_COUNT(Z_Construct_UClass_ABoard_Statics::NewProp_Camera_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABoard_Statics::NewProp_ActorSpriteComponent_MetaData[] = {
 		{ "Category", "Visual" },
 		{ "EditInline", "true" },
@@ -112,6 +125,7 @@ void EmptyLinkFunctionForGeneratedCodeBoard() {}
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABoard_Statics::NewProp_LeftBoxComponent,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABoard_Statics::NewProp_BottomBoxComponent,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABoard_Statics::NewProp_TopBoxComponent,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABoard_Statics::NewProp_Camera,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABoard_Statics::NewProp_ActorSpriteComponent,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_ABoard_Statics::StaticCppClassTypeInfo = {
@@ -141,7 +155,7 @@ void EmptyLinkFunctionForGeneratedCodeBoard() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ABoard, 138964324);
+	IMPLEMENT_CLASS(ABoard, 2964609945);
 	template<> VRPONG_API UClass* StaticClass<ABoard>()
 	{
 		return ABoard::StaticClass();

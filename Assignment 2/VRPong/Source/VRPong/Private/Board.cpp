@@ -4,6 +4,7 @@
 #include "Board.h"
 #include "PaperSpriteComponent.h"
 #include "Components/BoxComponent.h"
+#include "Camera/CameraComponent.h"
 
 // Sets default values
 ABoard::ABoard()
@@ -14,21 +15,28 @@ ABoard::ABoard()
     ActorSpriteComponent = CreateDefaultSubobject <UPaperSpriteComponent>("Actor Visual");
     RootComponent = ActorSpriteComponent;
 
+    Camera = CreateDefaultSubobject<UCameraComponent>("Camera");
+    Camera->SetupAttachment(RootComponent);
+
     //Top Collision Box
     TopBoxComponent = CreateDefaultSubobject <UBoxComponent>("Top Collision Box");
     TopBoxComponent->SetupAttachment(ActorSpriteComponent);
+    TopBoxComponent->SetCollisionProfileName("BlockAll");
 
     //Bottom Collision Box
     BottomBoxComponent = CreateDefaultSubobject<UBoxComponent>("Bottom Collision Box");
     BottomBoxComponent->SetupAttachment(ActorSpriteComponent);
+    BottomBoxComponent->SetCollisionProfileName("BlockAll");
 
     //Left Collision box
     LeftBoxComponent = CreateDefaultSubobject<UBoxComponent>("Left Collision Box");
     LeftBoxComponent->SetupAttachment(ActorSpriteComponent);
+    LeftBoxComponent->SetCollisionProfileName("BlockAll");
 
     //Right Collision Box
     RightBoxComponent = CreateDefaultSubobject<UBoxComponent>("Right Collision Box");
     RightBoxComponent->SetupAttachment(ActorSpriteComponent);
+    RightBoxComponent->SetCollisionProfileName("BlockAll");
 
 }
 

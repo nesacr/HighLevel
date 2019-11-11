@@ -26,6 +26,9 @@ public:
     UPROPERTY(EditAnywhere, Category = "Visual")
     class UPaperSpriteComponent* ActorSpriteComponent;
 
+    UPROPERTY(EditAnywhere, Category = "Camera")
+        class UCameraComponent* Camera;
+
     UPROPERTY(EditAnywhere, Category = "Top Collision Box")
         class UBoxComponent* TopBoxComponent;
 

@@ -29,4 +29,7 @@ public:
     UPROPERTY(EditAnywhere, Category = "Ball Collision")
         class USphereComponent* SphereComponent;
 
+    UPROPERTY(EditAnywhere, Category = "Projectile Movement")
+        class UProjectileMovementComponent* ProjectileComponent;
+
 };
