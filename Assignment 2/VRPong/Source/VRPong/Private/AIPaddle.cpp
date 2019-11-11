@@ -12,11 +12,14 @@ void AAIPaddle::Tick(float DeltaTime)
         //DECLARE a variable called targetLocation of type FVector and assign it to the return value of FMath::VInterpConstantTo(..) passing in --> GetActorLocation(), Target->GetActorLocation(), DeltaTime, 600.0f
         float targetLocation = FMath::FInterpConstantTo(GetActorLocation().Z, Target->GetActorLocation().Z, DeltaTime, 600.0f);
         //CALL
-        SetActorLocation(FVector(GetActorLocation().X,GetActorLocation().Y,targetLocation));
+        SetActorLocation(FVector(GetActorLocation().X, GetActorLocation().Y, targetLocation + 1.1f));
 
-        
        
+
     }
 
 }
+
+
+
 

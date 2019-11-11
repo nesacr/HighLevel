@@ -20,6 +20,10 @@ APaddle::APaddle()
     CollisionBox->SetCollisionProfileName("BlockAll");
     CollisionBox->SetCollisionEnabled(ECollisionEnabled::QueryAndPhysics);
 
+    
+    /*CollisionBox->GetBodyInstance()->SetObjectType(ECollisionChannel::ECC_Pawn);
+    CollisionBox->GetBodyInstance()->SetResponseToChannel(ECollisionChannel::ECC_WorldStatic, ECollisionResponse::ECR_Overlap);*/
+
     //PawnSpriteComponent->SetSimulatePhysics(true);
     PawnSpriteComponent->SetEnableGravity(false);
     RootComponent = PawnSpriteComponent;
@@ -32,6 +36,8 @@ APaddle::APaddle()
     PawnSpriteComponent->BodyInstance.bLockYTranslation = true;
     PawnSpriteComponent->BodyInstance.bLockXTranslation = true;
 
+    PawnSpriteComponent->GetBodyInstance()->LinearDamping = 10.0f;
+
 
 }
 
@@ -40,10 +46,10 @@ void APaddle::BeginPlay()
 {
 	Super::BeginPlay();
 
-    /*PawnSpriteComponent->SetRelativeLocation(FVector(-200.0f, 10.f, 0.0f));
-    PawnSpriteComponent->SetRelativeRotation(FRotator(0.f, 0.f, 0.f));
-    PawnSpriteComponent->SetRelativeScale3D(FVector(0.1f, 1.0f, 0.1f));
-    PawnSpriteComponent->SetAbsolute(true, true, true);*/
+    //PawnSpriteComponent->SetRelativeLocation(FVector(-200.0f, 10.f, 0.0f));
+    //PawnSpriteComponent->SetRelativeRotation(FRotator(0.f, 0.f, 0.f));
+    ////PawnSpriteComponent->SetRelativeScale3D(FVector(0.1f, 1.0f, 0.1f));
+    //PawnSpriteComponent->SetAbsolute(true, true, true);
 	
 }
 
@@ -55,14 +61,28 @@ void APaddle::Tick(float DeltaTime)
     if (MovementUp != 0)
     {
         FVector NewLocation = GetActorLocation() + (GetActorUpVector() * MovementUp * 7);
-
         SetActorLocation(NewLocation);
 
+        if (GetActorLocation().Z > 550.0f)
+        {
+            FVector NewLocation = GetActorLocation() + (GetActorUpVector() * MovementDown * 7);
+            SetActorLocation(NewLocation);
+        }
+
+        if (GetActorLocation().Z < -380.0f)
+        {
+            FVector NewLocation = GetActorLocation() + (GetActorUpVector() * MovementUp * -7);
+            SetActorLocation(NewLocation);
+        }
+
+        
+
         GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Blue,
-            "We Schmooving");
+            "Key Input Pressed");
             
     }
-   
+
+    
     
 }
 
@@ -78,7 +98,10 @@ void APaddle::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 void APaddle::MoveUp(float value)
 {
     MovementUp = value;
+    MovementDown = value * (-1);
 }
+
+
 
 
 

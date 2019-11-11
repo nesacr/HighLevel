@@ -28,7 +28,7 @@
 /wd4838
 /we4668
 /I .
-/I "C:\Users\rako0016\Desktop\HighLevel\Assignment 2\VRPong\Source\VRPong\Private"
+/I "C:\Users\nesac\Desktop\HighLevel\Assignment 2\VRPong\Source\VRPong\Private"
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\Engine
 /I Runtime
 /I Runtime\Engine\Classes
@@ -427,27 +427,26 @@
 /I ThirdParty
 /I ThirdParty\libSampleRate\Public
 /I ThirdParty\libSampleRate
-/I "C:\Users\rako0016\Desktop\HighLevel\Assignment 2\VRPong\Intermediate\Build\Win64\UE4Editor\Inc\VRPong"
-/I "C:\Users\rako0016\Desktop\HighLevel\Assignment 2\VRPong\Source"
-/I "C:\Users\rako0016\Desktop\HighLevel\Assignment 2\VRPong\Source\VRPong\Public"
-/I "C:\Users\rako0016\Desktop\HighLevel\Assignment 2\VRPong\Source\VRPong"
+/I "C:\Users\nesac\Desktop\HighLevel\Assignment 2\VRPong\Intermediate\Build\Win64\UE4Editor\Inc\VRPong"
+/I "C:\Users\nesac\Desktop\HighLevel\Assignment 2\VRPong\Source"
+/I "C:\Users\nesac\Desktop\HighLevel\Assignment 2\VRPong\Source\VRPong\Public"
+/I "C:\Users\nesac\Desktop\HighLevel\Assignment 2\VRPong\Source\VRPong"
 /I ..\Plugins\2D\Paper2D\Intermediate\Build\Win64\UE4Editor\Inc\Paper2D
 /I ..\Plugins\2D\Paper2D\Source
 /I ..\Plugins\2D\Paper2D\Source\Paper2D\Classes
 /I ..\Plugins\2D\Paper2D\Source\Paper2D\Public
 /I ..\Plugins\2D\Paper2D\Source\Paper2D
-/I "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.21.27702\INCLUDE"
-/I "C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt"
-/FI"C:\Users\rako0016\Desktop\HighLevel\Assignment 2\VRPong\Intermediate\Build\Win64\VRPongEditor\Development\Engine\SharedPCH.Engine.h"
-/Yu"C:\Users\rako0016\Desktop\HighLevel\Assignment 2\VRPong\Intermediate\Build\Win64\VRPongEditor\Development\Engine\SharedPCH.Engine.h"
-/Fp"C:\Users\rako0016\Desktop\HighLevel\Assignment 2\VRPong\Intermediate\Build\Win64\VRPongEditor\Development\Engine\SharedPCH.Engine.h.pch"
-"C:\Users\rako0016\Desktop\HighLevel\Assignment 2\VRPong\Source\VRPong\VRPongGameModeBase.cpp"
-/FI"C:\Users\rako0016\Desktop\HighLevel\Assignment 2\VRPong\Intermediate\Build\Win64\UE4Editor\Development\VRPong\Definitions.VRPong.h"
-/Fo"C:\Users\rako0016\Desktop\HighLevel\Assignment 2\VRPong\Intermediate\Build\Win64\UE4Editor\Development\VRPong\VRPongGameModeBase.cpp.obj"
+/I "C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.23.28105\INCLUDE"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"
+/FI"C:\Users\nesac\Desktop\HighLevel\Assignment 2\VRPong\Intermediate\Build\Win64\VRPongEditor\Development\Engine\SharedPCH.Engine.h"
+/Yu"C:\Users\nesac\Desktop\HighLevel\Assignment 2\VRPong\Intermediate\Build\Win64\VRPongEditor\Development\Engine\SharedPCH.Engine.h"
+/Fp"C:\Users\nesac\Desktop\HighLevel\Assignment 2\VRPong\Intermediate\Build\Win64\VRPongEditor\Development\Engine\SharedPCH.Engine.h.pch"
+"C:\Users\nesac\Desktop\HighLevel\Assignment 2\VRPong\Source\VRPong\VRPongGameModeBase.cpp"
+/FI"C:\Users\nesac\Desktop\HighLevel\Assignment 2\VRPong\Intermediate\Build\Win64\UE4Editor\Development\VRPong\Definitions.VRPong.h"
+/Fo"C:\Users\nesac\Desktop\HighLevel\Assignment 2\VRPong\Intermediate\Build\Win64\UE4Editor\Development\VRPong\VRPongGameModeBase.cpp.obj"
 /TP
 /GR-
 /W4

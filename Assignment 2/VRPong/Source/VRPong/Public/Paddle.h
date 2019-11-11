@@ -34,9 +34,11 @@ public:
 
     void MoveUp(float value);
     
+    
         
 private:
     
     float MovementUp;
+    float MovementDown;
 
 };
