@@ -21,7 +21,7 @@ void EmptyLinkFunctionForGeneratedCodeVRPong_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0xA88966AB,
+				0xEFC9A2D0,
 				0x07D7DEDC,
 				METADATA_PARAMS(nullptr, 0)
 			};

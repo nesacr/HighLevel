@@ -17,6 +17,7 @@ void EmptyLinkFunctionForGeneratedCodeAIPaddle() {}
 	VRPONG_API UClass* Z_Construct_UClass_AAIPaddle();
 	VRPONG_API UClass* Z_Construct_UClass_APaddle();
 	UPackage* Z_Construct_UPackage__Script_VRPong();
+	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
 // End Cross Module References
 	void AAIPaddle::StaticRegisterNativesAAIPaddle()
 	{
@@ -31,6 +32,11 @@ void EmptyLinkFunctionForGeneratedCodeAIPaddle() {}
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Target_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Target;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
 	};
@@ -45,6 +51,17 @@ void EmptyLinkFunctionForGeneratedCodeAIPaddle() {}
 		{ "ModuleRelativePath", "Public/AIPaddle.h" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AAIPaddle_Statics::NewProp_Target_MetaData[] = {
+		{ "Category", "AI" },
+		{ "EditCondition", "Target" },
+		{ "ModuleRelativePath", "Public/AIPaddle.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AAIPaddle_Statics::NewProp_Target = { "Target", nullptr, (EPropertyFlags)0x0010000000000801, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AAIPaddle, Target), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AAIPaddle_Statics::NewProp_Target_MetaData, ARRAY_COUNT(Z_Construct_UClass_AAIPaddle_Statics::NewProp_Target_MetaData)) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AAIPaddle_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAIPaddle_Statics::NewProp_Target,
+	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_AAIPaddle_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<AAIPaddle>::IsAbstract,
 	};
@@ -54,11 +71,11 @@ void EmptyLinkFunctionForGeneratedCodeAIPaddle() {}
 		&StaticCppClassTypeInfo,
 		DependentSingletons,
 		nullptr,
-		nullptr,
+		Z_Construct_UClass_AAIPaddle_Statics::PropPointers,
 		nullptr,
 		ARRAY_COUNT(DependentSingletons),
 		0,
-		0,
+		ARRAY_COUNT(Z_Construct_UClass_AAIPaddle_Statics::PropPointers),
 		0,
 		0x009000A0u,
 		METADATA_PARAMS(Z_Construct_UClass_AAIPaddle_Statics::Class_MetaDataParams, ARRAY_COUNT(Z_Construct_UClass_AAIPaddle_Statics::Class_MetaDataParams))
@@ -72,7 +89,7 @@ void EmptyLinkFunctionForGeneratedCodeAIPaddle() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AAIPaddle, 319761048);
+	IMPLEMENT_CLASS(AAIPaddle, 1420428498);
 	template<> VRPONG_API UClass* StaticClass<AAIPaddle>()
 	{
 		return AAIPaddle::StaticClass();

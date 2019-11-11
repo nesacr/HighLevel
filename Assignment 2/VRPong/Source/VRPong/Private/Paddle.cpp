@@ -17,8 +17,10 @@ APaddle::APaddle()
 
     CollisionBox = CreateDefaultSubobject <UBoxComponent>("Collision Box");
     CollisionBox->SetupAttachment(PawnSpriteComponent);
+    CollisionBox->SetCollisionProfileName("BlockAll");
+    CollisionBox->SetCollisionEnabled(ECollisionEnabled::QueryAndPhysics);
 
-    PawnSpriteComponent->SetSimulatePhysics(true);
+    //PawnSpriteComponent->SetSimulatePhysics(true);
     PawnSpriteComponent->SetEnableGravity(false);
     RootComponent = PawnSpriteComponent;
 
@@ -52,7 +54,7 @@ void APaddle::Tick(float DeltaTime)
 
     if (MovementUp != 0)
     {
-        FVector NewLocation = GetActorLocation() + (GetActorUpVector() * MovementUp);
+        FVector NewLocation = GetActorLocation() + (GetActorUpVector() * MovementUp * 7);
 
         SetActorLocation(NewLocation);
 
@@ -69,8 +71,7 @@ void APaddle::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 {
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
 
-    PlayerInputComponent->BindAxis("MoveUp", this, &APaddle::MoveUp);
-    
+    PlayerInputComponent->BindAxis("MoveUp", this, &APaddle::MoveUp);    
 
 }
 

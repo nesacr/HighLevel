@@ -14,4 +14,11 @@ class VRPONG_API AAIPaddle : public APaddle
 {
 	GENERATED_BODY()
 	
+
+public:
+
+    virtual void Tick(float DeltaTime) override;
+
+    UPROPERTY(EditInstanceOnly, Category = "AI", meta = (EditCondition = "Target"))
+        AActor* Target;
 };
