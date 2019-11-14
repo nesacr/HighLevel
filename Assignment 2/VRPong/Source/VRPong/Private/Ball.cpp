@@ -5,6 +5,9 @@
 #include "PaperSpriteComponent.h"
 #include "Components/SphereComponent.h"
 #include "GameFramework/ProjectileMovementComponent.h"
+#include "VRPongGameModeBase.h"
+#include "PongGameStateBase.h"
+#include "Engine/World.h"
 
 // Sets default values
 ABall::ABall()
@@ -22,6 +25,8 @@ ABall::ABall()
    
     SphereComponent->BodyInstance.bLockRotation = true;
     SphereComponent->BodyInstance.bLockTranslation = true;
+
+    SphereComponent->OnComponentHit.AddDynamic(this, &ABall::OnHit);
     
    
 
@@ -58,5 +63,29 @@ void ABall::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
+}
+
+
+void ABall::OnHit(UPrimitiveComponent* HitComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, FVector NormalImpulse, const FHitResult& Hit)
+{
+    if (OtherComp->ComponentHasTag("Left Bound"))
+    {
+        APongGameStateBase* state = Cast<APongGameStateBase>(GetWorld()->GetGameState());
+        if (state)
+            state->UpdateScore(0, 1);
+    }
+
+    if (OtherComp->ComponentHasTag("Right Bound"))
+    {
+        APongGameStateBase* state = Cast<APongGameStateBase>(GetWorld()->GetGameState());
+            if (state)
+                state->UpdateScore(1, 0);
+    }
+
+
+    //If the Other Actor is not Null. The Other Actor is the one that has Hit with this one
+    GEngine->AddOnScreenDebugMessage(-1, 15.0f,
+        FColor::Blue,
+        "AMyFirstPawn2::OnHit - " + OtherActor->GetName());
 }
 

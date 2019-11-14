@@ -1,2 +1,0 @@
-C:\Users\nesac\Desktop\HighLevel\Assignment 2\VRPong\Intermediate\Build\Win64\UE4Editor\Development\VRPong\Definitions.VRPong.h
-C:\Users\nesac\Desktop\HighLevel\Assignment 2\VRPong\Source\VRPong\VRPong.h

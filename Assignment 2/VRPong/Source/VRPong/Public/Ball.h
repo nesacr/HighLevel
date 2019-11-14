@@ -23,6 +23,9 @@ public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
+    UFUNCTION(BlueprintCallable, Category = "Scoring")
+    void OnHit(UPrimitiveComponent* HitComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, FVector NormalImpulse, const FHitResult& Hit);
+
     UPROPERTY(EditAnywhere, Category = "Visual")
         class UPaperSpriteComponent* ActorSpriteComponent;
 
@@ -31,5 +34,10 @@ public:
 
     UPROPERTY(EditAnywhere, Category = "Projectile Movement")
         class UProjectileMovementComponent* ProjectileComponent;
+
+    
+    UPROPERTY(EditAnywhere, Category = "Game State")
+    class APongGameStateBase* m_GameState;
+    
 
 };

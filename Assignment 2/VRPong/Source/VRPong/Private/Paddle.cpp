@@ -77,8 +77,8 @@ void APaddle::Tick(float DeltaTime)
 
         
 
-        GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Blue,
-            "Key Input Pressed");
+        /*GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Blue,
+            "Key Input Pressed");*/
             
     }
 

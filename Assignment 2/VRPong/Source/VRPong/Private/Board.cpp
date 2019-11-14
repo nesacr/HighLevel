@@ -31,12 +31,22 @@ ABoard::ABoard()
     //Left Collision box
     LeftBoxComponent = CreateDefaultSubobject<UBoxComponent>("Left Collision Box");
     LeftBoxComponent->SetupAttachment(ActorSpriteComponent);
+    LeftBoxComponent->SetNotifyRigidBodyCollision(true);
+    LeftBoxComponent->SetCollisionEnabled(ECollisionEnabled::QueryAndPhysics);
+    LeftBoxComponent->ComponentTags.Add("Left Bound");
     LeftBoxComponent->SetCollisionProfileName("BlockAll");
+
+    LeftBoxComponent->OnComponentHit.AddDynamic(this, &ABoard::OnHit);
 
     //Right Collision Box
     RightBoxComponent = CreateDefaultSubobject<UBoxComponent>("Right Collision Box");
     RightBoxComponent->SetupAttachment(ActorSpriteComponent);
+    RightBoxComponent->SetNotifyRigidBodyCollision(true);
+    RightBoxComponent->SetCollisionEnabled(ECollisionEnabled::QueryAndPhysics);
+    RightBoxComponent->ComponentTags.Add("Right Bound");
     RightBoxComponent->SetCollisionProfileName("BlockAll");
+
+    RightBoxComponent->OnComponentHit.AddDynamic(this, &ABoard::OnHit);
 
 }
 
@@ -57,6 +67,11 @@ void ABoard::BeginPlay()
 void ABoard::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
+
+}
+
+void ABoard::OnHit(UPrimitiveComponent* HitComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, FVector NormalImpulse, const FHitResult& Hit)
+{
 
 }
 

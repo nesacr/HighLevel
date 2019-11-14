@@ -1,3 +1,0 @@
-C:\Users\nesac\Desktop\HighLevel\Assignment 2\VRPong\Source\VRPong\VRPong.Build.cs
-C:\Users\nesac\Desktop\HighLevel\Assignment 2\VRPong\Source\VRPong.Target.cs
-C:\Users\nesac\Desktop\HighLevel\Assignment 2\VRPong\Source\VRPongEditor.Target.cs
