@@ -1,0 +1,2 @@
+C:\Users\nesac\Desktop\VRDigiWrangler\Intermediate\Build\Win64\UE4Editor\Development\VRDigiWrangler\Definitions.VRDigiWrangler.h
+C:\Users\nesac\Desktop\VRDigiWrangler\Source\VRDigiWrangler\VRDigiWrangler.h

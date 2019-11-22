@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\VRDigiWrangler.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{7E8F4B0C-275B-452B-B55C-28FF0091F275}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\VRDigiWrangler.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\VRDigiWranglerEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{41E2414B-CFA6-4D57-9A92-F687A6B15821}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\VRDigiWrangler">
+      <UniqueIdentifier>{1CFAF405-08A3-4A70-91B6-F2D13014EA04}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\VRDigiWrangler\VRDigiWrangler.Build.cs">
+      <Filter>Source\VRDigiWrangler</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\VRDigiWrangler\VRDigiWrangler.cpp">
+      <Filter>Source\VRDigiWrangler</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\VRDigiWrangler\VRDigiWrangler.h">
+      <Filter>Source\VRDigiWrangler</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\VRDigiWrangler\VRDigiWranglerGameModeBase.cpp">
+      <Filter>Source\VRDigiWrangler</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\VRDigiWrangler\VRDigiWranglerGameModeBase.h">
+      <Filter>Source\VRDigiWrangler</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source\VRDigiWrangler\Public">
+      <UniqueIdentifier>{45addfe9-323c-4abf-8978-85775d5ad248}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\VRDigiWrangler\Private">
+      <UniqueIdentifier>{2f9650b4-d67d-4631-b92b-6fad48044cae}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\VRDigiWrangler\Public\MainPlayer.h">
+      <Filter>Source\VRDigiWrangler\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\VRDigiWrangler\Public\VRGameModeBase.h">
+      <Filter>Source\VRDigiWrangler\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\VRDigiWrangler\Public\VRGameStateBase.h">
+      <Filter>Source\VRDigiWrangler\Public</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\VRDigiWrangler\Private\MainPlayer.cpp">
+      <Filter>Source\VRDigiWrangler\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\VRDigiWrangler\Private\VRGameModeBase.cpp">
+      <Filter>Source\VRDigiWrangler\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\VRDigiWrangler\Private\VRGameStateBase.cpp">
+      <Filter>Source\VRDigiWrangler\Private</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

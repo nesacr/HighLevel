@@ -1,0 +1,9 @@
+C:\Users\nesac\Desktop\VRDigiWrangler\Intermediate\Build\Win64\UE4Editor\Development\VRDigiWrangler\Definitions.VRDigiWrangler.h
+C:\Users\nesac\Desktop\VRDigiWrangler\Source\VRDigiWrangler\Public\MyPlayer.h
+C:\Users\nesac\Desktop\VRDigiWrangler\Intermediate\Build\Win64\UE4Editor\Inc\VRDigiWrangler\MyPlayer.generated.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Components/BoxComponent.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Components/ShapeComponent.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ShapeComponent.generated.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\BoxComponent.generated.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Plugins\2D\Paper2D\Source\Paper2D\Classes\PaperSpriteComponent.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Plugins\2D\Paper2D\Intermediate\Build\Win64\UE4Editor\Inc\Paper2D\PaperSpriteComponent.generated.h
