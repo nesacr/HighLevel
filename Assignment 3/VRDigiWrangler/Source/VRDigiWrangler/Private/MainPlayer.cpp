@@ -40,7 +40,7 @@ AMainPlayer::AMainPlayer()
     FollowCamera = CreateDefaultSubobject<UCameraComponent>("Pawn's Camera");
     FollowCamera->SetProjectionMode(ECameraProjectionMode::Orthographic);
     FollowCamera->SetOrthoWidth(5000.0f);
-    FollowCamera->SetupAttachment(RootComponent);
+    FollowCamera->SetupAttachment(SpringArmComponent);
 
 
 }
