@@ -6,6 +6,7 @@
 #include "GameFramework/Pawn.h"
 #include "MainPlayer.generated.h"
 
+
 UCLASS()
 class VRDIGIWRANGLER_API AMainPlayer : public APawn
 {
@@ -39,8 +40,12 @@ public:
         class USpringArmComponent* SpringArmComponent;
 
     void MoveRight(float value);
+    void MoveUp();
+
+    /*UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Enum)
+        EDirectionEnum DirectionEnum;*/
     
 private:
     float MovementRight;
-    bool bJump;
+    bool Grounded;
 };

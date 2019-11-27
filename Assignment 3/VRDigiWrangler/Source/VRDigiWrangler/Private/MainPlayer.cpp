@@ -7,6 +7,9 @@
 #include "Camera/CameraComponent.h"
 #include "GameFramework/SpringArmComponent.h"
 
+
+
+
 // Sets default values
 AMainPlayer::AMainPlayer()
 {
@@ -49,6 +52,7 @@ AMainPlayer::AMainPlayer()
     FollowCamera->SetupAttachment(SpringArmComponent);
 
 
+   
 }
 
 // Called when the game starts or when spawned
@@ -62,13 +66,29 @@ void AMainPlayer::BeginPlay()
 void AMainPlayer::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
+    
 
-    if (MovementRight != 0)
+    if (MovementRight > 0)
     {
+
         FVector NewLocation = GetActorLocation() + (GetActorForwardVector() * MovementRight);
 
       SetActorLocation(NewLocation);
+     
+
+      PawnSpriteComponent->SetRelativeRotation(FRotator(FRotator::ZeroRotator));
     }
+    else if (MovementRight < 0)
+    {
+       PawnSpriteComponent->SetRelativeRotation(FRotator(0.0f, 180.0f, 0.0f));
+
+       FVector NewLocation = GetActorLocation() + (GetActorForwardVector() * MovementRight);
+
+       SetActorLocation(NewLocation);
+       
+    }
+
+   
 
 }
 
@@ -79,10 +99,23 @@ void AMainPlayer::SetupPlayerInputComponent(UInputComponent* PlayerInputComponen
 
   PlayerInputComponent->BindAxis("MoveRight", this, &AMainPlayer::MoveRight);
 
+  PlayerInputComponent->BindAction("Jump", IE_Pressed, this, &AMainPlayer::MoveUp);
+
 }
 
 void AMainPlayer::MoveRight(float value)
 {
-    MovementRight = value;
+    MovementRight = value*5.0f;
+}
+
+void AMainPlayer::MoveUp()
+{
+
+    CapsuleComponent->BodyInstance.AddForce(FVector(0.0f, 0.0f, 1.0f) * 150000.0f*40);
+    //if (Grounded)
+    //{
+    //    //Grounded = false;
+    //    
+    //}
 }
 
