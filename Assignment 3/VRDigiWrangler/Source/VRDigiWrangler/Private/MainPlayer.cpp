@@ -13,22 +13,28 @@ AMainPlayer::AMainPlayer()
  	// Set this pawn to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 
-    PawnSpriteComponent = CreateDefaultSubobject<UPaperSpriteComponent>("Pawn Sprite");
+
 
     CapsuleComponent = CreateDefaultSubobject<UCapsuleComponent>("Capsule Component");
-    CapsuleComponent->SetupAttachment(PawnSpriteComponent);
+    CapsuleComponent->SetupAttachment(RootComponent);
     CapsuleComponent->SetCollisionProfileName("BlockAll");
     CapsuleComponent->SetNotifyRigidBodyCollision(true);
     CapsuleComponent->SetSimulatePhysics(true);
-    CapsuleComponent->GetBodyInstance()->bLockRotation = true;
-    
+    CapsuleComponent->SetEnableGravity(true);
+    CapsuleComponent->GetBodyInstance()->bLockRotation = true;   
+    CapsuleComponent->GetBodyInstance()->bLockXRotation = true;
+    CapsuleComponent->GetBodyInstance()->bLockYRotation = true;
+    CapsuleComponent->GetBodyInstance()->bLockZRotation = true;
+    CapsuleComponent->GetBodyInstance()->bLockYTranslation = true;
 
-    RootComponent = PawnSpriteComponent;
+    RootComponent = CapsuleComponent;
 
-    CapsuleComponent->SetupAttachment(RootComponent);
-
-    //PawnSpriteComponent->SetGenerateOverlapEvents(true);
-    //PawnSpriteComponent->SetupAttachment(CapsuleComponent);
+    PawnSpriteComponent = CreateDefaultSubobject<UPaperSpriteComponent>("Pawn Sprite");
+    PawnSpriteComponent->SetCollisionProfileName("NoCollision");
+    PawnSpriteComponent->SetCollisionEnabled(ECollisionEnabled::NoCollision);
+    PawnSpriteComponent->SetGenerateOverlapEvents(false);
+    PawnSpriteComponent->SetupAttachment(RootComponent);
+   
 
     SpringArmComponent = CreateDefaultSubobject<USpringArmComponent>(TEXT("Camera Boom"));
     SpringArmComponent->SetupAttachment(RootComponent);
@@ -61,7 +67,7 @@ void AMainPlayer::Tick(float DeltaTime)
     {
         FVector NewLocation = GetActorLocation() + (GetActorForwardVector() * MovementRight);
 
-        SetActorLocation(NewLocation);
+      SetActorLocation(NewLocation);
     }
 
 }
@@ -71,7 +77,7 @@ void AMainPlayer::SetupPlayerInputComponent(UInputComponent* PlayerInputComponen
 {
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
 
-    PlayerInputComponent->BindAxis("MoveRight", this, &AMainPlayer::MoveRight);
+  PlayerInputComponent->BindAxis("MoveRight", this, &AMainPlayer::MoveRight);
 
 }
 
