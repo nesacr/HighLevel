@@ -1,0 +1,31 @@
+﻿  Creating makefile for VRDigiWranglerEditor (no existing makefile)
+  Parsing headers for VRDigiWranglerEditor
+    Running UnrealHeaderTool "C:\Users\rako0016\Desktop\HighLevel\Assignment 3\VRDigiWrangler\VRDigiWrangler.uproject" "C:\Users\rako0016\Desktop\HighLevel\Assignment 3\VRDigiWrangler\Intermediate\Build\Win64\VRDigiWranglerEditor\Development\VRDigiWranglerEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for VRDigiWranglerEditor in 7.3965127 seconds
+  Using Visual Studio 2019 14.21.27702 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.21.27702) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Building 21 actions with 8 processes...
+    [1/21] Default.rc2
+    [2/21] SharedPCH.Engine.cpp
+    [3/21] VRDigiWrangler.cpp
+    [4/21] AI.cpp
+    [5/21] Digimon.cpp
+    [6/21] AI.gen.cpp
+    [7/21] PlatformActor.cpp
+    [8/21] VRGameStateBase.cpp
+    [9/21] VRGameModeBase.cpp
+    [10/21] MainPlayer.cpp
+    [11/21] VRDigiWrangler.init.gen.cpp
+    [12/21] MainPlayer.gen.cpp
+    [13/21] PlatformActor.gen.cpp
+    [14/21] Digimon.gen.cpp
+    [15/21] VRGameModeBase.gen.cpp
+    [16/21] VRDigiWranglerGameModeBase.gen.cpp
+    [17/21] VRGameStateBase.gen.cpp
+    [18/21] VRDigiWranglerGameModeBase.cpp
+    [19/21] UE4Editor-VRDigiWrangler.lib
+       Creating library C:\Users\rako0016\Desktop\HighLevel\Assignment 3\VRDigiWrangler\Intermediate\Build\Win64\UE4Editor\Development\VRDigiWrangler\UE4Editor-VRDigiWrangler.lib and object C:\Users\rako0016\Desktop\HighLevel\Assignment 3\VRDigiWrangler\Intermediate\Build\Win64\UE4Editor\Development\VRDigiWrangler\UE4Editor-VRDigiWrangler.exp
+    [20/21] UE4Editor-VRDigiWrangler.dll
+       Creating library C:\Users\rako0016\Desktop\HighLevel\Assignment 3\VRDigiWrangler\Intermediate\Build\Win64\UE4Editor\Development\VRDigiWrangler\UE4Editor-VRDigiWrangler.suppressed.lib and object C:\Users\rako0016\Desktop\HighLevel\Assignment 3\VRDigiWrangler\Intermediate\Build\Win64\UE4Editor\Development\VRDigiWrangler\UE4Editor-VRDigiWrangler.suppressed.exp
+    [21/21] VRDigiWranglerEditor.target
+  Total time in Parallel executor: 22.56 seconds
+  Total execution time: 32.40 seconds
