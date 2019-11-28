@@ -8,14 +8,42 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class APawn;
+struct FVector;
 #ifdef VRDIGIWRANGLER_AI_generated_h
 #error "AI.generated.h already included, missing '#pragma once' in AI.h"
 #endif
 #define VRDIGIWRANGLER_AI_generated_h
 
-#define VRDigiWrangler_Source_VRDigiWrangler_Public_AI_h_15_RPC_WRAPPERS
-#define VRDigiWrangler_Source_VRDigiWrangler_Public_AI_h_15_RPC_WRAPPERS_NO_PURE_DECLS
-#define VRDigiWrangler_Source_VRDigiWrangler_Public_AI_h_15_INCLASS_NO_PURE_DECLS \
+#define VRDigiWrangler_Source_VRDigiWrangler_Public_AI_h_18_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execOnNoiseHeard) \
+	{ \
+		P_GET_OBJECT(APawn,Z_Param_NoiseInstigator); \
+		P_GET_STRUCT_REF(FVector,Z_Param_Out_Location); \
+		P_GET_PROPERTY(UFloatProperty,Z_Param_Volume); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->OnNoiseHeard(Z_Param_NoiseInstigator,Z_Param_Out_Location,Z_Param_Volume); \
+		P_NATIVE_END; \
+	}
+
+
+#define VRDigiWrangler_Source_VRDigiWrangler_Public_AI_h_18_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execOnNoiseHeard) \
+	{ \
+		P_GET_OBJECT(APawn,Z_Param_NoiseInstigator); \
+		P_GET_STRUCT_REF(FVector,Z_Param_Out_Location); \
+		P_GET_PROPERTY(UFloatProperty,Z_Param_Volume); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->OnNoiseHeard(Z_Param_NoiseInstigator,Z_Param_Out_Location,Z_Param_Volume); \
+		P_NATIVE_END; \
+	}
+
+
+#define VRDigiWrangler_Source_VRDigiWrangler_Public_AI_h_18_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAAI(); \
 	friend struct Z_Construct_UClass_AAI_Statics; \
@@ -24,7 +52,7 @@ public: \
 	DECLARE_SERIALIZER(AAI)
 
 
-#define VRDigiWrangler_Source_VRDigiWrangler_Public_AI_h_15_INCLASS \
+#define VRDigiWrangler_Source_VRDigiWrangler_Public_AI_h_18_INCLASS \
 private: \
 	static void StaticRegisterNativesAAI(); \
 	friend struct Z_Construct_UClass_AAI_Statics; \
@@ -33,9 +61,9 @@ public: \
 	DECLARE_SERIALIZER(AAI)
 
 
-#define VRDigiWrangler_Source_VRDigiWrangler_Public_AI_h_15_STANDARD_CONSTRUCTORS \
+#define VRDigiWrangler_Source_VRDigiWrangler_Public_AI_h_18_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
-	NO_API AAI(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	NO_API AAI(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AAI) \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, AAI); \
 DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AAI); \
@@ -46,9 +74,7 @@ private: \
 public:
 
 
-#define VRDigiWrangler_Source_VRDigiWrangler_Public_AI_h_15_ENHANCED_CONSTRUCTORS \
-	/** Standard constructor, called after all reflected properties have been initialized */ \
-	NO_API AAI() { }; \
+#define VRDigiWrangler_Source_VRDigiWrangler_Public_AI_h_18_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API AAI(AAI&&); \
@@ -59,26 +85,29 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AAI); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AAI)
 
 
-#define VRDigiWrangler_Source_VRDigiWrangler_Public_AI_h_15_PRIVATE_PROPERTY_OFFSET
-#define VRDigiWrangler_Source_VRDigiWrangler_Public_AI_h_12_PROLOG
-#define VRDigiWrangler_Source_VRDigiWrangler_Public_AI_h_15_GENERATED_BODY_LEGACY \
+#define VRDigiWrangler_Source_VRDigiWrangler_Public_AI_h_18_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__PawnSensingComponent() { return STRUCT_OFFSET(AAI, PawnSensingComponent); }
+
+
+#define VRDigiWrangler_Source_VRDigiWrangler_Public_AI_h_15_PROLOG
+#define VRDigiWrangler_Source_VRDigiWrangler_Public_AI_h_18_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	VRDigiWrangler_Source_VRDigiWrangler_Public_AI_h_15_PRIVATE_PROPERTY_OFFSET \
-	VRDigiWrangler_Source_VRDigiWrangler_Public_AI_h_15_RPC_WRAPPERS \
-	VRDigiWrangler_Source_VRDigiWrangler_Public_AI_h_15_INCLASS \
-	VRDigiWrangler_Source_VRDigiWrangler_Public_AI_h_15_STANDARD_CONSTRUCTORS \
+	VRDigiWrangler_Source_VRDigiWrangler_Public_AI_h_18_PRIVATE_PROPERTY_OFFSET \
+	VRDigiWrangler_Source_VRDigiWrangler_Public_AI_h_18_RPC_WRAPPERS \
+	VRDigiWrangler_Source_VRDigiWrangler_Public_AI_h_18_INCLASS \
+	VRDigiWrangler_Source_VRDigiWrangler_Public_AI_h_18_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define VRDigiWrangler_Source_VRDigiWrangler_Public_AI_h_15_GENERATED_BODY \
+#define VRDigiWrangler_Source_VRDigiWrangler_Public_AI_h_18_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	VRDigiWrangler_Source_VRDigiWrangler_Public_AI_h_15_PRIVATE_PROPERTY_OFFSET \
-	VRDigiWrangler_Source_VRDigiWrangler_Public_AI_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
-	VRDigiWrangler_Source_VRDigiWrangler_Public_AI_h_15_INCLASS_NO_PURE_DECLS \
-	VRDigiWrangler_Source_VRDigiWrangler_Public_AI_h_15_ENHANCED_CONSTRUCTORS \
+	VRDigiWrangler_Source_VRDigiWrangler_Public_AI_h_18_PRIVATE_PROPERTY_OFFSET \
+	VRDigiWrangler_Source_VRDigiWrangler_Public_AI_h_18_RPC_WRAPPERS_NO_PURE_DECLS \
+	VRDigiWrangler_Source_VRDigiWrangler_Public_AI_h_18_INCLASS_NO_PURE_DECLS \
+	VRDigiWrangler_Source_VRDigiWrangler_Public_AI_h_18_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

@@ -21,8 +21,8 @@ void EmptyLinkFunctionForGeneratedCodeVRDigiWrangler_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0xEA4D3821,
-				0xEAC9E3B9,
+				0x8C959ABF,
+				0x2F7C0938,
 				METADATA_PARAMS(nullptr, 0)
 			};
 			UE4CodeGen_Private::ConstructUPackage(ReturnPackage, PackageParams);

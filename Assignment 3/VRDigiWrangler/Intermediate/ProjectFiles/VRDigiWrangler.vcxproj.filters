@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\VRDigiWrangler.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{DF5D8425-BEB9-4A8A-9698-A45CB125B802}</UniqueIdentifier>
+      <UniqueIdentifier>{B3FC0B45-B864-4E26-800F-99C7B6509770}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\VRDigiWrangler.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{323C64DE-8C09-4CEE-A301-90495BB2C200}</UniqueIdentifier>
+      <UniqueIdentifier>{A92EA692-65FF-4083-BFDF-0A2AF21DC485}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -27,7 +27,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\VRDigiWrangler">
-      <UniqueIdentifier>{600A495A-3E96-41E3-8093-E11760A2C4A8}</UniqueIdentifier>
+      <UniqueIdentifier>{EBBB6DF1-09D2-4768-B273-85582ABB0416}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\VRDigiWrangler\VRDigiWrangler.Build.cs">
       <Filter>Source\VRDigiWrangler</Filter>
@@ -45,7 +45,7 @@
       <Filter>Source\VRDigiWrangler</Filter>
     </ClInclude>
     <Filter Include="Source\VRDigiWrangler\Private">
-      <UniqueIdentifier>{22248C92-C984-4F41-A31D-27373523A751}</UniqueIdentifier>
+      <UniqueIdentifier>{C524D9B3-DD83-450E-9096-8E021EE8B040}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\VRDigiWrangler\Private\AI.cpp">
       <Filter>Source\VRDigiWrangler\Private</Filter>
@@ -66,7 +66,7 @@
       <Filter>Source\VRDigiWrangler\Private</Filter>
     </ClCompile>
     <Filter Include="Source\VRDigiWrangler\Public">
-      <UniqueIdentifier>{9A8B2F99-15BC-494F-9694-8B69FD4AA036}</UniqueIdentifier>
+      <UniqueIdentifier>{B4B638AF-96B9-49FD-888D-986FC5D0D84C}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\VRDigiWrangler\Public\AI.h">
       <Filter>Source\VRDigiWrangler\Public</Filter>

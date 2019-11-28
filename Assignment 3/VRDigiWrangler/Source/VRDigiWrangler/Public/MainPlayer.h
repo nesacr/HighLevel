@@ -41,9 +41,6 @@ public:
 
     void MoveRight(float value);
     void MoveUp();
-
-    /*UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Enum)
-        EDirectionEnum DirectionEnum;*/
     
 private:
     float MovementRight;
