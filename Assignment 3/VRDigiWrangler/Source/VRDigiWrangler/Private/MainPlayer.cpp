@@ -157,6 +157,8 @@ void AMainPlayer::MoveUp()
 {
 
     CapsuleComponent->BodyInstance.AddForce(FVector(0.0f, 0.0f, 1.0f) * 150000.0f*40);
+
+    
   
 }
 

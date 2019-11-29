@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\VRDigiWrangler.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{E70A98EB-DB41-49F6-9016-D2F1BF4EAA9A}</UniqueIdentifier>
+      <UniqueIdentifier>{4AFF6856-46F9-482C-9ADB-E5CF94577C7E}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\VRDigiWrangler.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{AC9D6CEE-4F17-4751-BEFB-0607E8C09A25}</UniqueIdentifier>
+      <UniqueIdentifier>{503381A0-38F1-4142-81C7-5E3479B0EB57}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -27,7 +27,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\VRDigiWrangler">
-      <UniqueIdentifier>{5B92F54D-7926-41B6-A30C-7B72893FB9E9}</UniqueIdentifier>
+      <UniqueIdentifier>{BBFFF469-5EF3-4816-9368-52B6C8D2C261}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\VRDigiWrangler\VRDigiWrangler.Build.cs">
       <Filter>Source\VRDigiWrangler</Filter>
@@ -45,7 +45,7 @@
       <Filter>Source\VRDigiWrangler</Filter>
     </ClInclude>
     <Filter Include="Source\VRDigiWrangler\Private">
-      <UniqueIdentifier>{53F4808C-0310-4F8A-9D47-B5083CF49704}</UniqueIdentifier>
+      <UniqueIdentifier>{079E61CA-025B-4A40-889E-384C05141DAB}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\VRDigiWrangler\Private\AI.cpp">
       <Filter>Source\VRDigiWrangler\Private</Filter>
@@ -56,7 +56,16 @@
     <ClCompile Include="..\..\Source\VRDigiWrangler\Private\MainPlayer.cpp">
       <Filter>Source\VRDigiWrangler\Private</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Source\VRDigiWrangler\Private\MyHUD.cpp">
+      <Filter>Source\VRDigiWrangler\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\VRDigiWrangler\Private\PickupActor.cpp">
+      <Filter>Source\VRDigiWrangler\Private</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\Source\VRDigiWrangler\Private\PlatformActor.cpp">
+      <Filter>Source\VRDigiWrangler\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\VRDigiWrangler\Private\Projectile.cpp">
       <Filter>Source\VRDigiWrangler\Private</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\VRDigiWrangler\Private\VRGameModeBase.cpp">
@@ -66,7 +75,7 @@
       <Filter>Source\VRDigiWrangler\Private</Filter>
     </ClCompile>
     <Filter Include="Source\VRDigiWrangler\Public">
-      <UniqueIdentifier>{45DC78EC-F6C7-4D52-BF20-07BEF178B62C}</UniqueIdentifier>
+      <UniqueIdentifier>{28CEE028-2E99-4BCF-90ED-E46313E6DE41}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\VRDigiWrangler\Public\AI.h">
       <Filter>Source\VRDigiWrangler\Public</Filter>
@@ -77,7 +86,16 @@
     <ClInclude Include="..\..\Source\VRDigiWrangler\Public\MainPlayer.h">
       <Filter>Source\VRDigiWrangler\Public</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Source\VRDigiWrangler\Public\MyHUD.h">
+      <Filter>Source\VRDigiWrangler\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\VRDigiWrangler\Public\PickupActor.h">
+      <Filter>Source\VRDigiWrangler\Public</Filter>
+    </ClInclude>
     <ClInclude Include="..\..\Source\VRDigiWrangler\Public\PlatformActor.h">
+      <Filter>Source\VRDigiWrangler\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\VRDigiWrangler\Public\Projectile.h">
       <Filter>Source\VRDigiWrangler\Public</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Source\VRDigiWrangler\Public\VRGameModeBase.h">
@@ -88,24 +106,18 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\Source\VRDigiWrangler\Public\MyHUD.h">
+    <ClInclude Include="..\..\Source\VRDigiWrangler\Public\Checkpoint.h">
       <Filter>Source\VRDigiWrangler\Public</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Source\VRDigiWrangler\Public\PickupActor.h">
-      <Filter>Source\VRDigiWrangler\Public</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\VRDigiWrangler\Public\Projectile.h">
+    <ClInclude Include="..\..\Source\VRDigiWrangler\Public\MovingPlatformActor.h">
       <Filter>Source\VRDigiWrangler\Public</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\Source\VRDigiWrangler\Private\MyHUD.cpp">
+    <ClCompile Include="..\..\Source\VRDigiWrangler\Private\Checkpoint.cpp">
       <Filter>Source\VRDigiWrangler\Private</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Source\VRDigiWrangler\Private\PickupActor.cpp">
-      <Filter>Source\VRDigiWrangler\Private</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\VRDigiWrangler\Private\Projectile.cpp">
+    <ClCompile Include="..\..\Source\VRDigiWrangler\Private\MovingPlatformActor.cpp">
       <Filter>Source\VRDigiWrangler\Private</Filter>
     </ClCompile>
   </ItemGroup>

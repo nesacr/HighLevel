@@ -140,7 +140,6 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AMainPlayer); \
 
 
 #define VRDigiWrangler_Source_VRDigiWrangler_Public_MainPlayer_h_13_PRIVATE_PROPERTY_OFFSET \
-	FORCEINLINE static uint32 __PPO__ProjectileTemplate() { return STRUCT_OFFSET(AMainPlayer, ProjectileTemplate); } \
 	FORCEINLINE static uint32 __PPO__ProjectileSpawnPoint() { return STRUCT_OFFSET(AMainPlayer, ProjectileSpawnPoint); } \
 	FORCEINLINE static uint32 __PPO__ProjectileLifeSpan() { return STRUCT_OFFSET(AMainPlayer, ProjectileLifeSpan); }
 

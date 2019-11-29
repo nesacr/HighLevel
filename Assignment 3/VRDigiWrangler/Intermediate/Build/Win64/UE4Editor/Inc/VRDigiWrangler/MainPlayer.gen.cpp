@@ -141,7 +141,7 @@ void EmptyLinkFunctionForGeneratedCodeMainPlayer() {}
 		{ "ModuleRelativePath", "Public/MainPlayer.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AMainPlayer_HandleBoxHit_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AMainPlayer, nullptr, "HandleBoxHit", sizeof(MainPlayer_eventHandleBoxHit_Parms), Z_Construct_UFunction_AMainPlayer_HandleBoxHit_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_AMainPlayer_HandleBoxHit_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00C80400, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AMainPlayer_HandleBoxHit_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AMainPlayer_HandleBoxHit_Statics::Function_MetaDataParams)) };
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AMainPlayer_HandleBoxHit_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AMainPlayer, nullptr, "HandleBoxHit", sizeof(MainPlayer_eventHandleBoxHit_Parms), Z_Construct_UFunction_AMainPlayer_HandleBoxHit_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_AMainPlayer_HandleBoxHit_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00C20400, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AMainPlayer_HandleBoxHit_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AMainPlayer_HandleBoxHit_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_AMainPlayer_HandleBoxHit()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -186,7 +186,7 @@ void EmptyLinkFunctionForGeneratedCodeMainPlayer() {}
 		{ "ModuleRelativePath", "Public/MainPlayer.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AMainPlayer_SpawnProjectile_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AMainPlayer, nullptr, "SpawnProjectile", 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04080401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AMainPlayer_SpawnProjectile_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AMainPlayer_SpawnProjectile_Statics::Function_MetaDataParams)) };
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AMainPlayer_SpawnProjectile_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AMainPlayer, nullptr, "SpawnProjectile", 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AMainPlayer_SpawnProjectile_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AMainPlayer_SpawnProjectile_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_AMainPlayer_SpawnProjectile()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -253,9 +253,9 @@ void EmptyLinkFunctionForGeneratedCodeMainPlayer() {}
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_AMainPlayer_Statics::FuncInfo[] = {
 		{ &Z_Construct_UFunction_AMainPlayer_GetNumPickups, "GetNumPickups" }, // 92150356
-		{ &Z_Construct_UFunction_AMainPlayer_HandleBoxHit, "HandleBoxHit" }, // 44737266
+		{ &Z_Construct_UFunction_AMainPlayer_HandleBoxHit, "HandleBoxHit" }, // 1948582433
 		{ &Z_Construct_UFunction_AMainPlayer_SetCanShoot, "SetCanShoot" }, // 1338062068
-		{ &Z_Construct_UFunction_AMainPlayer_SpawnProjectile, "SpawnProjectile" }, // 3348907153
+		{ &Z_Construct_UFunction_AMainPlayer_SpawnProjectile, "SpawnProjectile" }, // 3258272508
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMainPlayer_Statics::Class_MetaDataParams[] = {
@@ -288,7 +288,7 @@ void EmptyLinkFunctionForGeneratedCodeMainPlayer() {}
 		{ "ModuleRelativePath", "Public/MainPlayer.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UClass_AMainPlayer_Statics::NewProp_ProjectileTemplate = { "ProjectileTemplate", nullptr, (EPropertyFlags)0x0024080000000005, UE4CodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMainPlayer, ProjectileTemplate), Z_Construct_UClass_AProjectile_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_AMainPlayer_Statics::NewProp_ProjectileTemplate_MetaData, ARRAY_COUNT(Z_Construct_UClass_AMainPlayer_Statics::NewProp_ProjectileTemplate_MetaData)) };
+	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UClass_AMainPlayer_Statics::NewProp_ProjectileTemplate = { "ProjectileTemplate", nullptr, (EPropertyFlags)0x0014000000000005, UE4CodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMainPlayer, ProjectileTemplate), Z_Construct_UClass_AProjectile_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_AMainPlayer_Statics::NewProp_ProjectileTemplate_MetaData, ARRAY_COUNT(Z_Construct_UClass_AMainPlayer_Statics::NewProp_ProjectileTemplate_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMainPlayer_Statics::NewProp_FireTimerDelay_MetaData[] = {
 		{ "Category", "AAA" },
@@ -378,7 +378,7 @@ void EmptyLinkFunctionForGeneratedCodeMainPlayer() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AMainPlayer, 4025451387);
+	IMPLEMENT_CLASS(AMainPlayer, 101982842);
 	template<> VRDIGIWRANGLER_API UClass* StaticClass<AMainPlayer>()
 	{
 		return AMainPlayer::StaticClass();

@@ -1,6 +1,6 @@
-C:\Users\nesac\Desktop\HighLevel\Assignment 3\VRDigiWrangler\Intermediate\Build\Win64\UE4Editor\Development\VRDigiWrangler\Definitions.VRDigiWrangler.h
-C:\Users\nesac\Desktop\HighLevel\Assignment 3\VRDigiWrangler\Source\VRDigiWrangler\Public\MainPlayer.h
-C:\Users\nesac\Desktop\HighLevel\Assignment 3\VRDigiWrangler\Intermediate\Build\Win64\UE4Editor\Inc\VRDigiWrangler\MainPlayer.generated.h
+C:\Users\rako0016\Desktop\HighLevel\Assignment 3\VRDigiWrangler\Intermediate\Build\Win64\UE4Editor\Development\VRDigiWrangler\Definitions.VRDigiWrangler.h
+C:\Users\rako0016\Desktop\HighLevel\Assignment 3\VRDigiWrangler\Source\VRDigiWrangler\Public\MainPlayer.h
+C:\Users\rako0016\Desktop\HighLevel\Assignment 3\VRDigiWrangler\Intermediate\Build\Win64\UE4Editor\Inc\VRDigiWrangler\MainPlayer.generated.h
 C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Components/CapsuleComponent.h
 C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Components/ShapeComponent.h
 C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ShapeComponent.generated.h
@@ -29,7 +29,7 @@ C:\Program Files\Epic Games\UE_4.22\Engine\Plugins\2D\Paper2D\Source\Paper2D\Cla
 C:\Program Files\Epic Games\UE_4.22\Engine\Plugins\2D\Paper2D\Intermediate\Build\Win64\UE4Editor\Inc\Paper2D\PaperSpriteComponent.generated.h
 C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Camera/CameraComponent.h
 C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CameraComponent.generated.h
-C:\Users\nesac\Desktop\HighLevel\Assignment 3\VRDigiWrangler\Source\VRDigiWrangler\Public\Projectile.h
-C:\Users\nesac\Desktop\HighLevel\Assignment 3\VRDigiWrangler\Intermediate\Build\Win64\UE4Editor\Inc\VRDigiWrangler\Projectile.generated.h
+C:\Users\rako0016\Desktop\HighLevel\Assignment 3\VRDigiWrangler\Source\VRDigiWrangler\Public\Projectile.h
+C:\Users\rako0016\Desktop\HighLevel\Assignment 3\VRDigiWrangler\Intermediate\Build\Win64\UE4Editor\Inc\VRDigiWrangler\Projectile.generated.h
 C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/SpringArmComponent.h
 C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\SpringArmComponent.generated.h

@@ -63,7 +63,7 @@ public:
     void MoveRight(float value);
     void MoveUp();
 
-protected:
+
     UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "AAA")
         TSubclassOf<class AProjectile> ProjectileTemplate;
 

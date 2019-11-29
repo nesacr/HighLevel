@@ -72,7 +72,7 @@ void EmptyLinkFunctionForGeneratedCodeDigimon() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ADigimon, 294973866);
+	IMPLEMENT_CLASS(ADigimon, 3233064908);
 	template<> VRDIGIWRANGLER_API UClass* StaticClass<ADigimon>()
 	{
 		return ADigimon::StaticClass();

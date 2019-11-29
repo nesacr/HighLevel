@@ -219,7 +219,7 @@ void EmptyLinkFunctionForGeneratedCodeAI() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AAI, 947658258);
+	IMPLEMENT_CLASS(AAI, 1047348886);
 	template<> VRDIGIWRANGLER_API UClass* StaticClass<AAI>()
 	{
 		return AAI::StaticClass();

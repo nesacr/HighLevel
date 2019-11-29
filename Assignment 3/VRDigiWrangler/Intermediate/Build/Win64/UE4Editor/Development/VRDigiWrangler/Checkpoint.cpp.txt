@@ -1,0 +1,3 @@
+C:\Users\rako0016\Desktop\HighLevel\Assignment 3\VRDigiWrangler\Intermediate\Build\Win64\UE4Editor\Development\VRDigiWrangler\Definitions.VRDigiWrangler.h
+C:\Users\rako0016\Desktop\HighLevel\Assignment 3\VRDigiWrangler\Source\VRDigiWrangler\Public\Checkpoint.h
+C:\Users\rako0016\Desktop\HighLevel\Assignment 3\VRDigiWrangler\Intermediate\Build\Win64\UE4Editor\Inc\VRDigiWrangler\Checkpoint.generated.h

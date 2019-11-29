@@ -4,6 +4,8 @@
 #include "AI.h"
 #include "Perception/PawnSensingComponent.h"
 #include "Components/CapsuleComponent.h"
+#include "Projectile.h"
+#include "MainPlayer.h"
 
 
 AAI::AAI()
@@ -20,6 +22,25 @@ AAI::AAI()
 
 }
 
+void AAI::Tick(float DeltaTime)
+{
+
+    Super::Tick(DeltaTime);
+
+    if (CurrentPatrolPoint)
+    {
+        FVector Delta = GetActorLocation() - CurrentPatrolPoint->GetActorLocation();
+        float DistanceToGoal = Delta.Size();
+
+        if (DistanceToGoal < 100)
+        {
+            MoveToNextPatrolPoint();
+        }
+        SetActorLocation(FMath::VInterpConstantTo(GetActorLocation(), CurrentPatrolPoint->GetActorLocation(), DeltaTime, 600.0f));
+
+    }
+}
+
 void AAI::BeginPlay()
 {
     Super::BeginPlay();
@@ -27,6 +48,7 @@ void AAI::BeginPlay()
     {
         MoveToNextPatrolPoint();
     }
+    GetWorldTimerManager().SetTimer(SpawnProjectileTimer, this, &AMainPlayer::SpawnProjectile, FireTimerDelay, true);
 }
 
 
@@ -66,23 +88,6 @@ void AAI::OnNoiseHeard(APawn* NoiseInstigator, const FVector& Location, float Vo
     SetActorRotation(NewLookAt);
 }
 
-void AAI::Tick(float DeltaTime)
-{
-   
-        Super::Tick(DeltaTime);
 
-        if (CurrentPatrolPoint)
-        {
-            FVector Delta = GetActorLocation() - CurrentPatrolPoint->GetActorLocation();
-            float DistanceToGoal = Delta.Size();
-
-            if (DistanceToGoal < 100)
-            {
-                MoveToNextPatrolPoint();
-            }
-            SetActorLocation(FMath::VInterpConstantTo(GetActorLocation(), CurrentPatrolPoint->GetActorLocation(), DeltaTime, 600.0f));
-
-        }
-}
 
 
