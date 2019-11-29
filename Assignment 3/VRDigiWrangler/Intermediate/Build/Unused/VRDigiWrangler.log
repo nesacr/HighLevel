@@ -1,30 +1,6 @@
-﻿  Creating makefile for VRDigiWranglerEditor (no existing makefile)
+﻿  Creating makefile for VRDigiWranglerEditor (ini files are newer than makefile)
   Parsing headers for VRDigiWranglerEditor
-    Running UnrealHeaderTool "C:\Users\rako0016\Desktop\HighLevel\Assignment 3\VRDigiWrangler\VRDigiWrangler.uproject" "C:\Users\rako0016\Desktop\HighLevel\Assignment 3\VRDigiWrangler\Intermediate\Build\Win64\VRDigiWranglerEditor\Development\VRDigiWranglerEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for VRDigiWranglerEditor in 7.7849328 seconds
-  Using Visual Studio 2019 14.21.27702 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.21.27702) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 20 actions with 8 processes...
-    [1/20] SharedPCH.Engine.cpp
-    [2/20] VRDigiWrangler.cpp
-    [3/20] Digimon.cpp
-    [4/20] PlatformActor.cpp
-    [5/20] VRGameModeBase.cpp
-    [6/20] VRGameStateBase.cpp
-    [7/20] AI.gen.cpp
-    [8/20] AI.cpp
-    [9/20] MainPlayer.cpp
-    [10/20] MainPlayer.gen.cpp
-    [11/20] VRDigiWrangler.init.gen.cpp
-    [12/20] PlatformActor.gen.cpp
-    [13/20] VRDigiWranglerGameModeBase.gen.cpp
-    [14/20] Digimon.gen.cpp
-    [15/20] VRGameModeBase.gen.cpp
-    [16/20] VRDigiWranglerGameModeBase.cpp
-    [17/20] VRGameStateBase.gen.cpp
-    [18/20] UE4Editor-VRDigiWrangler.lib
-       Creating library C:\Users\rako0016\Desktop\HighLevel\Assignment 3\VRDigiWrangler\Intermediate\Build\Win64\UE4Editor\Development\VRDigiWrangler\UE4Editor-VRDigiWrangler.lib and object C:\Users\rako0016\Desktop\HighLevel\Assignment 3\VRDigiWrangler\Intermediate\Build\Win64\UE4Editor\Development\VRDigiWrangler\UE4Editor-VRDigiWrangler.exp
-    [19/20] UE4Editor-VRDigiWrangler.dll
-       Creating library C:\Users\rako0016\Desktop\HighLevel\Assignment 3\VRDigiWrangler\Intermediate\Build\Win64\UE4Editor\Development\VRDigiWrangler\UE4Editor-VRDigiWrangler.suppressed.lib and object C:\Users\rako0016\Desktop\HighLevel\Assignment 3\VRDigiWrangler\Intermediate\Build\Win64\UE4Editor\Development\VRDigiWrangler\UE4Editor-VRDigiWrangler.suppressed.exp
-    [20/20] VRDigiWranglerEditor.target
-  Total time in Parallel executor: 23.33 seconds
-  Total execution time: 33.09 seconds
+    Running UnrealHeaderTool "C:\Users\nesac\Desktop\HighLevel\Assignment 3\VRDigiWrangler\VRDigiWrangler.uproject" "C:\Users\nesac\Desktop\HighLevel\Assignment 3\VRDigiWrangler\Intermediate\Build\Win64\VRDigiWranglerEditor\Development\VRDigiWranglerEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for VRDigiWranglerEditor in 4.9590092 seconds
+  Target is up to date
+  Total execution time: 6.43 seconds

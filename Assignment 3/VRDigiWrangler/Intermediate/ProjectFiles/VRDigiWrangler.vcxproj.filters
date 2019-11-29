@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\VRDigiWrangler.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{B3FC0B45-B864-4E26-800F-99C7B6509770}</UniqueIdentifier>
+      <UniqueIdentifier>{E70A98EB-DB41-49F6-9016-D2F1BF4EAA9A}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\VRDigiWrangler.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{A92EA692-65FF-4083-BFDF-0A2AF21DC485}</UniqueIdentifier>
+      <UniqueIdentifier>{AC9D6CEE-4F17-4751-BEFB-0607E8C09A25}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -27,7 +27,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\VRDigiWrangler">
-      <UniqueIdentifier>{EBBB6DF1-09D2-4768-B273-85582ABB0416}</UniqueIdentifier>
+      <UniqueIdentifier>{5B92F54D-7926-41B6-A30C-7B72893FB9E9}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\VRDigiWrangler\VRDigiWrangler.Build.cs">
       <Filter>Source\VRDigiWrangler</Filter>
@@ -45,7 +45,7 @@
       <Filter>Source\VRDigiWrangler</Filter>
     </ClInclude>
     <Filter Include="Source\VRDigiWrangler\Private">
-      <UniqueIdentifier>{C524D9B3-DD83-450E-9096-8E021EE8B040}</UniqueIdentifier>
+      <UniqueIdentifier>{53F4808C-0310-4F8A-9D47-B5083CF49704}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\VRDigiWrangler\Private\AI.cpp">
       <Filter>Source\VRDigiWrangler\Private</Filter>
@@ -66,7 +66,7 @@
       <Filter>Source\VRDigiWrangler\Private</Filter>
     </ClCompile>
     <Filter Include="Source\VRDigiWrangler\Public">
-      <UniqueIdentifier>{B4B638AF-96B9-49FD-888D-986FC5D0D84C}</UniqueIdentifier>
+      <UniqueIdentifier>{45DC78EC-F6C7-4D52-BF20-07BEF178B62C}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\VRDigiWrangler\Public\AI.h">
       <Filter>Source\VRDigiWrangler\Public</Filter>
@@ -86,5 +86,27 @@
     <ClInclude Include="..\..\Source\VRDigiWrangler\Public\VRGameStateBase.h">
       <Filter>Source\VRDigiWrangler\Public</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\VRDigiWrangler\Public\MyHUD.h">
+      <Filter>Source\VRDigiWrangler\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\VRDigiWrangler\Public\PickupActor.h">
+      <Filter>Source\VRDigiWrangler\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\VRDigiWrangler\Public\Projectile.h">
+      <Filter>Source\VRDigiWrangler\Public</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\VRDigiWrangler\Private\MyHUD.cpp">
+      <Filter>Source\VRDigiWrangler\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\VRDigiWrangler\Private\PickupActor.cpp">
+      <Filter>Source\VRDigiWrangler\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\VRDigiWrangler\Private\Projectile.cpp">
+      <Filter>Source\VRDigiWrangler\Private</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

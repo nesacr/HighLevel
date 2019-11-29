@@ -8,13 +8,95 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class UPrimitiveComponent;
+class AActor;
+struct FVector;
+struct FHitResult;
 #ifdef VRDIGIWRANGLER_MainPlayer_generated_h
 #error "MainPlayer.generated.h already included, missing '#pragma once' in MainPlayer.h"
 #endif
 #define VRDIGIWRANGLER_MainPlayer_generated_h
 
-#define VRDigiWrangler_Source_VRDigiWrangler_Public_MainPlayer_h_13_RPC_WRAPPERS
-#define VRDigiWrangler_Source_VRDigiWrangler_Public_MainPlayer_h_13_RPC_WRAPPERS_NO_PURE_DECLS
+#define VRDigiWrangler_Source_VRDigiWrangler_Public_MainPlayer_h_13_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execSpawnProjectile) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->SpawnProjectile(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execHandleBoxHit) \
+	{ \
+		P_GET_OBJECT(UPrimitiveComponent,Z_Param_HitComponent); \
+		P_GET_OBJECT(AActor,Z_Param_OtherActor); \
+		P_GET_OBJECT(UPrimitiveComponent,Z_Param_OtherComp); \
+		P_GET_STRUCT(FVector,Z_Param_NormalImpulse); \
+		P_GET_STRUCT_REF(FHitResult,Z_Param_Out_Hit); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->HandleBoxHit(Z_Param_HitComponent,Z_Param_OtherActor,Z_Param_OtherComp,Z_Param_NormalImpulse,Z_Param_Out_Hit); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execGetNumPickups) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(int32*)Z_Param__Result=P_THIS->GetNumPickups(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execSetCanShoot) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->SetCanShoot(); \
+		P_NATIVE_END; \
+	}
+
+
+#define VRDigiWrangler_Source_VRDigiWrangler_Public_MainPlayer_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execSpawnProjectile) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->SpawnProjectile(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execHandleBoxHit) \
+	{ \
+		P_GET_OBJECT(UPrimitiveComponent,Z_Param_HitComponent); \
+		P_GET_OBJECT(AActor,Z_Param_OtherActor); \
+		P_GET_OBJECT(UPrimitiveComponent,Z_Param_OtherComp); \
+		P_GET_STRUCT(FVector,Z_Param_NormalImpulse); \
+		P_GET_STRUCT_REF(FHitResult,Z_Param_Out_Hit); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->HandleBoxHit(Z_Param_HitComponent,Z_Param_OtherActor,Z_Param_OtherComp,Z_Param_NormalImpulse,Z_Param_Out_Hit); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execGetNumPickups) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(int32*)Z_Param__Result=P_THIS->GetNumPickups(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execSetCanShoot) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->SetCanShoot(); \
+		P_NATIVE_END; \
+	}
+
+
 #define VRDigiWrangler_Source_VRDigiWrangler_Public_MainPlayer_h_13_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAMainPlayer(); \
@@ -57,7 +139,12 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AMainPlayer); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AMainPlayer)
 
 
-#define VRDigiWrangler_Source_VRDigiWrangler_Public_MainPlayer_h_13_PRIVATE_PROPERTY_OFFSET
+#define VRDigiWrangler_Source_VRDigiWrangler_Public_MainPlayer_h_13_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__ProjectileTemplate() { return STRUCT_OFFSET(AMainPlayer, ProjectileTemplate); } \
+	FORCEINLINE static uint32 __PPO__ProjectileSpawnPoint() { return STRUCT_OFFSET(AMainPlayer, ProjectileSpawnPoint); } \
+	FORCEINLINE static uint32 __PPO__ProjectileLifeSpan() { return STRUCT_OFFSET(AMainPlayer, ProjectileLifeSpan); }
+
+
 #define VRDigiWrangler_Source_VRDigiWrangler_Public_MainPlayer_h_10_PROLOG
 #define VRDigiWrangler_Source_VRDigiWrangler_Public_MainPlayer_h_13_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \

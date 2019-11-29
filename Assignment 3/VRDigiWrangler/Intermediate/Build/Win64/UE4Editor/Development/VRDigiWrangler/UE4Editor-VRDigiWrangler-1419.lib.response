@@ -1,0 +1,34 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-VRDigiWrangler-1419.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\nesac\Desktop\HighLevel\Assignment 3\VRDigiWrangler\Intermediate\Build\Win64\VRDigiWranglerEditor\Development\Engine\SharedPCH.Engine.h.obj"
+"C:\Users\nesac\Desktop\HighLevel\Assignment 3\VRDigiWrangler\Intermediate\Build\Win64\UE4Editor\Development\VRDigiWrangler\AI.cpp.obj"
+"C:\Users\nesac\Desktop\HighLevel\Assignment 3\VRDigiWrangler\Intermediate\Build\Win64\UE4Editor\Development\VRDigiWrangler\Digimon.cpp.obj"
+"C:\Users\nesac\Desktop\HighLevel\Assignment 3\VRDigiWrangler\Intermediate\Build\Win64\UE4Editor\Development\VRDigiWrangler\MainPlayer.cpp.obj"
+"C:\Users\nesac\Desktop\HighLevel\Assignment 3\VRDigiWrangler\Intermediate\Build\Win64\UE4Editor\Development\VRDigiWrangler\MyHUD.cpp.obj"
+"C:\Users\nesac\Desktop\HighLevel\Assignment 3\VRDigiWrangler\Intermediate\Build\Win64\UE4Editor\Development\VRDigiWrangler\PickupActor.cpp.obj"
+"C:\Users\nesac\Desktop\HighLevel\Assignment 3\VRDigiWrangler\Intermediate\Build\Win64\UE4Editor\Development\VRDigiWrangler\PlatformActor.cpp.obj"
+"C:\Users\nesac\Desktop\HighLevel\Assignment 3\VRDigiWrangler\Intermediate\Build\Win64\UE4Editor\Development\VRDigiWrangler\Projectile.cpp.obj"
+"C:\Users\nesac\Desktop\HighLevel\Assignment 3\VRDigiWrangler\Intermediate\Build\Win64\UE4Editor\Development\VRDigiWrangler\VRGameModeBase.cpp.obj"
+"C:\Users\nesac\Desktop\HighLevel\Assignment 3\VRDigiWrangler\Intermediate\Build\Win64\UE4Editor\Development\VRDigiWrangler\VRGameStateBase.cpp.obj"
+"C:\Users\nesac\Desktop\HighLevel\Assignment 3\VRDigiWrangler\Intermediate\Build\Win64\UE4Editor\Development\VRDigiWrangler\VRDigiWrangler.cpp.obj"
+"C:\Users\nesac\Desktop\HighLevel\Assignment 3\VRDigiWrangler\Intermediate\Build\Win64\UE4Editor\Development\VRDigiWrangler\VRDigiWranglerGameModeBase.cpp.obj"
+"C:\Users\nesac\Desktop\HighLevel\Assignment 3\VRDigiWrangler\Intermediate\Build\Win64\UE4Editor\Development\VRDigiWrangler\AI.gen.cpp.obj"
+"C:\Users\nesac\Desktop\HighLevel\Assignment 3\VRDigiWrangler\Intermediate\Build\Win64\UE4Editor\Development\VRDigiWrangler\Digimon.gen.cpp.obj"
+"C:\Users\nesac\Desktop\HighLevel\Assignment 3\VRDigiWrangler\Intermediate\Build\Win64\UE4Editor\Development\VRDigiWrangler\MainPlayer.gen.cpp.obj"
+"C:\Users\nesac\Desktop\HighLevel\Assignment 3\VRDigiWrangler\Intermediate\Build\Win64\UE4Editor\Development\VRDigiWrangler\MyHUD.gen.cpp.obj"
+"C:\Users\nesac\Desktop\HighLevel\Assignment 3\VRDigiWrangler\Intermediate\Build\Win64\UE4Editor\Development\VRDigiWrangler\PickupActor.gen.cpp.obj"
+"C:\Users\nesac\Desktop\HighLevel\Assignment 3\VRDigiWrangler\Intermediate\Build\Win64\UE4Editor\Development\VRDigiWrangler\PlatformActor.gen.cpp.obj"
+"C:\Users\nesac\Desktop\HighLevel\Assignment 3\VRDigiWrangler\Intermediate\Build\Win64\UE4Editor\Development\VRDigiWrangler\Projectile.gen.cpp.obj"
+"C:\Users\nesac\Desktop\HighLevel\Assignment 3\VRDigiWrangler\Intermediate\Build\Win64\UE4Editor\Development\VRDigiWrangler\VRDigiWrangler.init.gen.cpp.obj"
+"C:\Users\nesac\Desktop\HighLevel\Assignment 3\VRDigiWrangler\Intermediate\Build\Win64\UE4Editor\Development\VRDigiWrangler\VRDigiWranglerGameModeBase.gen.cpp.obj"
+"C:\Users\nesac\Desktop\HighLevel\Assignment 3\VRDigiWrangler\Intermediate\Build\Win64\UE4Editor\Development\VRDigiWrangler\VRGameModeBase.gen.cpp.obj"
+"C:\Users\nesac\Desktop\HighLevel\Assignment 3\VRDigiWrangler\Intermediate\Build\Win64\UE4Editor\Development\VRDigiWrangler\VRGameStateBase.gen.cpp.obj"
+"C:\Users\nesac\Desktop\HighLevel\Assignment 3\VRDigiWrangler\Intermediate\Build\Win64\UE4Editor\Development\VRDigiWrangler\Default.rc2.res"
+/OUT:"C:\Users\nesac\Desktop\HighLevel\Assignment 3\VRDigiWrangler\Intermediate\Build\Win64\UE4Editor\Development\VRDigiWrangler\UE4Editor-VRDigiWrangler-1419.lib"
+/INCLUDE:IMPLEMENT_MODULE_VRDigiWrangler

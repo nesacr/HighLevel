@@ -26,6 +26,14 @@ struct FVector;
 		P_NATIVE_BEGIN; \
 		P_THIS->OnNoiseHeard(Z_Param_NoiseInstigator,Z_Param_Out_Location,Z_Param_Volume); \
 		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execMoveToNextPatrolPoint) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->MoveToNextPatrolPoint(); \
+		P_NATIVE_END; \
 	}
 
 
@@ -39,6 +47,14 @@ struct FVector;
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
 		P_THIS->OnNoiseHeard(Z_Param_NoiseInstigator,Z_Param_Out_Location,Z_Param_Volume); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execMoveToNextPatrolPoint) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->MoveToNextPatrolPoint(); \
 		P_NATIVE_END; \
 	}
 
@@ -86,7 +102,10 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AAI); \
 
 
 #define VRDigiWrangler_Source_VRDigiWrangler_Public_AI_h_18_PRIVATE_PROPERTY_OFFSET \
-	FORCEINLINE static uint32 __PPO__PawnSensingComponent() { return STRUCT_OFFSET(AAI, PawnSensingComponent); }
+	FORCEINLINE static uint32 __PPO__PawnSensingComponent() { return STRUCT_OFFSET(AAI, PawnSensingComponent); } \
+	FORCEINLINE static uint32 __PPO__bPatrol() { return STRUCT_OFFSET(AAI, bPatrol); } \
+	FORCEINLINE static uint32 __PPO__FirstPatrolPoint() { return STRUCT_OFFSET(AAI, FirstPatrolPoint); } \
+	FORCEINLINE static uint32 __PPO__SecondPatrolPoint() { return STRUCT_OFFSET(AAI, SecondPatrolPoint); }
 
 
 #define VRDigiWrangler_Source_VRDigiWrangler_Public_AI_h_15_PROLOG
