@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\VRDigiWrangler.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{4AFF6856-46F9-482C-9ADB-E5CF94577C7E}</UniqueIdentifier>
+      <UniqueIdentifier>{A8126664-9593-4316-B0E0-C1B7C8D2F417}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\VRDigiWrangler.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{503381A0-38F1-4142-81C7-5E3479B0EB57}</UniqueIdentifier>
+      <UniqueIdentifier>{518DAE3B-D9E0-4E30-A469-065C982C4770}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -27,7 +27,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\VRDigiWrangler">
-      <UniqueIdentifier>{BBFFF469-5EF3-4816-9368-52B6C8D2C261}</UniqueIdentifier>
+      <UniqueIdentifier>{E2441DE8-6885-4CC1-BA74-BD76FDB4C403}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\VRDigiWrangler\VRDigiWrangler.Build.cs">
       <Filter>Source\VRDigiWrangler</Filter>
@@ -45,15 +45,21 @@
       <Filter>Source\VRDigiWrangler</Filter>
     </ClInclude>
     <Filter Include="Source\VRDigiWrangler\Private">
-      <UniqueIdentifier>{079E61CA-025B-4A40-889E-384C05141DAB}</UniqueIdentifier>
+      <UniqueIdentifier>{93E2D078-85AF-4FA3-9B4B-0E5BAAC40991}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\VRDigiWrangler\Private\AI.cpp">
+      <Filter>Source\VRDigiWrangler\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\VRDigiWrangler\Private\Checkpoint.cpp">
       <Filter>Source\VRDigiWrangler\Private</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\VRDigiWrangler\Private\Digimon.cpp">
       <Filter>Source\VRDigiWrangler\Private</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\VRDigiWrangler\Private\MainPlayer.cpp">
+      <Filter>Source\VRDigiWrangler\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\VRDigiWrangler\Private\MovingPlatformActor.cpp">
       <Filter>Source\VRDigiWrangler\Private</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\VRDigiWrangler\Private\MyHUD.cpp">
@@ -75,15 +81,21 @@
       <Filter>Source\VRDigiWrangler\Private</Filter>
     </ClCompile>
     <Filter Include="Source\VRDigiWrangler\Public">
-      <UniqueIdentifier>{28CEE028-2E99-4BCF-90ED-E46313E6DE41}</UniqueIdentifier>
+      <UniqueIdentifier>{445BB49D-D34B-4ECC-90FE-9DFDDAF8887B}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\VRDigiWrangler\Public\AI.h">
+      <Filter>Source\VRDigiWrangler\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\VRDigiWrangler\Public\Checkpoint.h">
       <Filter>Source\VRDigiWrangler\Public</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Source\VRDigiWrangler\Public\Digimon.h">
       <Filter>Source\VRDigiWrangler\Public</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Source\VRDigiWrangler\Public\MainPlayer.h">
+      <Filter>Source\VRDigiWrangler\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\VRDigiWrangler\Public\MovingPlatformActor.h">
       <Filter>Source\VRDigiWrangler\Public</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Source\VRDigiWrangler\Public\MyHUD.h">
@@ -104,21 +116,5 @@
     <ClInclude Include="..\..\Source\VRDigiWrangler\Public\VRGameStateBase.h">
       <Filter>Source\VRDigiWrangler\Public</Filter>
     </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\Source\VRDigiWrangler\Public\Checkpoint.h">
-      <Filter>Source\VRDigiWrangler\Public</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\VRDigiWrangler\Public\MovingPlatformActor.h">
-      <Filter>Source\VRDigiWrangler\Public</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\Source\VRDigiWrangler\Private\Checkpoint.cpp">
-      <Filter>Source\VRDigiWrangler\Private</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\VRDigiWrangler\Private\MovingPlatformActor.cpp">
-      <Filter>Source\VRDigiWrangler\Private</Filter>
-    </ClCompile>
   </ItemGroup>
 </Project>

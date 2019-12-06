@@ -128,9 +128,10 @@ void AMainPlayer::SetupPlayerInputComponent(UInputComponent* PlayerInputComponen
   PlayerInputComponent->BindAxis("MoveRight", this, &AMainPlayer::MoveRight);
 
   PlayerInputComponent->BindAction("Jump", IE_Pressed, this, &AMainPlayer::MoveUp);
+  PlayerInputComponent->BindAction("Jump", IE_Released, this, &AMainPlayer::MoveUp);
 
   PlayerInputComponent->BindAction("Fire", IE_Pressed, this, &AMainPlayer::SpawnProjectile);
-
+  
 }
 
 void AMainPlayer::SetCanShoot()
@@ -168,6 +169,7 @@ void AMainPlayer::HandleBoxHit(UPrimitiveComponent* HitComponent, AActor* OtherA
 
 void AMainPlayer::SpawnProjectile()
 {
+    bCanShoot = true;
     if (ProjectileTemplate)
     {
         UWorld* const World = GetWorld();

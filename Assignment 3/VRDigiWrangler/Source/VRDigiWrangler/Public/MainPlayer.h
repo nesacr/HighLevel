@@ -84,7 +84,7 @@ private:
 
     /** how much (in sec) player will be inactive after hit  */
     UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Config", meta = (AllowPrivateAccess = "true"))
-        float ProjectileLifeSpan = 5.f;
+        float ProjectileLifeSpan = 0.5f;
 
     float MovementRight;
 
