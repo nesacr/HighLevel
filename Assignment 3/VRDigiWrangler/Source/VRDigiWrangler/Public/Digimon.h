@@ -12,6 +12,7 @@
 UCLASS()
 class VRDIGIWRANGLER_API ADigimon : public AMainPlayer
 {
-	GENERATED_BODY()
+    GENERATED_BODY()
+        ADigimon();
 	
 };

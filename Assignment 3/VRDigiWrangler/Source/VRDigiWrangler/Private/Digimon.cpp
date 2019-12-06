@@ -3,3 +3,7 @@
 
 #include "Digimon.h"
 
+ADigimon::ADigimon()
+{
+    Tags.Add("Digimon");
+}

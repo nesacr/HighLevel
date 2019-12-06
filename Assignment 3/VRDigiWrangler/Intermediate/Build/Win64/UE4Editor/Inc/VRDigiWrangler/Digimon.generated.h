@@ -35,7 +35,7 @@ public: \
 
 #define VRDigiWrangler_Source_VRDigiWrangler_Public_Digimon_h_15_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
-	NO_API ADigimon(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	NO_API ADigimon(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ADigimon) \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, ADigimon); \
 DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ADigimon); \
@@ -47,8 +47,6 @@ public:
 
 
 #define VRDigiWrangler_Source_VRDigiWrangler_Public_Digimon_h_15_ENHANCED_CONSTRUCTORS \
-	/** Standard constructor, called after all reflected properties have been initialized */ \
-	NO_API ADigimon() { }; \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API ADigimon(ADigimon&&); \
