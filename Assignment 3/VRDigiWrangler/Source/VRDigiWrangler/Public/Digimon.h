@@ -21,7 +21,7 @@ class VRDIGIWRANGLER_API ADigimon : public AMainPlayer
         AActor* Target;
 
     UFUNCTION()
-        virtual void OnOverlap(UPrimitiveComponent* HitComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, FVector NormalImpulse, const FHitResult& Hit);
+        virtual void OnOverlapBegin(UPrimitiveComponent* OverlappedComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult);
 
     bool isCaptured;
 	

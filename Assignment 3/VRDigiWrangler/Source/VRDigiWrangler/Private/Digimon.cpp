@@ -2,13 +2,17 @@
 
 
 #include "Digimon.h"
-
+#include "MainPlayer.h"
+#include "Components/CapsuleComponent.h"
 ADigimon::ADigimon()
 {
-    Tags.Add("Digimon");
 
+    CapsuleComponent->OnComponentBeginOverlap.AddDynamic(this, &ADigimon::OnOverlapBegin);
+
+    CapsuleComponent->SetCollisionProfileName("OverlapOnlyPawn" "BlockAll");
     isCaptured = false;
-
+    Tags.Empty();
+    Tags.Add("Digimon");
 }
 
 void ADigimon::Tick(float DeltaTime)
@@ -17,17 +21,33 @@ void ADigimon::Tick(float DeltaTime)
     {
         if (Target != nullptr)
         {
-            FVector targetLocation = FMath::VInterpConstantTo(GetActorLocation(), Target->GetActorLocation(), DeltaTime, 600.0f);
-
+            FVector Delta = GetActorLocation() - Target->GetActorLocation();
+            float DistanceToG = Delta.Size();
+            if (DistanceToG < 200)
+            {
+                FVector targetLocation = FMath::VInterpConstantTo(GetActorLocation(), Target->GetActorLocation(), DeltaTime, 0.0f);
+                SetActorLocation(targetLocation);
+            }
+            else
+            {
+                if (GetActorLocation().Z < Target->GetActorLocation().Z - 200)
+                {
+                    CapsuleComponent->BodyInstance.AddForce(FVector(0.0f, 0.0f, 1.0f) * 150000.0f * 40);
+                }
+            FVector targetLocation = FMath::VInterpConstantTo(GetActorLocation(), Target->GetActorLocation(), DeltaTime, 300.0f);
             SetActorLocation(targetLocation);
+            }
         }
     }
        
 }
 
-void ADigimon::OnOverlap(UPrimitiveComponent* HitComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, FVector NormalImpulse, const FHitResult& Hit)
+
+void ADigimon::OnOverlapBegin(UPrimitiveComponent* OverlappedComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
 {
+    if (OtherActor->ActorHasTag("Player"))
+    {
     Target = OtherActor;
-    isCaptured = true;
-    
+    isCaptured = true;   
+    }
 }
