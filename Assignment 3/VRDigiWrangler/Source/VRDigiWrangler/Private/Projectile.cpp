@@ -65,7 +65,7 @@ void AProjectile::OnHit(UPrimitiveComponent* HitComp, AActor* OtherActor, UPrimi
     {
         if (OtherActor != this->GetOwner())
         {
-            if (OtherActor->ActorHasTag("AIGuard") || OtherActor->ActorHasTag("Player"))              
+            if (OtherActor->ActorHasTag("AIGuard") || OtherActor->ActorHasTag("Player"))    
                 OtherActor->Destroy();
         }
     }

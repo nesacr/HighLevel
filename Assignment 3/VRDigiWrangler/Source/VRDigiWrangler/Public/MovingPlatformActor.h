@@ -12,6 +12,13 @@
 UCLASS()
 class VRDIGIWRANGLER_API AMovingPlatformActor : public APlatformActor
 {
-	GENERATED_BODY()
-	
+    GENERATED_BODY()
+
+public:
+    AMovingPlatformActor();
+
+    //UPROPERTY(EditAnywhere, Category = "Movement")
+    //    class UMovementComponent* MovementComponent;
+
+        virtual void Tick(float DeltaTime) override;
 };

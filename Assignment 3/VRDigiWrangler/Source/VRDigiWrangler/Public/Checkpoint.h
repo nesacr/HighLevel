@@ -19,8 +19,22 @@ protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
+    UPROPERTY(VisibleAnywhere, Category = "Collision", meta = (AllowPrivateAccess))
+        class UBoxComponent* BoxComponent;
+
+    UPROPERTY(EditAnywhere, Category = "Visual", meta = (AllowPrivateAccess))
+        class UPaperSpriteComponent* SpriteComponent;
+
+    //ATTN may have an error here
+    UFUNCTION()
+        void OnOverlap(UPrimitiveComponent* OverlappedComponent,
+            AActor* OtherActor, UPrimitiveComponent* OtherComp,
+            int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult);
+
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
+    
+    bool isActive;
 
 };

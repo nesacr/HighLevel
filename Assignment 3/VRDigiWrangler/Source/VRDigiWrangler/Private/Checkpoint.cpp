@@ -2,6 +2,8 @@
 
 
 #include "Checkpoint.h"
+#include "PaperSpriteComponent.h"
+#include "Components/BoxComponent.h"
 
 // Sets default values
 ACheckpoint::ACheckpoint()
@@ -15,7 +17,22 @@ ACheckpoint::ACheckpoint()
 void ACheckpoint::BeginPlay()
 {
 	Super::BeginPlay();
+
+   
+    SpriteComponent = CreateDefaultSubobject<UPaperSpriteComponent>("Actor Visual");
+    RootComponent = SpriteComponent;
+
+    BoxComponent = CreateDefaultSubobject<UBoxComponent>("Box Component");
+    BoxComponent->SetupAttachment(SpriteComponent);
+
+    Tags.Add("Checkpoint");
+    Tags.Add("Checkpoint2");
 	
+}
+
+void ACheckpoint::OnOverlap(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
+{
+    isActive = true;
 }
 
 // Called every frame

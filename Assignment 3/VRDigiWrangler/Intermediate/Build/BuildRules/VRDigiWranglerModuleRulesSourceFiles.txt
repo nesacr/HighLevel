@@ -1,3 +1,0 @@
-C:\Users\nesac\Desktop\HighLevel\Assignment 3\VRDigiWrangler\Source\VRDigiWrangler\VRDigiWrangler.Build.cs
-C:\Users\nesac\Desktop\HighLevel\Assignment 3\VRDigiWrangler\Source\VRDigiWrangler.Target.cs
-C:\Users\nesac\Desktop\HighLevel\Assignment 3\VRDigiWrangler\Source\VRDigiWranglerEditor.Target.cs
