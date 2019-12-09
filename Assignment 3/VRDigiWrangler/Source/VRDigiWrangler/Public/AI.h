@@ -23,9 +23,6 @@ public:
 protected:
     virtual void BeginPlay() override;
 
-    UPROPERTY(VisibleAnywhere, Category = "Components")
-        UPawnSensingComponent* PawnSensingComponent;
-
     UPROPERTY(EditInstanceOnly, Category = "AI")
         bool bPatrol;
 
@@ -40,18 +37,11 @@ protected:
     UFUNCTION()
         void MoveToNextPatrolPoint();
 
-   /* UFUNCTION()
-        void OnPawnSeen(APawn* SeenPawn);*/
-
-    UFUNCTION()
-        void OnNoiseHeard(APawn* NoiseInstigator, const FVector& Location, float Volume);
-
 public:
     virtual void Tick(float DeltaTime) override;
 
 private:
-    AActor* TargetActor;
-    FVector HeardLocation;
+    AActor* TargetActor; 
 
     FTimerHandle SpawnProjectileTimer;
 

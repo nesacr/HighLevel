@@ -25,7 +25,7 @@ protected:
     UPROPERTY(EditAnywhere, Category = "Visual", meta = (AllowPrivateAccess))
         class UPaperSpriteComponent* SpriteComponent;
 
-    //ATTN may have an error here
+   
     UFUNCTION()
         void OnOverlapBegin(UPrimitiveComponent* OverlappedComponent,
             AActor* OtherActor, UPrimitiveComponent* OtherComp,

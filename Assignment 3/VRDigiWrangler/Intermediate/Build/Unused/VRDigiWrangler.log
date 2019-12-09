@@ -1,0 +1,17 @@
+﻿  Creating makefile for VRDigiWranglerEditor (ini files are newer than makefile)
+  Parsing headers for VRDigiWranglerEditor
+    Running UnrealHeaderTool "C:\Users\rako0016\Desktop\HighLevel\Assignment 3\VRDigiWrangler\VRDigiWrangler.uproject" "C:\Users\rako0016\Desktop\HighLevel\Assignment 3\VRDigiWrangler\Intermediate\Build\Win64\VRDigiWranglerEditor\Development\VRDigiWranglerEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for VRDigiWranglerEditor in 6.2152131 seconds
+  Using Visual Studio 2019 14.21.27702 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.21.27702) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Building 7 actions with 8 processes...
+    [1/7] VRDigiWrangler.init.gen.cpp
+    [2/7] AI.gen.cpp
+    [3/7] AI.cpp
+    [4/7] Projectile.cpp
+    [5/7] UE4Editor-VRDigiWrangler.lib
+       Creating library C:\Users\rako0016\Desktop\HighLevel\Assignment 3\VRDigiWrangler\Intermediate\Build\Win64\UE4Editor\Development\VRDigiWrangler\UE4Editor-VRDigiWrangler.lib and object C:\Users\rako0016\Desktop\HighLevel\Assignment 3\VRDigiWrangler\Intermediate\Build\Win64\UE4Editor\Development\VRDigiWrangler\UE4Editor-VRDigiWrangler.exp
+    [6/7] UE4Editor-VRDigiWrangler.dll
+       Creating library C:\Users\rako0016\Desktop\HighLevel\Assignment 3\VRDigiWrangler\Intermediate\Build\Win64\UE4Editor\Development\VRDigiWrangler\UE4Editor-VRDigiWrangler.suppressed.lib and object C:\Users\rako0016\Desktop\HighLevel\Assignment 3\VRDigiWrangler\Intermediate\Build\Win64\UE4Editor\Development\VRDigiWrangler\UE4Editor-VRDigiWrangler.suppressed.exp
+    [7/7] VRDigiWranglerEditor.target
+  Total time in Parallel executor: 1.79 seconds
+  Total execution time: 9.63 seconds

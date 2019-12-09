@@ -37,8 +37,8 @@ AProjectile::AProjectile()
 
     ProjectileMovementComponent = CreateDefaultSubobject<UProjectileMovementComponent>(TEXT("ProjectileMovementComponent"));
     ProjectileMovementComponent->UpdatedComponent = SphereComponent;
-    ProjectileMovementComponent->InitialSpeed = 1000.f;
-    ProjectileMovementComponent->MaxSpeed = 1000.f;
+    ProjectileMovementComponent->InitialSpeed = 1500.f;
+    ProjectileMovementComponent->MaxSpeed = 10000.f;
 
     ProjectileMovementComponent->bRotationFollowsVelocity = false;
     ProjectileMovementComponent->bShouldBounce = true;
@@ -72,10 +72,19 @@ void AProjectile::OnHit(UPrimitiveComponent* HitComp, AActor* OtherActor, UPrimi
                 {
                     AMainPlayer* player = Cast<AMainPlayer>(GetWorld()->GetFirstPlayerController()->GetPawn());
                     if (player->GetPlayerHP() <= 100 && player->GetPlayerHP() > 0)
-                        player->SetPlayerHP(20);
+                    {
+                        player->SetPlayerHP(50);
+                        if (player->GetPlayerHP() == 0)
+                        {
+                            player->SetActorLocation(player->GetCheckpoint());
+                            player->SetPlayerHP(-100);
+                        }
+                    }
+                       
                     else
                     {
                         player->SetActorLocation(player->GetCheckpoint());
+                        player->SetPlayerHP(-100);
                     }
                        
                 }

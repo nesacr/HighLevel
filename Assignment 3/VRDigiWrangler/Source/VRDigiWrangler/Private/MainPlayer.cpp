@@ -217,8 +217,7 @@ void AMainPlayer::SpawnProjectile()
 
                 AProjectile* SpawnedProjectile = World->SpawnActor<AProjectile>(ProjectileTemplate, SpawnLocation, SpawnRotation, SpawnParams);
                 if (SpawnedProjectile)
-                {
-                    //GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Blue, "Spawn Projectile");
+                {                   
                     SpawnedProjectile->SetLifeSpan(ProjectileLifeSpan);
                 }
             }

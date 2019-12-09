@@ -7,7 +7,7 @@
 ADigimon::ADigimon()
 {
 
-    CapsuleComponent->OnComponentBeginOverlap.AddDynamic(this, &ADigimon::OnOverlapBegin);
+    //CapsuleComponent->OnComponentBeginOverlap.AddDynamic(this, &ADigimon::OnOverlapBegin);
 
     CapsuleComponent->SetCollisionProfileName("BlockAll");
     isCaptured = false;

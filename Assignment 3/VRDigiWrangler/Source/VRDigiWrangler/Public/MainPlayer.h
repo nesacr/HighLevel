@@ -77,10 +77,12 @@ public:
         TSubclassOf<class AProjectile> ProjectileTemplate;
 
     UFUNCTION()
-        virtual void HandleBoxHit(UPrimitiveComponent* HitComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, FVector NormalImpulse, const FHitResult& Hit);
+       virtual void HandleBoxHit(UPrimitiveComponent* HitComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, FVector NormalImpulse, const FHitResult& Hit);
 
     UFUNCTION()
-       virtual void OnOverlapBegin(UPrimitiveComponent* OverlappedComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult);
+       virtual void OnOverlapBegin(UPrimitiveComponent* OverlappedComp, AActor* OtherActor,
+           UPrimitiveComponent* OtherComp, int32 OtherBodyIndex,
+           bool bFromSweep, const FHitResult& SweepResult);
 
     UFUNCTION(BlueprintCallable, Category = "AAA")
         void SpawnProjectile();
@@ -97,6 +99,8 @@ private:
     
     UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Config", meta = (AllowPrivateAccess = "true"))
         float ProjectileLifeSpan = 0.5f;
+
+protected:
 
     float MovementRight;
 
