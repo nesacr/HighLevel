@@ -17,6 +17,8 @@ AProjectile::AProjectile()
  	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 
+    playerHP = 100;
+
     SphereComponent = CreateDefaultSubobject<USphereComponent>(TEXT("SphereComponent"));
     SphereComponent->SetupAttachment(RootComponent);
     SphereComponent->SetSphereRadius(4.f);
@@ -66,6 +68,18 @@ void AProjectile::OnHit(UPrimitiveComponent* HitComp, AActor* OtherActor, UPrimi
         if (OtherActor != this->GetOwner())
         {
             if (OtherActor->ActorHasTag("AIGuard") || OtherActor->ActorHasTag("Player"))    
+                if (OtherActor->ActorHasTag("Player"))
+                {
+                    AMainPlayer* player = Cast<AMainPlayer>(GetWorld()->GetFirstPlayerController()->GetPawn());
+                    if (player->GetPlayerHP() <= 100 && player->GetPlayerHP() > 0)
+                        player->SetPlayerHP(20);
+                    else
+                    {
+                        player->SetActorLocation(player->GetCheckpoint());
+                    }
+                       
+                }
+                else
                 OtherActor->Destroy();
         }
     }

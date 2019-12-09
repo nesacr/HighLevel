@@ -22,12 +22,13 @@ protected:
     UPROPERTY(VisibleAnywhere, Category = "Collision", meta = (AllowPrivateAccess))
         class UBoxComponent* BoxComponent;
 
+
     UPROPERTY(EditAnywhere, Category = "Visual", meta = (AllowPrivateAccess))
         class UPaperSpriteComponent* SpriteComponent;
 
-    //ATTN may have an error here
+    
     UFUNCTION()
-        void OnOverlap(UPrimitiveComponent* OverlappedComponent,
+        void OnOverlapBegin(UPrimitiveComponent* OverlappedComponent,
             AActor* OtherActor, UPrimitiveComponent* OtherComp,
             int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult);
 

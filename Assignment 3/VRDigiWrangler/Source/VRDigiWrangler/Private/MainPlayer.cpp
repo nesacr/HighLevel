@@ -22,7 +22,9 @@ AMainPlayer::AMainPlayer()
  	// Set this pawn to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 
+    hp = 100;
 
+    
 
     CapsuleComponent = CreateDefaultSubobject<UCapsuleComponent>("Capsule Component");
     CapsuleComponent->SetupAttachment(RootComponent);
@@ -30,6 +32,8 @@ AMainPlayer::AMainPlayer()
     CapsuleComponent->SetNotifyRigidBodyCollision(true);
     CapsuleComponent->SetSimulatePhysics(true);
     CapsuleComponent->SetEnableGravity(true);
+    CapsuleComponent->OnComponentBeginOverlap.AddDynamic(this, &AMainPlayer::OnOverlapBegin);
+    CapsuleComponent->SetGenerateOverlapEvents(true);
     CapsuleComponent->GetBodyInstance()->bLockRotation = true;   
     CapsuleComponent->GetBodyInstance()->bLockXRotation = true;
     CapsuleComponent->GetBodyInstance()->bLockYRotation = true;
@@ -41,7 +45,7 @@ AMainPlayer::AMainPlayer()
     PawnSpriteComponent = CreateDefaultSubobject<UPaperSpriteComponent>("Pawn Sprite");
     PawnSpriteComponent->SetCollisionProfileName("NoCollision");
     PawnSpriteComponent->SetCollisionEnabled(ECollisionEnabled::NoCollision);
-    PawnSpriteComponent->SetGenerateOverlapEvents(false);
+    PawnSpriteComponent->SetGenerateOverlapEvents(true);
     PawnSpriteComponent->SetupAttachment(RootComponent);
    
 
@@ -76,7 +80,8 @@ AMainPlayer::AMainPlayer()
 void AMainPlayer::BeginPlay()
 {
 	Super::BeginPlay();
-	
+
+    Savedlocation = GetActorLocation();
     bCanShoot = true;
 
     APlayerController* controller = UGameplayStatics::GetPlayerController(GetWorld(), 0);
@@ -119,6 +124,23 @@ void AMainPlayer::Tick(float DeltaTime)
    
 
 }
+
+int AMainPlayer::GetPlayerHP()
+{
+    return hp;
+}
+
+void AMainPlayer::SetPlayerHP(int hit)
+{
+    hp -= hit;
+}
+
+FVector AMainPlayer::GetCheckpoint()
+{
+    return Savedlocation;
+}
+
+
 
 // Called to bind functionality to input
 void AMainPlayer::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
@@ -165,7 +187,14 @@ void AMainPlayer::MoveUp()
 
 void AMainPlayer::HandleBoxHit(UPrimitiveComponent* HitComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, FVector NormalImpulse, const FHitResult& Hit)
 {
-
+    if (hp <= 100 && hp > 0)
+    {
+        hp -= 10;
+    }
+    else
+    {
+        Destroy();
+    }
 }
 
 void AMainPlayer::SpawnProjectile()
@@ -201,3 +230,12 @@ void AMainPlayer::SpawnProjectile()
     }
 }
 
+
+void AMainPlayer::OnOverlapBegin(UPrimitiveComponent* OverlappedComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
+{
+    if (OtherActor->ActorHasTag("Checkpoint"))
+   {
+        Savedlocation = OtherActor->GetActorLocation();
+   }
+
+}

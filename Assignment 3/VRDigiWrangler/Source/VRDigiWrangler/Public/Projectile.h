@@ -42,8 +42,12 @@ public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
+    
+
 private:
     UFUNCTION()
         void OnHit(UPrimitiveComponent* HitComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, FVector NormalImpulse, const FHitResult& Hit);
 
+    int playerHP;
+    
 };

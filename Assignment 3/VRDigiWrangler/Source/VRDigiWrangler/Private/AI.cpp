@@ -16,7 +16,7 @@ AAI::AAI()
 
     CapsuleComponent->GetBodyInstance()->bLockXRotation = true;
     CapsuleComponent->GetBodyInstance()->bLockYRotation = true;
-    CapsuleComponent->GetBodyInstance()->bLockZRotation = false;
+    CapsuleComponent->GetBodyInstance()->bLockZRotation = true;
     Tags.Empty();
     Tags.Add("AIGuard");
 
@@ -55,10 +55,13 @@ void AAI::BeginPlay()
 
 void AAI::MoveToNextPatrolPoint()
 {
+
+    CapsuleComponent->GetBodyInstance()->bLockZRotation = false;
     if (CurrentPatrolPoint == nullptr || CurrentPatrolPoint == SecondPatrolPoint)
     {
         CurrentPatrolPoint = FirstPatrolPoint;
     }
+    
     else
     {
         CurrentPatrolPoint = SecondPatrolPoint;
@@ -73,6 +76,7 @@ void AAI::MoveToNextPatrolPoint()
     NewLookAt.Yaw += 180.0f;
     SetActorRotation(NewLookAt);
 
+    CapsuleComponent->GetBodyInstance()->bLockZRotation = true;
 }
 
 void AAI::OnNoiseHeard(APawn* NoiseInstigator, const FVector& Location, float Volume)

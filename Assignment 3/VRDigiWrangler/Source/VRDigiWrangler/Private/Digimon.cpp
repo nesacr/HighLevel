@@ -9,7 +9,7 @@ ADigimon::ADigimon()
 
     CapsuleComponent->OnComponentBeginOverlap.AddDynamic(this, &ADigimon::OnOverlapBegin);
 
-    CapsuleComponent->SetCollisionProfileName("OverlapOnlyPawn" "BlockAll");
+    CapsuleComponent->SetCollisionProfileName("BlockAll");
     isCaptured = false;
     Tags.Empty();
     Tags.Add("Digimon");
@@ -30,7 +30,7 @@ void ADigimon::Tick(float DeltaTime)
             }
             else
             {
-                if (GetActorLocation().Z < Target->GetActorLocation().Z - 200)
+                if (GetActorLocation().Z < Target->GetActorLocation().Z - 190)
                 {
                     CapsuleComponent->BodyInstance.AddForce(FVector(0.0f, 0.0f, 1.0f) * 150000.0f * 40);
                 }

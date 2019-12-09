@@ -12,6 +12,14 @@
 UCLASS()
 class VRDIGIWRANGLER_API AVRGameStateBase : public AGameStateBase
 {
-	GENERATED_BODY()
-	
+    GENERATED_BODY()
+public:
+
+    virtual void BeginPlay() override;
+
+    UFUNCTION(BlueprintCallable)
+        int GetPlayerHPforHUD();
+    
+    class AMainPlayer* m_player;
+
 };

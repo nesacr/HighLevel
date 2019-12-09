@@ -19,10 +19,19 @@ public:
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
-
+    FVector Savedlocation; 
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
+
+    UFUNCTION()
+        int GetPlayerHP();
+
+    UFUNCTION()
+        void SetPlayerHP(int hit);
+
+    UFUNCTION()
+        FVector GetCheckpoint();    
 
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
@@ -70,6 +79,9 @@ public:
     UFUNCTION()
         virtual void HandleBoxHit(UPrimitiveComponent* HitComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, FVector NormalImpulse, const FHitResult& Hit);
 
+    UFUNCTION()
+       virtual void OnOverlapBegin(UPrimitiveComponent* OverlappedComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult);
+
     UFUNCTION(BlueprintCallable, Category = "AAA")
         void SpawnProjectile();
     
@@ -79,14 +91,16 @@ private:
         class UArrowComponent* ProjectileSpawnPoint;
 
 
-    /** returns projectile spawn point **/
+   
     FORCEINLINE class UArrowComponent* GetProjectileSpawnPoint() const { return ProjectileSpawnPoint; }
 
-    /** how much (in sec) player will be inactive after hit  */
+    
     UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Config", meta = (AllowPrivateAccess = "true"))
         float ProjectileLifeSpan = 0.5f;
 
     float MovementRight;
+
+    int hp;
 
     int NumPickups;
 

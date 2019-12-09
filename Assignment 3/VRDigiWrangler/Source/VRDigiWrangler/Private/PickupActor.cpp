@@ -40,7 +40,12 @@ void APickupActor::OnOverlapBegin(UPrimitiveComponent* OverlappedComponent, AAct
         if (pawn)
         {
             pawn->IncrementPickupCount(1);
-            Destroy();
+            if (pawn->GetPlayerHP() < 100)
+            {
+                (pawn->SetPlayerHP(-50));
+                Destroy();
+            }
+           
         }
 
     }
