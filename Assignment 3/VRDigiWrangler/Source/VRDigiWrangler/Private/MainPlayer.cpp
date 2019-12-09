@@ -13,18 +13,12 @@
 #include "GameFramework/SpringArmComponent.h"
 
 
-
-
-
 // Sets default values
 AMainPlayer::AMainPlayer()
 {
- 	// Set this pawn to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 
-    hp = 100;
-
-    
+    hp = 100;    
 
     CapsuleComponent = CreateDefaultSubobject<UCapsuleComponent>("Capsule Component");
     CapsuleComponent->SetupAttachment(RootComponent);
@@ -39,15 +33,13 @@ AMainPlayer::AMainPlayer()
     CapsuleComponent->GetBodyInstance()->bLockYRotation = true;
     CapsuleComponent->GetBodyInstance()->bLockZRotation = true;
     CapsuleComponent->GetBodyInstance()->bLockYTranslation = true;
-
     RootComponent = CapsuleComponent;
 
     PawnSpriteComponent = CreateDefaultSubobject<UPaperSpriteComponent>("Pawn Sprite");
     PawnSpriteComponent->SetCollisionProfileName("NoCollision");
     PawnSpriteComponent->SetCollisionEnabled(ECollisionEnabled::NoCollision);
     PawnSpriteComponent->SetGenerateOverlapEvents(true);
-    PawnSpriteComponent->SetupAttachment(RootComponent);
-   
+    PawnSpriteComponent->SetupAttachment(RootComponent);   
 
     SpringArmComponent = CreateDefaultSubobject<USpringArmComponent>(TEXT("Camera Boom"));
     SpringArmComponent->SetupAttachment(RootComponent);
@@ -71,12 +63,9 @@ AMainPlayer::AMainPlayer()
     ProjectileSpawnPoint->SetupAttachment(PawnSpriteComponent);//RootComponent
     ProjectileSpawnPoint->SetRelativeLocation(FVector(40.f, 0.f, 30.f));
 
-    Tags.Add("Player");
-
-   
+    Tags.Add("Player");   
 }
 
-// Called when the game starts or when spawned
 void AMainPlayer::BeginPlay()
 {
 	Super::BeginPlay();
@@ -95,34 +84,24 @@ void AMainPlayer::BeginPlay()
     }
 }
 
-// Called every frame
+
 void AMainPlayer::Tick(float DeltaTime)
 {
-	Super::Tick(DeltaTime);
-    
+	Super::Tick(DeltaTime);    
 
     if (MovementRight > 0)
     {
-
         FVector NewLocation = GetActorLocation() + (GetActorForwardVector() * MovementRight);
-
-      SetActorLocation(NewLocation);
-     
+      SetActorLocation(NewLocation);  
 
       PawnSpriteComponent->SetRelativeRotation(FRotator(FRotator::ZeroRotator));
     }
     else if (MovementRight < 0)
     {
        PawnSpriteComponent->SetRelativeRotation(FRotator(0.0f, 180.0f, 0.0f));
-
        FVector NewLocation = GetActorLocation() + (GetActorForwardVector() * MovementRight);
-
-       SetActorLocation(NewLocation);
-       
-    }
-
-   
-
+       SetActorLocation(NewLocation);       
+    } 
 }
 
 int AMainPlayer::GetPlayerHP()
@@ -140,20 +119,15 @@ FVector AMainPlayer::GetCheckpoint()
     return Savedlocation;
 }
 
-
-
-// Called to bind functionality to input
 void AMainPlayer::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 {
-	Super::SetupPlayerInputComponent(PlayerInputComponent);
+  Super::SetupPlayerInputComponent(PlayerInputComponent);
 
   PlayerInputComponent->BindAxis("MoveRight", this, &AMainPlayer::MoveRight);
 
   PlayerInputComponent->BindAction("Jump", IE_Pressed, this, &AMainPlayer::MoveUp);
-  //PlayerInputComponent->BindAction("Jump", IE_Released, this, &AMainPlayer::MoveUp);
 
-  PlayerInputComponent->BindAction("Fire", IE_Pressed, this, &AMainPlayer::SpawnProjectile);
-  
+  PlayerInputComponent->BindAction("Fire", IE_Pressed, this, &AMainPlayer::SpawnProjectile);  
 }
 
 void AMainPlayer::SetCanShoot()
@@ -178,11 +152,7 @@ void AMainPlayer::MoveRight(float value)
 
 void AMainPlayer::MoveUp()
 {
-
-    CapsuleComponent->BodyInstance.AddForce(FVector(0.0f, 0.0f, 1.0f) * 150000.0f*50);
-
-    
-  
+    CapsuleComponent->BodyInstance.AddForce(FVector(0.0f, 0.0f, 1.0f) * 150000.0f*50);    
 }
 
 void AMainPlayer::HandleBoxHit(UPrimitiveComponent* HitComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, FVector NormalImpulse, const FHitResult& Hit)

@@ -6,18 +6,15 @@
 #include "PaperSpriteComponent.h"
 #include "MainPlayer.h"
 
-// Sets default values
+
 ACheckpoint::ACheckpoint()
-{
- 	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
+{ 
 	PrimaryActorTick.bCanEverTick = true;
 
 
 
     BoxComponent = CreateDefaultSubobject<UBoxComponent>("Collision");
     BoxComponent->SetCollisionProfileName("OverlapAllDynamic");
-    //BoxComponent->OnComponentBeginOverlap.AddDynamic(this, &ACheckpoint::OnOverlapBegin);
-
     RootComponent = BoxComponent;
 
     SpriteComponent = CreateDefaultSubobject<UPaperSpriteComponent>("Sprite");
@@ -28,7 +25,6 @@ ACheckpoint::ACheckpoint()
     
 }
 
-// Called when the game starts or when spawned
 void ACheckpoint::BeginPlay()
 {
 	Super::BeginPlay();   
@@ -47,7 +43,6 @@ void ACheckpoint::OnOverlapBegin(UPrimitiveComponent* OverlappedComponent, AActo
     }
 }
 
-// Called every frame
 void ACheckpoint::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);

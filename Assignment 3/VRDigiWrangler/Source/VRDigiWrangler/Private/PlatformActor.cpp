@@ -22,14 +22,12 @@ APlatformActor::APlatformActor()
 // Called when the game starts or when spawned
 void APlatformActor::BeginPlay()
 {
-	Super::BeginPlay();
-	
+	Super::BeginPlay();	
 }
 
 // Called every frame
 void APlatformActor::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-
 }
 

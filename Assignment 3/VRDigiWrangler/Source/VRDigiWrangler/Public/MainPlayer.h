@@ -13,15 +13,13 @@ class VRDIGIWRANGLER_API AMainPlayer : public APawn
 	GENERATED_BODY()
 
 public:
-	// Sets default values for this pawn's properties
 	AMainPlayer();
 
 protected:
-	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
     FVector Savedlocation; 
+
 public:	
-	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
     UFUNCTION()
@@ -33,7 +31,6 @@ public:
     UFUNCTION()
         FVector GetCheckpoint();    
 
-	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
     UPROPERTY(Category = Character, VisibleAnywhere, meta = (AllowPrivateAccess))
@@ -91,11 +88,8 @@ private:
 
     UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "AAA", meta = (AllowPrivateAccess = "true"))
         class UArrowComponent* ProjectileSpawnPoint;
-
-
    
     FORCEINLINE class UArrowComponent* GetProjectileSpawnPoint() const { return ProjectileSpawnPoint; }
-
     
     UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Config", meta = (AllowPrivateAccess = "true"))
         float ProjectileLifeSpan = 0.5f;
@@ -103,10 +97,7 @@ private:
 protected:
 
     float MovementRight;
-
     int hp;
-
     int NumPickups;
-
     bool Grounded;
 };

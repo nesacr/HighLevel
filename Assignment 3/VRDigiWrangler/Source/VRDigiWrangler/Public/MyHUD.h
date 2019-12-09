@@ -23,10 +23,6 @@ public:
     UPROPERTY()
         class UUserWidget* PlayerGui;
 
-    virtual void DrawHUD() override;
-
-    void DisplayScore();
-
 protected:
 
     virtual void BeginPlay() override;

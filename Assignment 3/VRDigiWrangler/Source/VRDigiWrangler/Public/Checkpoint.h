@@ -11,21 +11,18 @@ class VRDIGIWRANGLER_API ACheckpoint : public AActor
 {
 	GENERATED_BODY()
 	
-public:	
-	// Sets default values for this actor's properties
+public:		
 	ACheckpoint();
 
 protected:
-	// Called when the game starts or when spawned
+	
 	virtual void BeginPlay() override;
 
     UPROPERTY(VisibleAnywhere, Category = "Collision", meta = (AllowPrivateAccess))
         class UBoxComponent* BoxComponent;
 
-
     UPROPERTY(EditAnywhere, Category = "Visual", meta = (AllowPrivateAccess))
         class UPaperSpriteComponent* SpriteComponent;
-
     
     UFUNCTION()
         void OnOverlapBegin(UPrimitiveComponent* OverlappedComponent,
@@ -33,7 +30,6 @@ protected:
             int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult);
 
 public:	
-	// Called every frame
 	virtual void Tick(float DeltaTime) override;
     
     bool isActive;

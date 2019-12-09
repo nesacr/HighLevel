@@ -12,11 +12,9 @@ class VRDIGIWRANGLER_API APickupActor : public AActor
 	GENERATED_BODY()
 	
 public:	
-	// Sets default values for this actor's properties
 	APickupActor();   
 
 protected:
-	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
     UPROPERTY(VisibleAnywhere, Category = "Collision", meta = (AllowPrivateAccess))
@@ -24,7 +22,6 @@ protected:
 
     UPROPERTY(EditAnywhere, Category = "Visual", meta = (AllowPrivateAccess))
         class UPaperSpriteComponent* SpriteComponent;
-
    
     UFUNCTION()
         void OnOverlapBegin(UPrimitiveComponent* OverlappedComponent,
@@ -32,7 +29,5 @@ protected:
             int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult);
 
 public:	
-	// Called every frame
 	virtual void Tick(float DeltaTime) override;
-
 };

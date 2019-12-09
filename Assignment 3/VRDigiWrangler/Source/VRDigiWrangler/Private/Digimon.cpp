@@ -6,9 +6,6 @@
 #include "Components/CapsuleComponent.h"
 ADigimon::ADigimon()
 {
-
-    //CapsuleComponent->OnComponentBeginOverlap.AddDynamic(this, &ADigimon::OnOverlapBegin);
-
     CapsuleComponent->SetCollisionProfileName("BlockAll");
     isCaptured = false;
     Tags.Empty();
@@ -38,10 +35,8 @@ void ADigimon::Tick(float DeltaTime)
             SetActorLocation(targetLocation);
             }
         }
-    }
-       
+    }       
 }
-
 
 void ADigimon::OnOverlapBegin(UPrimitiveComponent* OverlappedComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
 {

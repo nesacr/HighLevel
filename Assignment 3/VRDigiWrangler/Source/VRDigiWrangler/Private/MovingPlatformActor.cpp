@@ -6,9 +6,7 @@
 
 AMovingPlatformActor::AMovingPlatformActor()
 {
-    PrimaryActorTick.bCanEverTick = true;
-
-   
+    PrimaryActorTick.bCanEverTick = true;   
 }
 
 void AMovingPlatformActor::Tick(float DeltaTime)

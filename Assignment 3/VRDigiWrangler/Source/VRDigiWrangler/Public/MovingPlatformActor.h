@@ -17,8 +17,5 @@ class VRDIGIWRANGLER_API AMovingPlatformActor : public APlatformActor
 public:
     AMovingPlatformActor();
 
-    //UPROPERTY(EditAnywhere, Category = "Movement")
-    //    class UMovementComponent* MovementComponent;
-
         virtual void Tick(float DeltaTime) override;
 };

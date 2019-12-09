@@ -10,15 +10,6 @@ AMyHUD::AMyHUD()
     static ConstructorHelpers::FClassFinder<UUserWidget> playerHUD(TEXT("/Game/Blueprints/HealthUI"));
     if (playerHUD.Succeeded())
         PlayerGuiClass = playerHUD.Class;
-
-}
-
-void AMyHUD::DrawHUD()
-{
-}
-
-void AMyHUD::DisplayScore()
-{
 }
 
 void AMyHUD::BeginPlay()

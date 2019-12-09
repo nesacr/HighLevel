@@ -79,14 +79,12 @@ void AProjectile::OnHit(UPrimitiveComponent* HitComp, AActor* OtherActor, UPrimi
                             player->SetActorLocation(player->GetCheckpoint());
                             player->SetPlayerHP(-100);
                         }
-                    }
-                       
+                    }                       
                     else
                     {
                         player->SetActorLocation(player->GetCheckpoint());
                         player->SetPlayerHP(-100);
-                    }
-                       
+                    }                       
                 }
                 else
                 OtherActor->Destroy();
